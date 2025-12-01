@@ -1,7 +1,52 @@
 # ABC Solfège Tool - AI Coding Agent Guide
 
 ## Project Overview
-A single-file HTML educational tool that renders ABC notation music with movable-do solfège syllables and Kodály hand sign glyphs positioned **above** the staff (lyrics remain below). Supports multi-level transposition to show the same melody with different tonic notes.
+A single-file HTML educational tool that renders ABC notation music with movable-do solfège syllables and Kodály hand sign glyphs positioned **below the lyrics**. Supports multi-level transposition to show the same melody with different tonic notes.
+
+## Known Issues
+
+### CRITICAL: Last System Solfège Not Showing
+**Current bug:**
+- Solfège syllables and Kodály hand signs are not appearing on the last system of music
+- All other systems display overlays correctly
+- **Root cause:** Unknown - needs investigation
+- **Location:** `overlaySolfegeAndKodaly()` function, system clustering, or SVG viewport expansion logic
+- **Priority:** High - breaks core functionality
+
+**Debugging steps needed:**
+1. Check if notes on last system are being detected/clustered correctly
+2. Verify SVG viewport height expansion includes last system
+3. Test if overlay elements are being created but positioned outside visible area
+4. Compare last system rendering with earlier systems
+
+### MEDIUM: ABC Spacing Should Be Scale-Dependent
+**Current issue:**
+- `preprocessAbcForSpacing()` uses fixed values: `max: 120, sep: 90`
+- These control spacing between title/staff and between systems
+- **Problem:** At larger scales (e.g., 2.0, 2.5), these fixed spacing values create too much vertical whitespace
+- **Root cause:** Spacing values don't scale proportionally with the `scale` parameter
+- **Location:** `preprocessAbcForSpacing()` function call sites
+- **Priority:** Medium - affects layout quality but not core functionality
+
+**Suggested fix:**
+- Make spacing values dynamic based on the current scale setting
+- Smaller spacing values for larger scales (e.g., `max: 120/scale, sep: 90/scale`)
+- Pass scale parameter to `preprocessAbcForSpacing()` from `getRenderSizing()`
+- Test to ensure consistent visual spacing across all scale presets
+
+### MEDIUM: Vertical Spacing Between Lyrics/Overlays Too Tight
+**Current issue:**
+- Lyrics, Kodály hand signs, and solfège syllables are positioned too close together vertically
+- Current offsets: `BELOW_KODALY_OFFSET = 10`, `BELOW_SOLFEGE_OFFSET = 22`
+- **Problem:** Not enough breathing room between elements, especially at larger scales
+- **Location:** `overlaySolfegeAndKodaly()` function, offset constants
+- **Priority:** Medium - affects readability and visual aesthetics
+
+**Suggested fix:**
+- Increase offset values to create more vertical space
+- Consider making offsets scale-dependent (larger offsets at larger scales)
+- Test values like `BELOW_KODALY_OFFSET = 15-20` and `BELOW_SOLFEGE_OFFSET = 30-35`
+- Ensure spacing remains proportional across different scale settings
 
 ## Architecture
 
@@ -29,13 +74,15 @@ A single-file HTML educational tool that renders ABC notation music with movable
 **System Clustering** (lines 205-267)
 - `computeSystemBaselines()` - Detects multi-line staves by vertical spacing
 - Returns `{ noteIndexToCluster, baselines }` with solfège/Kodály y-coordinates
-- **Critical:** Baselines calculated from `minTop - offset` to position above staff
+- **Note:** Currently positions above staff; actual implementation uses below-lyrics positioning
 
 **Overlay Rendering** (lines 269-323)
 - Colors noteheads with `DEGREE_COLORS` (Do=#ff3b30 red, Re=#ff9500 orange, etc.)
-- Places `text.solfege-text` at `baseline.solfege` (top - 26px)
-- Places `text.kodaly-text` at `baseline.kodaly` (top - 10px) using SMuFL glyphs
+- Places `text.solfege-text` below lyrics at `maxBottom + 22px`
+- Places `text.kodaly-text` below lyrics at `maxBottom + 10px` using SMuFL glyphs
+- Expands SVG viewport height to prevent clipping of below-lyrics annotations
 - **Pattern:** Always remove old overlays before re-rendering
+- **Bug:** Last system overlays not appearing (see Known Issues)
 
 ## Development Patterns
 
