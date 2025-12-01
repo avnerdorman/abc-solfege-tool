@@ -42,7 +42,7 @@
   }
   .paper-wrapper {
     border: 1px solid #ddd;
-    padding: 32px 12px 12px 12px; /* extra top padding for overlays */
+    padding: 32px 12px 60px 12px; /* extra top + bottom padding for overlays */
     margin-top: 18px;
     overflow: visible;
   }
@@ -105,9 +105,9 @@ w: How I won- der what you are.
     <label>
       View Size:
       <select id="preset-select">
-        <option value="large">Large (staffwidth 570, scale 2.0)</option>
-        <option value="medium">Medium (staffwidth 570, scale 1.3)</option>
-        <option value="default" selected>Default (staffwidth 570, scale 1.0)</option>
+        <option value="large">Large (staffwidth 900, scale 2.5)</option>
+        <option value="medium">Medium (staffwidth 900, scale 2.0)</option>
+        <option value="default" selected>Default (staffwidth 900, scale 1.5)</option>
       </select>
     </label>
 
@@ -171,10 +171,10 @@ const SCALE_LEVELS = [
 function getRenderSizing() {
   const preset = document.getElementById('preset-select')?.value || 'medium';
   // Base from preset as requested
-  let staffwidth = 570;
-  let scale = 1.0; // default
-  if (preset === 'large') scale = 2.0;
-  else if (preset === 'medium') scale = 1.3;
+  let staffwidth = 900;
+  let scale = 1.5; // default
+  if (preset === 'large') scale = 2.5;
+  else if (preset === 'medium') scale = 2.0;
 
   // Debug overrides if provided
   const scaleInput = document.getElementById('scale-input');
@@ -190,7 +190,7 @@ function getRenderSizing() {
 
 // Insert spacing directives if not present so ABCjs adds room
 // between the title block and the first staff (and between staves).
-function preprocessAbcForSpacing(abc, opts = { max: 350, sep: 130 }) {
+function preprocessAbcForSpacing(abc, opts = { max: 120, sep: 90 }) {
   const hasStaffsep = /^(%%\s*staffsep)\b/im.test(abc);
   const hasMaxStaffsep = /^(%%\s*maxstaffsep)\b/im.test(abc);
   if (hasStaffsep && hasMaxStaffsep) return abc;
@@ -340,6 +340,30 @@ function computeSystemBaselines(noteGroups) {
 
 /* ------------ OVERLAY DRAWING (SOLFÈGE ABOVE STAFF) ------------ */
 
+function ensureSvgViewportHeight(svg, minNeeded) {
+  const vb = svg.getAttribute("viewBox");
+  let vbParts = null;
+  if (vb) {
+    vbParts = vb.split(/\s+/).map(Number);
+    if (vbParts.length === 4 && !Number.isNaN(vbParts[3])) {
+      const curH = vbParts[3];
+      const needH = Math.max(curH, minNeeded + 20);
+      if (needH > curH) {
+        vbParts[3] = needH;
+        svg.setAttribute("viewBox", vbParts.join(" "));
+      }
+    }
+  }
+  const hAttr = svg.getAttribute("height");
+  const curAttrH = hAttr ? parseFloat(hAttr) : null;
+  const fallbackH = (vbParts && vbParts.length === 4) ? vbParts[3] : curAttrH || (minNeeded + 20);
+  const needAttrH = Math.max(fallbackH, minNeeded + 20);
+  if (!curAttrH || needAttrH > curAttrH) {
+    svg.setAttribute("height", String(needAttrH));
+    svg.style.height = needAttrH + "px";
+  }
+}
+
 function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
   let notes = Array.from(svg.querySelectorAll("g.abcjs-note"));
   if (!notes.length) {
@@ -350,14 +374,39 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
   // Remove old overlays if re-rendering
   svg.querySelectorAll("text.solfege-text, text.kodaly-text").forEach(e => e.remove());
 
-  // Ensure SVG is not clipped at the top
+  // Ensure SVG is not clipped
   svg.style.overflow = "visible";
   svg.setAttribute("overflow", "visible");
 
-  // Optionally shift everything down if needed
-  svg.style.marginTop = "32px";
+  const sys = computeSystemBaselines(notes);
+  
+  // Compute a baseline BELOW the lyrics: find the bottom-most element among
+  // noteheads and any lyric text, then place Kodály and solfege under that.
+  let maxBottom = 0;
+  notes.forEach(n => {
+    const bb = n.getBBox();
+    maxBottom = Math.max(maxBottom, bb.y + bb.height);
+  });
+  const lyricTexts = Array.from(svg.querySelectorAll('text[class*="lyric"], g[class*="lyric"] text'));
+  lyricTexts.forEach(t => {
+    const bb = t.getBBox();
+    maxBottom = Math.max(maxBottom, bb.y + bb.height);
+  });
+  const BELOW_KODALY_OFFSET = 10;
+  const BELOW_SOLFEGE_OFFSET = 22;
 
-  const { noteIndexToCluster, baselines } = computeSystemBaselines(notes);
+  // Ensure the SVG viewport is tall enough to show annotations below lyrics.
+  ensureSvgViewportHeight(svg, maxBottom + BELOW_SOLFEGE_OFFSET + 10);
+  
+  // Also ensure parent container doesn't clip
+  svg.parentElement.style.overflow = "visible";
+
+  const effectiveBaselines = (sys.baselines || []).map(() => ({
+    kodaly: maxBottom + BELOW_KODALY_OFFSET,
+    solfege: maxBottom + BELOW_SOLFEGE_OFFSET
+  }));
+
+  let annotationMaxBottom = maxBottom + BELOW_SOLFEGE_OFFSET;
 
   notes.forEach((noteG, i) => {
     const sf = solfegeSeq[startIndex + i];
@@ -366,9 +415,9 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
     const bb = noteG.getBBox();
     const noteX = bb.x + bb.width / 2;
 
-    const ci = noteIndexToCluster[i];
+    const ci = sys.noteIndexToCluster[i];
     if (ci == null) return;
-    const bl = baselines[ci];
+    const bl = effectiveBaselines[ci] || { kodaly: maxBottom + BELOW_KODALY_OFFSET, solfege: maxBottom + BELOW_SOLFEGE_OFFSET };
 
     const color = DEGREE_COLORS[sf.degree] || "#111";
 
@@ -379,7 +428,7 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
       head.setAttribute("stroke", color);
     }
 
-    // Solfege text ABOVE the staff
+    // Solfege text below the lyrics
     const solY = bl.solfege;
     const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
     t.setAttribute("x", noteX);
@@ -388,6 +437,8 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
     t.setAttribute("fill", color);
     t.textContent = sf.syllable;
     svg.appendChild(t);
+    const solBox = t.getBBox();
+    annotationMaxBottom = Math.max(annotationMaxBottom, solBox.y + solBox.height);
 
     // Kodály signs between solfege and staff
     if (showKodaly && KODALY_GLYPHS.hasOwnProperty(sf.degree)) {
@@ -398,8 +449,12 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
       k.setAttribute("class", "kodaly-text");
       k.textContent = KODALY_GLYPHS[sf.degree];
       svg.appendChild(k);
+      const kodBox = k.getBBox();
+      annotationMaxBottom = Math.max(annotationMaxBottom, kodBox.y + kodBox.height);
     }
   });
+
+  ensureSvgViewportHeight(svg, annotationMaxBottom + 10);
 
   return notes.length;
 }
@@ -414,7 +469,6 @@ function renderLevel(abc, baseLetters, targetId, transposeSemis, showKodaly) {
   const { staffwidth, scale } = getRenderSizing();
 
   const engraverParams = {
-    responsive: "resize",
     add_classes: true,
     staffwidth,
     scale,
