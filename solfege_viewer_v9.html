@@ -20,7 +20,6 @@
     width: 100%;
     height: 160px;
     font-family: monospace;
-    display: none;
   }
   button {
     margin-top: 8px;
@@ -83,7 +82,10 @@
   <div style="height:48px;"></div>
   <div style="height:32px;"></div>
 
-  <textarea id="abc-input">
+  <input id="abc-url" placeholder="Paste abcnotation.com URL here" style="width:100%; margin-bottom:8px;">
+  <button id="load-url-btn" style="width:100%; margin-bottom:8px;">Load from URL</button>
+
+  <textarea id="abc-input" style="width:100%; height:200px; font-family:monospace; font-size:14px;">
 X:1
 T:Twinkle Twinkle Little Star
 M:4/4
@@ -112,8 +114,10 @@ w: How I won- der what you are.
         <option value="large">Large (staffwidth 900, scale 2.5)</option>
         <option value="medium">Medium (staffwidth 900, scale 2.0)</option>
         <option value="default" selected>Default (staffwidth 900, scale 1.5)</option>
-        <option value="small">Small (staffwidth 600, scale 1.2)</option>
-        <option value="compact">Compact (staffwidth 400, scale 1.0)</option>
+        <option value="small">Small (staffwidth 900, scale 1.2)</option>
+        <option value="compact">Compact (staffwidth 900, scale 1.0)</option>
+        <!-- NEVER USE DIFFERENT STAFFWIDTH FOR DIFFERENT SCALING 
+             THIS MESSES UP THE WIDTH OF THE SYSTEMS -->
       </select>
     </label>
 
@@ -181,14 +185,9 @@ function getRenderSizing() {
   let scale = 1.5; // default
   if (preset === 'large') scale = 2.5;
   else if (preset === 'medium') scale = 2.0;
-  else if (preset === 'small') {
-    staffwidth = 600;
-    scale = 1.2;
-  }
-  else if (preset === 'compact') {
-    staffwidth = 400;
-    scale = 1.0;
-  }
+  else if (preset === 'small') scale = 1.2;
+  else if (preset === 'compact') scale = 1.0;
+  
 
   // Debug overrides if provided
   const scaleInput = document.getElementById('scale-input');
@@ -263,7 +262,7 @@ function pitchClassToSolfege(pc, tonicPc) {
     case 2:  return { syllable:"Re", degree:1 };
     case 4:  return { syllable:"Mi", degree:2 };
     case 5:  return { syllable:"Fa", degree:3 };
-    case 7:  return { syllable:"So", degree:4 };
+    case 7:  return { syllable:"Sol", degree:4 };
     case 9:  return { syllable:"La", degree:5 };
     case 11: return { syllable:"Ti", degree:6 };
     // chromatic placeholders
@@ -584,6 +583,11 @@ document.getElementById("preset-select").addEventListener("change", rerender);
 document.getElementById("scale-input").addEventListener("change", rerender);
 document.getElementById("staffwidth-input").addEventListener("change", rerender);
 document.getElementById("kodaly-toggle").addEventListener("change", rerender);
+document.getElementById("load-url-btn").addEventListener("click", function() {
+  const urlField = document.getElementById("abc-url");
+  const urlValue = urlField ? urlField.value : "";
+  console.log("URL entered:", urlValue);
+});
 window.addEventListener("load", function() {
   // Show initial song title
   const abc = document.getElementById("abc-input").value;
