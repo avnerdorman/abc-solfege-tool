@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Solfège + Lyrics + Kodály Viewer (v9, CSS Scaling)</title>
+
+<!-- ABCjs (basic build) -->
+<script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.3/dist/abcjs-basic.min.js"></script>
+
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding: 20px;
+  }
+  #container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  textarea {
+    width: 100%;
+    height: 160px;
+    font-family: monospace;
+  }
+  button {
+    margin-top: 8px;
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  .controls-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 8px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input[type="number"] {
+    width: 60px;
+  }
+  .paper-wrapper {
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-top: 18px;
+  }
+  .level-label {
+    margin-top: 24px;
+    font-weight: 600;
+  }
+
+  /* We scale this container, not ABCjs internals */
+  #levels-scale-wrapper {
+    transform-origin: top left;
+  }
+
+  .solfege-text {
+    font-size: 14px;
+    font-weight: 700;
+    text-anchor: middle;
+    dominant-baseline: auto;
+  }
+  .kodaly-text {
+    font-size: 22px;
+    text-anchor: middle;
+    dominant-baseline: auto;
+    font-family: "Bravura Text", "Bravura", serif;
+  }
+</style>
+</head>
+
+<body>
+<div id="container">
+  <h1>Solfège + Lyrics + Kodály (v9, CSS scaling)</h1>
+
+  <textarea id="abc-input">
+X:1
+T:Twinkle Twinkle
+M:4/4
+L:1/4
+K:C
+C C G G | A A G2 |
+F F E E | D D C2 |
+G G F F | E E D2 |
+G G F F | E E D2 |
+C C G G | A A G2 |
+F F E E | D D C2 |
+w: Twin- kle, twin- kle, lit- tle star,
+w: How I won- der what you are.
+  </textarea>
+
+  <div class="controls-row">
+    <label>
+      Zoom:
+      <input id="zoom-input" type="number" step="0.1" min="0.5" max="3" value="1.4">
+    </label>
+
+    <label>
+      <input id="kodaly-toggle" type="checkbox" checked>
+      Show Kodály signs
+    </label>
+
+    <button id="render-single">Render Single Level</button>
+    <button id="render-multi">Render Multi-Level (C · D · F)</button>
+  </div>
+
+  <!-- Everything inside here gets scaled together -->
+  <div id="levels-scale-wrapper">
+    <div id="levels-container"></div>
+  </div>
+</div>
+
+<script>
+/* ------------ CONFIG ------------ */
+
+const ORIGINAL_TONIC_PC = 0; // treat C as reference for movable-do
+
+const DEGREE_COLORS = {
+  0:"#ff3b30", // Do
+  1:"#ff9500", // Re
+  2:"#ffcc00", // Mi
+  3:"#34c759", // Fa
+  4:"#007aff", // So
+  5:"#af52de", // La
+  6:"#5ac8fa"  // Ti
+};
+
+// SMuFL Kodály (Bravura Text)
+const KODALY_GLYPHS = {
+  0:"\uEC40",
+  1:"\uEC41",
+  2:"\uEC42",
+  3:"\uEC43",
+  4:"\uEC44",
+  5:"\uEC45",
+  6:"\uEC46"
+};
+
+const SCALE_LEVELS = [
+  { label:"Do on C (0)", transposeSemis:0 },
+  { label:"Do on D (+2)", transposeSemis:2 },
+  { label:"Do on F (+5)", transposeSemis:5 }
+];
+
+/* ------------ ABC HELPERS ------------ */
+
+function extractPitchLettersFromAbc(abc) {
+  const lines = abc.split(/\r?\n/);
+  const letters = [];
+
+  for (const line of lines) {
+    const t = line.trim();
+    if (/^[A-Za-z]:/.test(t)) continue;
+    if (/^w:/.test(t)) continue;
+
+    const tokens = t.split(/[\s\|]+/).filter(Boolean);
+    for (const token of tokens) {
+      const m = token.match(/[A-Ga-g]/);
+      if (!m) continue;
+      const L = m[0];
+      if (L.toLowerCase() === "z") continue; // rest
+      letters.push(L);
+    }
+  }
+  return letters;
+}
+
+function pitchLetterToPitchClass(letter) {
+  switch (letter.toUpperCase()) {
+    case "C": return 0;
+    case "D": return 2;
+    case "E": return 4;
+    case "F": return 5;
+    case "G": return 7;
+    case "A": return 9;
+    case "B": return 11;
+  }
+  return null;
+}
+
+function pitchClassToSolfege(pc, tonicPc) {
+  const iv = (pc - tonicPc + 12) % 12;
+  switch (iv) {
+    case 0:  return { syllable:"Do", degree:0 };
+    case 2:  return { syllable:"Re", degree:1 };
+    case 4:  return { syllable:"Mi", degree:2 };
+    case 5:  return { syllable:"Fa", degree:3 };
+    case 7:  return { syllable:"So", degree:4 };
+    case 9:  return { syllable:"La", degree:5 };
+    case 11: return { syllable:"Ti", degree:6 };
+    // chromatic placeholders
+    case 1:  return { syllable:"Di", degree:0 };
+    case 3:  return { syllable:"Ri", degree:1 };
+    case 6:  return { syllable:"Fi", degree:3 };
+    case 8:  return { syllable:"Si", degree:4 };
+    case 10: return { syllable:"Li", degree:5 };
+    default: return { syllable:"?", degree:0 };
+  }
+}
+
+function buildSolfegeSequence(baseLetters, transposeSemis) {
+  const tonicPc = (ORIGINAL_TONIC_PC + transposeSemis + 12) % 12;
+  return baseLetters.map(L => {
+    const pc = pitchLetterToPitchClass(L);
+    if (pc === null) return { syllable:"", degree:0 };
+    const pcT = (pc + transposeSemis + 12) % 12;
+    return pitchClassToSolfege(pcT, tonicPc);
+  });
+}
+
+/* ------------ SYSTEM CLUSTERING (FOR OVERLAYS ABOVE STAFF) ------------ */
+
+// Cluster notes by vertical position into "systems" so each system
+// gets its own solfege/Kodály baselines above the staff.
+function computeSystemBaselines(noteGroups) {
+  const items = [];
+
+  noteGroups.forEach((g, i) => {
+    const bb = g.getBBox();
+    const top = bb.y;
+    const yCenter = bb.y + bb.height / 2;
+    items.push({ index:i, yCenter, top });
+  });
+
+  items.sort((a,b) => a.yCenter - b.yCenter);
+
+  const clusters = [];
+  let current = null;
+  const THRESHOLD = 25; // vertical distance threshold between systems
+
+  for (const it of items) {
+    if (!current) {
+      current = { indices:[it.index], minTop:it.top, lastY:it.yCenter };
+    } else {
+      if (Math.abs(it.yCenter - current.lastY) > THRESHOLD) {
+        clusters.push(current);
+        current = { indices:[it.index], minTop:it.top, lastY:it.yCenter };
+      } else {
+        current.indices.push(it.index);
+        current.minTop = Math.min(current.minTop, it.top);
+        current.lastY = it.yCenter;
+      }
+    }
+  }
+  if (current) clusters.push(current);
+
+  const noteIndexToCluster = new Array(noteGroups.length);
+  clusters.forEach((cl, ci) => {
+    cl.indices.forEach(idx => {
+      noteIndexToCluster[idx] = ci;
+    });
+  });
+
+  // Baselines ABOVE the staff (so they don't collide with lyrics below)
+  const baselines = clusters.map(cl => {
+    const top = cl.minTop;   // top of noteheads for that system
+    return {
+      kodaly: top - 10,      // hand signs closest to staff
+      solfege: top - 26      // solfege above Kodály
+    };
+  });
+
+  return { noteIndexToCluster, baselines };
+}
+
+/* ------------ OVERLAY DRAWING (SOLFÈGE ABOVE STAFF) ------------ */
+
+function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly) {
+  let notes = Array.from(svg.querySelectorAll("g.abcjs-note"));
+  if (!notes.length) {
+    notes = Array.from(svg.querySelectorAll("g.abcjs-n"));
+  }
+  if (!notes.length) return;
+
+  // Remove old overlays if re-rendering
+  svg.querySelectorAll("text.solfege-text, text.kodaly-text").forEach(e => e.remove());
+
+  const { noteIndexToCluster, baselines } = computeSystemBaselines(notes);
+
+  notes.forEach((noteG, i) => {
+    const sf = solfegeSeq[i];
+    if (!sf || !sf.syllable) return;
+
+    const bb = noteG.getBBox();
+    const noteX = bb.x + bb.width / 2;
+
+    const ci = noteIndexToCluster[i];
+    if (ci == null) return;
+    const bl = baselines[ci];
+
+    const color = DEGREE_COLORS[sf.degree] || "#111";
+
+    // Color notehead
+    const head = noteG.querySelector("path");
+    if (head) {
+      head.setAttribute("fill", color);
+      head.setAttribute("stroke", color);
+    }
+
+    // Solfege text ABOVE the staff
+    const solY = bl.solfege;
+    const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    t.setAttribute("x", noteX);
+    t.setAttribute("y", solY);
+    t.setAttribute("class", "solfege-text");
+    t.setAttribute("fill", color);
+    t.textContent = sf.syllable;
+    svg.appendChild(t);
+
+    // Kodály signs between solfege and staff
+    if (showKodaly && KODALY_GLYPHS.hasOwnProperty(sf.degree)) {
+      const kodY = bl.kodaly;
+      const k = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      k.setAttribute("x", noteX);
+      k.setAttribute("y", kodY);
+      k.setAttribute("class", "kodaly-text");
+      k.textContent = KODALY_GLYPHS[sf.degree];
+      svg.appendChild(k);
+    }
+  });
+}
+
+/* ------------ RENDERING ------------ */
+
+function renderLevel(abc, baseLetters, targetId, transposeSemis, showKodaly) {
+  const target = document.getElementById(targetId);
+  target.innerHTML = "";
+
+  const engraverParams = {
+    responsive: "resize",
+    add_classes: true,
+    staffwidth: 820
+  };
+
+  // Use 4-argument call; scale is handled via CSS transform instead.
+  const tuneObjs = ABCJS.renderAbc(targetId, abc, {}, engraverParams);
+  if (!tuneObjs || !tuneObjs.length) return;
+
+  const svg = tuneObjs[0].svg || target.querySelector("svg");
+  if (!svg) return;
+
+  const solfegeSeq = buildSolfegeSequence(baseLetters, transposeSemis);
+  overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly);
+}
+
+function applyZoom() {
+  const z = parseFloat(document.getElementById("zoom-input").value) || 1.0;
+  const wrap = document.getElementById("levels-scale-wrapper");
+  wrap.style.transform = `scale(${z})`;
+}
+
+function renderSingle() {
+  const abc = document.getElementById("abc-input").value;
+  const baseLetters = extractPitchLettersFromAbc(abc);
+  const showKodaly = document.getElementById("kodaly-toggle").checked;
+
+  const container = document.getElementById("levels-container");
+  container.innerHTML = "";
+
+  const label = document.createElement("div");
+  label.className = "level-label";
+  label.textContent = "Single Level (Do on C)";
+  container.appendChild(label);
+
+  const paperWrap = document.createElement("div");
+  paperWrap.className = "paper-wrapper";
+  const paperId = "paper-single";
+  paperWrap.innerHTML = `<div id="${paperId}"></div>`;
+  container.appendChild(paperWrap);
+
+  renderLevel(abc, baseLetters, paperId, 0, showKodaly);
+  applyZoom();
+}
+
+function renderMulti() {
+  const abc = document.getElementById("abc-input").value;
+  const baseLetters = extractPitchLettersFromAbc(abc);
+  const showKodaly = document.getElementById("kodaly-toggle").checked;
+
+  const container = document.getElementById("levels-container");
+  container.innerHTML = "";
+
+  SCALE_LEVELS.forEach((level, idx) => {
+    const label = document.createElement("div");
+    label.className = "level-label";
+    label.textContent = level.label;
+    container.appendChild(label);
+
+    const paperWrap = document.createElement("div");
+    paperWrap.className = "paper-wrapper";
+    const paperId = `paper-${idx}`;
+    paperWrap.innerHTML = `<div id="${paperId}"></div>`;
+    container.appendChild(paperWrap);
+
+    renderLevel(abc, baseLetters, paperId, level.transposeSemis, showKodaly);
+  });
+
+  applyZoom();
+}
+
+/* ------------ UI HOOKUP ------------ */
+
+document.getElementById("render-single").addEventListener("click", renderSingle);
+document.getElementById("render-multi").addEventListener("click", renderMulti);
+document.getElementById("zoom-input").addEventListener("change", applyZoom);
+window.addEventListener("load", renderSingle);
+</script>
+</body>
+</html>
