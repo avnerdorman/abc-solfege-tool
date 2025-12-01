@@ -20,6 +20,7 @@
     width: 100%;
     height: 160px;
     font-family: monospace;
+    display: none;
   }
   button {
     margin-top: 8px;
@@ -41,8 +42,9 @@
   }
   .paper-wrapper {
     border: 1px solid #ddd;
-    padding: 12px;
+    padding: 32px 12px 12px 12px; /* extra top padding for overlays */
     margin-top: 18px;
+    overflow: visible;
   }
   .level-label {
     margin-top: 24px;
@@ -71,28 +73,42 @@
 
 <body>
 <div id="container">
-  <h1>Solfège + Lyrics + Kodály (v9, CSS scaling)</h1>
+
+  <h1 id="main-title" style="margin-top:0; margin-bottom:48px; font-size:2.2em; font-weight:700; text-align:center;">Solfège + Lyrics + Kodály Viewer</h1>
+    <div id="song-title" style="margin-bottom:48px; font-size:1.5em; font-weight:600; text-align:center;"></div>
+  <div style="height:48px;"></div>
+  <div style="height:32px;"></div>
 
   <textarea id="abc-input">
 X:1
-T:Twinkle Twinkle
+T:Twinkle Twinkle Little Star
 M:4/4
 L:1/4
 K:C
 C C G G | A A G2 |
-F F E E | D D C2 |
-G G F F | E E D2 |
-G G F F | E E D2 |
-C C G G | A A G2 |
-F F E E | D D C2 |
 w: Twin- kle, twin- kle, lit- tle star,
+F F E E | D D C2 |
 w: How I won- der what you are.
+G G F F | E E D2 |
+w: Up a- bove the world so high,
+G G F F | E E D2 |
+w: Like a di- a- mond in the sky.
+C C G G | A A G2 |
+w: Twin- kle, twin- kle, lit- tle star,
+F F E E | D D C2 |
+w: How I won- der what you are.
+
   </textarea>
 
   <div class="controls-row">
+
     <label>
-      Zoom:
-      <input id="zoom-input" type="number" step="0.1" min="0.5" max="3" value="1.4">
+      View Size:
+      <select id="preset-select">
+        <option value="large">Large (staffwidth 570, scale 2.0)</option>
+        <option value="medium">Medium (staffwidth 570, scale 1.3)</option>
+        <option value="default" selected>Default (staffwidth 570, scale 1.0)</option>
+      </select>
     </label>
 
     <label>
@@ -100,8 +116,18 @@ w: How I won- der what you are.
       Show Kodály signs
     </label>
 
-    <button id="render-single">Render Single Level</button>
-    <button id="render-multi">Render Multi-Level (C · D · F)</button>
+    <!-- Temporary debug controls -->
+    <label>
+      Debug Scale:
+      <input id="scale-input" type="number" step="0.1" min="0.5" max="3.0" placeholder="(use preset)">
+    </label>
+
+    <label>
+      Debug Staffwidth:
+      <input id="staffwidth-input" type="number" step="10" min="200" max="1200" placeholder="(use preset)">
+    </label>
+
+    <!-- Render buttons removed per request -->
   </div>
 
   <!-- Everything inside here gets scaled together -->
@@ -142,7 +168,45 @@ const SCALE_LEVELS = [
   { label:"Do on F (+5)", transposeSemis:5 }
 ];
 
+function getRenderSizing() {
+  const preset = document.getElementById('preset-select')?.value || 'medium';
+  // Base from preset as requested
+  let staffwidth = 570;
+  let scale = 1.0; // default
+  if (preset === 'large') scale = 2.0;
+  else if (preset === 'medium') scale = 1.3;
+
+  // Debug overrides if provided
+  const scaleInput = document.getElementById('scale-input');
+  const staffwidthInput = document.getElementById('staffwidth-input');
+  const sVal = parseFloat(scaleInput?.value);
+  const wVal = parseInt(staffwidthInput?.value, 10);
+  if (!Number.isNaN(sVal) && sVal > 0.1) scale = sVal;
+  if (!Number.isNaN(wVal) && wVal >= 100) staffwidth = wVal;
+  return { staffwidth, scale };
+}
+
 /* ------------ ABC HELPERS ------------ */
+
+// Insert spacing directives if not present so ABCjs adds room
+// between the title block and the first staff (and between staves).
+function preprocessAbcForSpacing(abc, opts = { max: 350, sep: 130 }) {
+  const hasStaffsep = /^(%%\s*staffsep)\b/im.test(abc);
+  const hasMaxStaffsep = /^(%%\s*maxstaffsep)\b/im.test(abc);
+  if (hasStaffsep && hasMaxStaffsep) return abc;
+
+  const insert = [
+    hasMaxStaffsep ? null : `%%maxstaffsep ${opts.max}`,
+    hasStaffsep ? null : `%%staffsep ${opts.sep}`
+  ].filter(Boolean).join("\n");
+  if (!insert) return abc;
+
+  // Place right before the first K: line if found; else prepend.
+  if (/^K:[^\n]*$/m.test(abc)) {
+    return abc.replace(/^(K:[^\n]*$)/m, insert + "\n$1");
+  }
+  return insert + "\n" + abc;
+}
 
 function extractPitchLettersFromAbc(abc) {
   const lines = abc.split(/\r?\n/);
@@ -252,7 +316,7 @@ function computeSystemBaselines(noteGroups) {
   });
 
   // Baselines ABOVE the staff (so they don't collide with lyrics below)
-  const baselines = clusters.map(cl => {
+  let baselines = clusters.map(cl => {
     const top = cl.minTop;   // top of noteheads for that system
     return {
       kodaly: top - 10,      // hand signs closest to staff
@@ -260,12 +324,23 @@ function computeSystemBaselines(noteGroups) {
     };
   });
 
+  // Prevent first-system overlays from being cropped: ensure a minimum y
+  // position for solfege; shift both solfege and kodaly down if needed.
+  const MIN_SOLFEGE_Y = 14; // tweakable safety margin
+  baselines = baselines.map(bl => {
+    const delta = bl.solfege < MIN_SOLFEGE_Y ? (MIN_SOLFEGE_Y - bl.solfege) : 0;
+    if (delta > 0) {
+      return { solfege: bl.solfege + delta, kodaly: bl.kodaly + delta };
+    }
+    return bl;
+  });
+
   return { noteIndexToCluster, baselines };
 }
 
 /* ------------ OVERLAY DRAWING (SOLFÈGE ABOVE STAFF) ------------ */
 
-function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly) {
+function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
   let notes = Array.from(svg.querySelectorAll("g.abcjs-note"));
   if (!notes.length) {
     notes = Array.from(svg.querySelectorAll("g.abcjs-n"));
@@ -275,10 +350,17 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly) {
   // Remove old overlays if re-rendering
   svg.querySelectorAll("text.solfege-text, text.kodaly-text").forEach(e => e.remove());
 
+  // Ensure SVG is not clipped at the top
+  svg.style.overflow = "visible";
+  svg.setAttribute("overflow", "visible");
+
+  // Optionally shift everything down if needed
+  svg.style.marginTop = "32px";
+
   const { noteIndexToCluster, baselines } = computeSystemBaselines(notes);
 
   notes.forEach((noteG, i) => {
-    const sf = solfegeSeq[i];
+    const sf = solfegeSeq[startIndex + i];
     if (!sf || !sf.syllable) return;
 
     const bb = noteG.getBBox();
@@ -318,6 +400,8 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly) {
       svg.appendChild(k);
     }
   });
+
+  return notes.length;
 }
 
 /* ------------ RENDERING ------------ */
@@ -326,84 +410,124 @@ function renderLevel(abc, baseLetters, targetId, transposeSemis, showKodaly) {
   const target = document.getElementById(targetId);
   target.innerHTML = "";
 
+  // Get sizing from preset + debug overrides
+  const { staffwidth, scale } = getRenderSizing();
+
   const engraverParams = {
     responsive: "resize",
     add_classes: true,
-    staffwidth: 820
+    staffwidth,
+    scale,
+    "top-margin": 72,
+    wrap: true,
+    oneSvgPerLine: true
   };
 
-  // Use 4-argument call; scale is handled via CSS transform instead.
   const tuneObjs = ABCJS.renderAbc(targetId, abc, {}, engraverParams);
   if (!tuneObjs || !tuneObjs.length) return;
 
-  const svg = tuneObjs[0].svg || target.querySelector("svg");
-  if (!svg) return;
+  // With oneSvgPerLine, multiple SVGs may be created. Process each.
+  const svgs = Array.from(target.querySelectorAll("svg"));
+  if (!svgs.length) return;
 
   const solfegeSeq = buildSolfegeSequence(baseLetters, transposeSemis);
-  overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly);
+  let offset = 0;
+  svgs.forEach(s => {
+    const processed = overlaySolfegeAndKodaly(s, solfegeSeq, showKodaly, offset) || 0;
+    offset += processed;
+  });
 }
 
 function applyZoom() {
-  const z = parseFloat(document.getElementById("zoom-input").value) || 1.0;
-  const wrap = document.getElementById("levels-scale-wrapper");
-  wrap.style.transform = `scale(${z})`;
+  // No longer needed; scaling handled by ABCjs
 }
 
 function renderSingle() {
-  const abc = document.getElementById("abc-input").value;
-  const baseLetters = extractPitchLettersFromAbc(abc);
-  const showKodaly = document.getElementById("kodaly-toggle").checked;
+  const abcRaw = document.getElementById("abc-input").value;
+  const abc = preprocessAbcForSpacing(abcRaw);
+    // Extract song title from ABC (T: line)
+    const titleMatch = abcRaw.match(/^T:(.*)$/m);
+    const songTitle = titleMatch ? titleMatch[1].trim() : "";
+    // If ABC has T:, let ABCjs render the title and clear the HTML title to avoid duplication.
+    document.getElementById("song-title").textContent = titleMatch ? "" : songTitle;
 
-  const container = document.getElementById("levels-container");
-  container.innerHTML = "";
+    const baseLetters = extractPitchLettersFromAbc(abcRaw);
+    const showKodaly = document.getElementById("kodaly-toggle").checked;
 
-  const label = document.createElement("div");
-  label.className = "level-label";
-  label.textContent = "Single Level (Do on C)";
-  container.appendChild(label);
+    const container = document.getElementById("levels-container");
+    container.innerHTML = "";
 
-  const paperWrap = document.createElement("div");
-  paperWrap.className = "paper-wrapper";
-  const paperId = "paper-single";
-  paperWrap.innerHTML = `<div id="${paperId}"></div>`;
-  container.appendChild(paperWrap);
-
-  renderLevel(abc, baseLetters, paperId, 0, showKodaly);
-  applyZoom();
-}
-
-function renderMulti() {
-  const abc = document.getElementById("abc-input").value;
-  const baseLetters = extractPitchLettersFromAbc(abc);
-  const showKodaly = document.getElementById("kodaly-toggle").checked;
-
-  const container = document.getElementById("levels-container");
-  container.innerHTML = "";
-
-  SCALE_LEVELS.forEach((level, idx) => {
     const label = document.createElement("div");
     label.className = "level-label";
-    label.textContent = level.label;
+    label.textContent = "Single Level (Do on C)";
     container.appendChild(label);
 
     const paperWrap = document.createElement("div");
     paperWrap.className = "paper-wrapper";
-    const paperId = `paper-${idx}`;
+    const paperId = "paper-single";
     paperWrap.innerHTML = `<div id="${paperId}"></div>`;
     container.appendChild(paperWrap);
 
-    renderLevel(abc, baseLetters, paperId, level.transposeSemis, showKodaly);
-  });
-
-  applyZoom();
+    renderLevel(abc, baseLetters, paperId, 0, showKodaly);
+  // No longer needed; scaling handled by ABCjs
 }
+
+function renderMulti() {
+  const abcRaw = document.getElementById("abc-input").value;
+  const abc = preprocessAbcForSpacing(abcRaw);
+    // Extract song title from ABC (T: line)
+    const titleMatch = abcRaw.match(/^T:(.*)$/m);
+    const songTitle = titleMatch ? titleMatch[1].trim() : "";
+    document.getElementById("song-title").textContent = titleMatch ? "" : songTitle;
+
+    const baseLetters = extractPitchLettersFromAbc(abcRaw);
+    const showKodaly = document.getElementById("kodaly-toggle").checked;
+
+    const container = document.getElementById("levels-container");
+    container.innerHTML = "";
+
+    SCALE_LEVELS.forEach((level, idx) => {
+      const label = document.createElement("div");
+      label.className = "level-label";
+      label.textContent = level.label;
+      container.appendChild(label);
+
+      const paperWrap = document.createElement("div");
+      paperWrap.className = "paper-wrapper";
+      const paperId = `paper-${idx}`;
+      paperWrap.innerHTML = `<div id="${paperId}"></div>`;
+      container.appendChild(paperWrap);
+
+      renderLevel(abc, baseLetters, paperId, level.transposeSemis, showKodaly);
+    });
+
+  // No longer needed; scaling handled by ABCjs
+}
+
+// Helper to re-render the single view on control changes
+function rerender() { renderSingle(); }
 
 /* ------------ UI HOOKUP ------------ */
 
-document.getElementById("render-single").addEventListener("click", renderSingle);
-document.getElementById("render-multi").addEventListener("click", renderMulti);
-document.getElementById("zoom-input").addEventListener("change", applyZoom);
-window.addEventListener("load", renderSingle);
+// Removed render buttons; re-render on control changes
+document.getElementById("preset-select").addEventListener("change", rerender);
+document.getElementById("scale-input").addEventListener("change", rerender);
+document.getElementById("staffwidth-input").addEventListener("change", rerender);
+document.getElementById("kodaly-toggle").addEventListener("change", rerender);
+window.addEventListener("load", function() {
+  // Show initial song title
+  const abc = document.getElementById("abc-input").value;
+  const titleMatch = abc.match(/^T:(.*)$/m);
+  const songTitle = titleMatch ? titleMatch[1].trim() : "";
+  document.getElementById("song-title").textContent = titleMatch ? "" : songTitle;
+  // Initialize debug inputs to preset-derived values for discoverability
+  const sizing = getRenderSizing();
+  const sEl = document.getElementById('scale-input');
+  const wEl = document.getElementById('staffwidth-input');
+  if (sEl && !sEl.value) sEl.placeholder = sizing.scale.toString();
+  if (wEl && !wEl.value) wEl.placeholder = sizing.staffwidth.toString();
+  renderSingle();
+});
 </script>
 </body>
 </html>

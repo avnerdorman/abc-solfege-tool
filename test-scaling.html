@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ABCjs Scale Test with Solfège</title>
+<script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.3/dist/abcjs-basic.min.js"></script>
+<style>
+body { font-family: sans-serif; padding: 20px; }
+.test-section { margin: 40px 0; border: 2px solid #ccc; padding: 20px; }
+.test-section h2 { margin-top: 0; }
+#container { max-width: 960px; margin: 0 auto; }
+.solfege-text {
+  font-size: 14px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: auto;
+}
+.kodaly-text {
+  font-size: 22px;
+  text-anchor: middle;
+  dominant-baseline: auto;
+  font-family: "Bravura Text", "Bravura", serif;
+}
+</style>
+</head>
+<body>
+<div id="container">
+  <h1>ABCjs Scaling Behavior Test (with Solfège & Kodály)</h1>
+  
+  <div class="test-section">
+    <h2>Test 1: Different scale values</h2>
+    <p>Testing scale: 1.0, 1.5, 2.0 with fixed staffwidth: 820</p>
+    <h3>Scale 1.0</h3>
+    <div id="test1-scale1"></div>
+    <h3>Scale 1.5</h3>
+    <div id="test1-scale15"></div>
+    <h3>Scale 2.0</h3>
+    <div id="test1-scale2"></div>
+  </div>
+
+  <div class="test-section">
+    <h2>Test 2: Different staffwidth values</h2>
+    <p>Testing staffwidth: 400, 600, 820 with scale: 1.0</p>
+    <h3>Staffwidth 400 (more bars per line)</h3>
+    <div id="test2-width400"></div>
+    <h3>Staffwidth 600</h3>
+    <div id="test2-width600"></div>
+    <h3>Staffwidth 820 (fewer bars per line)</h3>
+    <div id="test2-width820"></div>
+  </div>
+
+  <div class="test-section">
+    <h2>Test 3: Combined scale + staffwidth (Preset Candidates)</h2>
+    <p>Testing combined effects for bars-per-staff presets</p>
+    <h3>Preset 1: Compact (staffwidth 900, scale 1.0)</h3>
+    <div id="test3-preset1"></div>
+    <h3>Preset 2: Normal (staffwidth 600, scale 1.2)</h3>
+    <div id="test3-preset2"></div>
+    <h3>Preset 3: Large (staffwidth 400, scale 1.5)</h3>
+    <div id="test3-preset3"></div>
+  </div>
+</div>
+
+<script>
+const ORIGINAL_TONIC_PC = 0;
+
+const DEGREE_COLORS = {
+  0:"#ff3b30", // Do
+  1:"#ff9500", // Re
+  2:"#ffcc00", // Mi
+  3:"#34c759", // Fa
+  4:"#007aff", // So
+  5:"#af52de", // La
+  6:"#5ac8fa"  // Ti
+};
+
+const KODALY_GLYPHS = {
+  0:"\uEC40",
+  1:"\uEC41",
+  2:"\uEC42",
+  3:"\uEC43",
+  4:"\uEC44",
+  5:"\uEC45",
+  6:"\uEC46"
+};
+
+function extractPitchLettersFromAbc(abc) {
+  const lines = abc.split(/\r?\n/);
+  const letters = [];
+
+  for (const line of lines) {
+    const t = line.trim();
+    if (/^[A-Za-z]:/.test(t)) continue;
+    if (/^w:/.test(t)) continue;
+
+    const tokens = t.split(/[\s\|]+/).filter(Boolean);
+    for (const token of tokens) {
+      const m = token.match(/[A-Ga-g]/);
+      if (!m) continue;
+      const L = m[0];
+      if (L.toLowerCase() === "z") continue;
+      letters.push(L);
+    }
+  }
+  return letters;
+}
+
+function pitchLetterToPitchClass(letter) {
+  switch (letter.toUpperCase()) {
+    case "C": return 0;
+    case "D": return 2;
+    case "E": return 4;
+    case "F": return 5;
+    case "G": return 7;
+    case "A": return 9;
+    case "B": return 11;
+  }
+  return null;
+}
+
+function pitchClassToSolfege(pc, tonicPc) {
+  const iv = (pc - tonicPc + 12) % 12;
+  switch (iv) {
+    case 0:  return { syllable:"Do", degree:0 };
+    case 2:  return { syllable:"Re", degree:1 };
+    case 4:  return { syllable:"Mi", degree:2 };
+    case 5:  return { syllable:"Fa", degree:3 };
+    case 7:  return { syllable:"So", degree:4 };
+    case 9:  return { syllable:"La", degree:5 };
+    case 11: return { syllable:"Ti", degree:6 };
+    case 1:  return { syllable:"Di", degree:0 };
+    case 3:  return { syllable:"Ri", degree:1 };
+    case 6:  return { syllable:"Fi", degree:3 };
+    case 8:  return { syllable:"Si", degree:4 };
+    case 10: return { syllable:"Li", degree:5 };
+    default: return { syllable:"?", degree:0 };
+  }
+}
+
+function buildSolfegeSequence(baseLetters, transposeSemis) {
+  const tonicPc = (ORIGINAL_TONIC_PC + transposeSemis + 12) % 12;
+  return baseLetters.map(L => {
+    const pc = pitchLetterToPitchClass(L);
+    if (pc === null) return { syllable:"", degree:0 };
+    const pcT = (pc + transposeSemis + 12) % 12;
+    return pitchClassToSolfege(pcT, tonicPc);
+  });
+}
+
+function computeSystemBaselines(noteGroups) {
+  const items = [];
+
+  noteGroups.forEach((g, i) => {
+    const bb = g.getBBox();
+    const top = bb.y;
+    const yCenter = bb.y + bb.height / 2;
+    items.push({ index:i, yCenter, top });
+  });
+
+  items.sort((a,b) => a.yCenter - b.yCenter);
+
+  const clusters = [];
+  let current = null;
+  const THRESHOLD = 25;
+
+  for (const it of items) {
+    if (!current) {
+      current = { indices:[it.index], minTop:it.top, lastY:it.yCenter };
+    } else {
+      if (Math.abs(it.yCenter - current.lastY) > THRESHOLD) {
+        clusters.push(current);
+        current = { indices:[it.index], minTop:it.top, lastY:it.yCenter };
+      } else {
+        current.indices.push(it.index);
+        current.minTop = Math.min(current.minTop, it.top);
+        current.lastY = it.yCenter;
+      }
+    }
+  }
+  if (current) clusters.push(current);
+
+  const noteIndexToCluster = new Array(noteGroups.length);
+  clusters.forEach((cl, ci) => {
+    cl.indices.forEach(idx => {
+      noteIndexToCluster[idx] = ci;
+    });
+  });
+
+  const baselines = clusters.map(cl => {
+    const top = cl.minTop;
+    return {
+      kodaly: top - 10,
+      solfege: top - 26
+    };
+  });
+
+  return { noteIndexToCluster, baselines };
+}
+
+function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly) {
+  let notes = Array.from(svg.querySelectorAll("g.abcjs-note"));
+  if (!notes.length) {
+    notes = Array.from(svg.querySelectorAll("g.abcjs-n"));
+  }
+  if (!notes.length) return;
+
+  svg.querySelectorAll("text.solfege-text, text.kodaly-text").forEach(e => e.remove());
+
+  const { noteIndexToCluster, baselines } = computeSystemBaselines(notes);
+
+  notes.forEach((noteG, i) => {
+    const sf = solfegeSeq[i];
+    if (!sf || !sf.syllable) return;
+
+    const bb = noteG.getBBox();
+    const noteX = bb.x + bb.width / 2;
+
+    const ci = noteIndexToCluster[i];
+    if (ci == null) return;
+    const bl = baselines[ci];
+
+    const color = DEGREE_COLORS[sf.degree] || "#111";
+
+    const head = noteG.querySelector("path");
+    if (head) {
+      head.setAttribute("fill", color);
+      head.setAttribute("stroke", color);
+    }
+
+    const solY = bl.solfege;
+    const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    t.setAttribute("x", noteX);
+    t.setAttribute("y", solY);
+    t.setAttribute("class", "solfege-text");
+    t.setAttribute("fill", color);
+    t.textContent = sf.syllable;
+    svg.appendChild(t);
+
+    if (showKodaly && KODALY_GLYPHS.hasOwnProperty(sf.degree)) {
+      const kodY = bl.kodaly;
+      const k = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      k.setAttribute("x", noteX);
+      k.setAttribute("y", kodY);
+      k.setAttribute("class", "kodaly-text");
+      k.textContent = KODALY_GLYPHS[sf.degree];
+      svg.appendChild(k);
+    }
+  });
+}
+
+function renderTest(targetId, scaleVal, staffwidthVal) {
+  const testAbc = `X:1
+T:Twinkle Twinkle
+M:4/4
+L:1/4
+K:C
+C C G G | A A G2 |
+F F E E | D D C2 |
+G G F F | E E D2 |
+G G F F | E E D2 |
+C C G G | A A G2 |
+F F E E | D D C2 |
+w: Twin- kle, twin- kle, lit- tle star,
+w: How I won- der what you are.`;
+
+  const baseLetters = extractPitchLettersFromAbc(testAbc);
+  const target = document.getElementById(targetId);
+  target.innerHTML = "";
+
+  const tuneObjs = ABCJS.renderAbc(targetId, testAbc, {}, {
+    responsive: "resize",
+    add_classes: true,
+    staffwidth: staffwidthVal,
+    scale: scaleVal
+  });
+
+  if (!tuneObjs || !tuneObjs.length) return;
+  const svg = tuneObjs[0].svg || target.querySelector("svg");
+  if (!svg) return;
+
+  const solfegeSeq = buildSolfegeSequence(baseLetters, 0);
+  overlaySolfegeAndKodaly(svg, solfegeSeq, true);
+}
+
+// Test 1: Different scale values
+renderTest("test1-scale1", 1.0, 820);
+renderTest("test1-scale15", 1.5, 820);
+renderTest("test1-scale2", 2.0, 820);
+
+// Test 2: Different staffwidth values
+renderTest("test2-width400", 1.0, 400);
+renderTest("test2-width600", 1.0, 600);
+renderTest("test2-width820", 1.0, 820);
+
+// Test 3: Preset combinations
+renderTest("test3-preset1", 1.0, 900);
+renderTest("test3-preset2", 1.2, 600);
+renderTest("test3-preset3", 1.5, 400);
+</script>
+</body>
+</html>

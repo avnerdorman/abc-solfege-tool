@@ -89,12 +89,22 @@ When modifying rendering behavior:
 - `responsive: "resize"` - may need to be combined with container width changes
 - ABCjs may automatically reflow to multiple systems based on available width
 
-**Correct approach:**
+**Possible approaches:**
+
+*Option 1: Preset staffwidth values (simpler)*
+- Provide 3-4 preset options (e.g., 1, 2, 3, or 4 bars per staff)
+- Each preset has a specific `staffwidth` value that fits that many bars
+- Combine with appropriate `scale` value for readability
+- Re-render ABCjs when user selects different preset
+- Simpler to implement, predictable layout, good user control
+
+*Option 2: True responsive scaling (ideal but complex)*
 1. Remove CSS transform scaling entirely
 2. Use ABCjs `scale` param in engraver params to change music size
-3. Adjust container width or use responsive settings to trigger automatic reflowing
+3. Dynamically adjust `staffwidth` based on container width and scale
 4. Re-run `renderAbc()` when scale changes (don't just apply CSS)
 5. Recalculate solfège/Kodály overlays after re-render
+6. May require experimentation with ABCjs responsive settings to achieve automatic reflow
 
 ### Planned Features (Not Yet Implemented)
 **Future enhancements to consider:**
