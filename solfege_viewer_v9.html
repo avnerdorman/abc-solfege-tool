@@ -46,6 +46,10 @@
     margin-top: 18px;
     overflow: visible;
   }
+  /* ABCjs sets inline overflow: hidden on each render target div; force visibility so annotations show */
+  .paper-wrapper > div {
+    overflow: visible !important;
+  }
   .level-label {
     margin-top: 24px;
     font-weight: 600;
@@ -108,6 +112,8 @@ w: How I won- der what you are.
         <option value="large">Large (staffwidth 900, scale 2.5)</option>
         <option value="medium">Medium (staffwidth 900, scale 2.0)</option>
         <option value="default" selected>Default (staffwidth 900, scale 1.5)</option>
+        <option value="small">Small (staffwidth 600, scale 1.2)</option>
+        <option value="compact">Compact (staffwidth 400, scale 1.0)</option>
       </select>
     </label>
 
@@ -175,6 +181,14 @@ function getRenderSizing() {
   let scale = 1.5; // default
   if (preset === 'large') scale = 2.5;
   else if (preset === 'medium') scale = 2.0;
+  else if (preset === 'small') {
+    staffwidth = 600;
+    scale = 1.2;
+  }
+  else if (preset === 'compact') {
+    staffwidth = 400;
+    scale = 1.0;
+  }
 
   // Debug overrides if provided
   const scaleInput = document.getElementById('scale-input');
@@ -392,8 +406,8 @@ function overlaySolfegeAndKodaly(svg, solfegeSeq, showKodaly, startIndex = 0) {
     const bb = t.getBBox();
     maxBottom = Math.max(maxBottom, bb.y + bb.height);
   });
-  const BELOW_KODALY_OFFSET = 10;
-  const BELOW_SOLFEGE_OFFSET = 22;
+  const BELOW_KODALY_OFFSET = 13;
+  const BELOW_SOLFEGE_OFFSET = 26;
 
   // Ensure the SVG viewport is tall enough to show annotations below lyrics.
   ensureSvgViewportHeight(svg, maxBottom + BELOW_SOLFEGE_OFFSET + 10);
@@ -490,6 +504,8 @@ function renderLevel(abc, baseLetters, targetId, transposeSemis, showKodaly) {
     const processed = overlaySolfegeAndKodaly(s, solfegeSeq, showKodaly, offset) || 0;
     offset += processed;
   });
+
+
 }
 
 function applyZoom() {
