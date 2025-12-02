@@ -1,0 +1,54 @@
+X:1
+%% Copyright 1965 by Alan Jay Lerner and Burton Lane
+T:On a clear day (you can see forever)
+M:4/4
+L:1/4
+C:Alan Jay Lerner & Burton Lane
+Q:1/4=160
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x2 || "Gmaj7"x2 x2 | x2 x2 | "C7"x2 x2 | x2 x2 |
+"Gmaj"x2 x2 | x2 x2 | "Bm7"x2 x2 | "E7"x2 x2 ||
+V:melody
+B,D || A2F2- | F2 D/2B,/2D/2F/2 | A2F2- | F2_B,D |
+w:On a clear day* rise and look a-round you* and you'll
+A2F2- | F2F2 | D4- | D2EG ||
+w:see who* you are.* On a
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Am7"x2 x2 | x2 x2 | "F7"x2 x2 | x2 x2 |
+"Bm7"x2 x2 | "Bbdim7"x2 x2 | "Am7"x2 "G#dim7"x2 | "Am7"x2 "D7"x2 ||
+V:melody
+d2B2- | B2 G/2E/2G/2B/2 | d2B2- | B2^CD |
+w:clear day* how it will as-tound you* that the
+A2_AG | FAzG | c2dB | A2Bc ||
+w:glow of your be-ing out-shines ev-'ry star. You feel
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Dm7"x2 x2 | "G7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Cmaj7"x2 x2 | "A7"x2 x2 | "D7"x2 x2 | x2 x2 ||
+V:melody
+d2A2- | A2Bc | d/2e/2d/2A/2 c2- | c2GA |
+w:part of* ev-'ry moun-taibn, sea and shore.* You can
+BEGA | BEGA | B/2^A/2B/2F/2 E2- | E^A,B,D ||
+w:hear, from far and near, a world you've nev-er heard be-fore.* And on a
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj7"x2 x2 | x2 x2 | "Bm7b5/F"x2 x2 | "E7"x2 x2 |
+"Am7"x2 "Bm7"x2 | "C6"x3 "Bm7"x | "Am7"x3 "Bm7"x | "C6"x3 "Bm7"x |
+"Am7"x2 x2 | "D7"x2 x2 | "G6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+A2F2- | F2GB | e2B2- | B2^AB |
+w:clear day,* on that clear day* you can
+c2B2 | GczB | GczB | GczB |
+w:see for-ev-er and ev-er and ev-er and
+G4 | A4 | G4- | G4 |]
+w:ev-er-more!*

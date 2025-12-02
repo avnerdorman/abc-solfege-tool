@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1922, by Tell Taylor, Inc.
+T:On the Alamo
+M:4/4
+L:1/4
+C:Gilbert Keys, Joe Lyons & Isham Jones
+Q:1/4=120
+%%staves (chords melody)
+K:Eb
+%%text ()
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x3 || x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+E/D/FE || G4- | GE/D/ FE | G4- | GF/E/ GF |
+w:Where the moon swings low* on the Al-a-mo* in a gar-den
+c3c | d3d | B4- | BE/D/ FE ||
+w:fair, where ros-es grow* in the ten-der
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+G4- | GB/=A/ cB | d4- | dd/c/ ed |
+w:light* of the sum-mer night.* I can see her
+f3d | c3d | B4- | BE/D/ FE ||
+w:wan-der to and fro.* For she daid I'll
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+G4- | GE/D/ FE | G4- | GF/E/ GF |
+w:wait* by the gar-den gate* on the night I
+c3c | d3d | B4- | Bc/d/ ec ||
+w:said "I love you so".* And in all my
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |]
+V:melody
+G3G | e3e | c4- | cE/D/ FE |
+w:dreams it seems, I go* where the moon swings
+G4 | G3G | G/F/E3- | Ez z2 |]
+w:low on the Al-a-mo.*

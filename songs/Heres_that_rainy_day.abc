@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1953 by Burke and Van Heusen, Inc., New York 19, N.Y.
+T:Here's that rainy day
+M:4/4
+L:1/4
+C:Johnny Burke & James Van Heusen
+Q:1/4=100
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj"x2 x2 | "Bb7/F"x2 x2 | "Ebmaj7"x2 x2 | "(Cm7"x2 "-/Bb)"x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | x2 x2 ||
+V:melody
+DD2D | D=F_Bd | d2c>=B | c4 |
+w:May-be I should have saved those left-ov-er dreams;
+DD2D | D^FAc | B4- | B3z ||
+w:Fun-ny, but here's that rain-y day.*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Cm7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | "T.A."x2 x2 ||
+V:melody
+_e2e2 | eG^GA | d2=F^F | G2^FG |
+w:Here's that rain-y day they told me a-bout, and I
+cc/c/cc/c/ | c E^EF | B4- | B3z ||
+w:laughed at the thought that it might turn out this way.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj"x2 x2 | "Bb7/F"x2 x2 | "Ebmaj7"x2 x2 | "(Cm7"x2 "-/Bb)"x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | "(Dm7"x2 "G7)"x2 ||
+V:melody
+DD2D | D=F_Bd | d2c>=B | c4 |
+w:Where is that worn out wish that I threw a-side,
+DD2D | D^FAc | B4- | B3z ||
+w:af-ter it brought my lov-er near?*
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Cmaj7"x2 x2 | "D7/C"x2 x2 | "(Bm7""Bm7"x2 "Em7"x2 | "Bbdim7)""A7"x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | x2 x2 |]
+V:melody
+ee2e | eABc | d2FG | A4 |
+w:Fun-ny how love be-comes a cold rain-y day.
+DD2D | DFAB | G4- | Gz z2 |]
+w:Fun-ny that rain-y day is here.*

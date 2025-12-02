@@ -1,0 +1,50 @@
+X:1
+%%staffsep        2.0cm
+T:Nobody else but me
+M:4/4
+L:1/4
+C:Jerome Kern
+Q:1/4=190
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"C6"x2 "(F7"x2 | "C/E"x2 "Ebdim7)"x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Dm7"x2 "G7"x2 | "C#m7"x2 "F#7"x2 | "Bmaj7"x3 "Gdim7"x | "F#m7"x2 "B7"x2 ||
+V:melody
+AA2A | C4 | AA2A | B,4 |
+w:I want to be no one but me
+AA/F/ BB/F/ | ^GG/E/ ^AA/^F/ | ^D3^F | B4 ||
+w:I am in love with a lov-er who likes me the way I am.
+P:B
+V:chords
+"Emaj7"x2 x2 | "E#dim7"x2 x2 | "B/F#"x2 x2 | "Eb7/G"x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 ||
+V:melody
+BB2B | ^C4 | BB2B | ^D4 |
+w:I have my faults, he likes my faults
+BBBB | B2zD | AAAA | A4 ||
+w:I'm not ve-ry bright and he's not ve-ry bright.
+P:A
+V:chords
+"C6"x2 "(F7"x2 | "C/E"x2 "Ebdim7)"x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Dm7"x2 "G7"x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 x2 | "C7"x2 x2 ||
+V:melody
+"C6"AA2A | C4 | AA2A | B,4 |
+w:He thinks I'm grand, that's grand for me
+AA/F/ BB/G/ | cc/A/ ^cc/A/ | dd2d | E4 ||
+w:he may be wrong but if we get a-long what do we care, say we.
+P:C
+V:chords
+"F6"x2 x2 | "Fm6"x2 x2 | "C6"x2 "(Bb7)"x2 | "A7"x2 x2 |
+"Dm7""C6"x2 x2 | "A7"x2 x2 | "Dm7"x2 x2 | "Ebdim7"x2 x2 |
+"Dm7"x2 x2 | "(Ab7""G7"x2 "G7)"" "x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+dAcG | F4 | ECGE | B4 |
+w:When he holds me close, close as we can be
+AA2G | AA2G | AAAG | AA2G |
+w:I tell the lad that I'm great-ful and I'm glad that I'm
+AA2A | C2D2 | C4 | z4 |]
+w:no-bo-dy else but me.

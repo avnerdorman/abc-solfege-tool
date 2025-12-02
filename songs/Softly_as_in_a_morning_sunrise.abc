@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1928 Warner Bros. Inc
+T:Softly, as in a morning sunrise
+M:4/4
+L:1/4
+C:Oscar Hammerstein II & Sigmund Romberg
+Q:1/4=170
+%%staves (chords melody)
+K:Cm
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 |
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 ||
+V:melody
+c2 G2 | z/F/G/F/ GF | c2 G2 | z/D/E/D/ ED |
+w:Soft-ly, as in a morn-ing sun-rise, the light of love comes
+G2 C2 | z/G/A/G/ ED | C4 | G4 ||
+w:steal-ing in-to a new born day, oh!
+P:A
+V:chords
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 |
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Fm7"x2 "Bb7"x2 ||
+V:melody
+c2 G2 | z/F/G/F/ GF | c2 G2 | z/D/E/D/ ED |
+w:Flam-ing with all the glow of sun-rise, a burn-ing kiss is
+G2 C2 | z/G/A/G/ ED | C4- | (3CDE (3FGA ||
+w:seal-ing the wow that all be-tray.* For the pas-sions that
+P:B
+V:chords
+"Ebmaj7"x2 x2 | x2 x2 | "Edim7"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | "F#dim7"x2 x2 | "G7"x2 x2 | x2 x2 ||
+V:melody
+B2 E2 | z/B/c/B/ cB | B2 =E2- | (3E=EF (3GAB |
+w:thrill love and lift you high to heav-en,* are the pas-sions that
+c2F2 | z/c/d/c/ dc | d3d | ffed ||
+w:kill love and let you fall to hell! So ends each sto-ry.
+P:A
+V:chords
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 |
+"Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 | "Cm6"x2 x2 | "Dm7b5"x2 "G7"x2 |]
+V:melody
+c2 G2 | z/F/G/F/ GF | c2 G2 | z/D/E/D/ ED |
+w:Soft-ly as in an eve-ning sun-set, the light that gave you
+G2 C2 | z/G/A/G/ ed | c4- | cz z2 |]
+w:glo-ry will take it all a-way.*

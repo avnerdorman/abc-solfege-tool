@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1939 Burke and Van Heusen, Inc.
+T:I thought about you
+M:4/4
+L:1/8
+C:Johnny Mercer & James Van Heusen
+Q:1/4=110
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x4 "E7"x4 | "Eb7"x4 "D7"x4 | "G7"x4 x4 | x4 x4 |
+"Gm7"x4 "-/F"x4 | "Em7b5"x4 "A7"x4 | "Dm7"x4 "(Db7)"x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+zFAc e_edA- | A4B2A2 | AFFF- F4- | F6z2 |
+w:I took a trip on a train* and I thought a-bout you,**
+zDFA c=B=cA- | A4G2A2 | G_GFF-F4- | F6z2 ||
+w:I passed a shad-ow-y lane* and I thought a-bout you,**
+P:B
+V:chords
+"Bbmaj7"x4 x4 | "Bbm6"x4 x4 | "Fmaj7"x4 x4 | x4 x4 |
+"Bm7b5"x4 "E7"x4 | "Bm7b5"x4 "E7"x4 | "Am7"x4 "D7"x4 | "Gm7"x4 "C7"x4 ||
+V:melody
+dcdc-c2B2 | _dcdc-c3B | A2c2c4- | c8 |
+w:two or three cars* parked un-der the stars,* a wind-ing stream,*
+efec-c2=B2 | efec-c2=B2 | A2cc-c4 | G2AA-A4 ||
+w:moon shin-ing down* on some lit-tle town,* and with each beam,* same old dream,*
+P:A
+V:chords
+"F6"x4 "E7"x4 | "Eb7"x4 "D7"x4 | "G7"x4 x4 | x4 x4 |
+"Gm7"x4 "-/F"x4 | "Em7b5"x4 "A7"x4 | "Dm7"x4 "(Db7)"x4 | "Cm7"x4 "F7"x4 ||
+V:melody
+zFAc e_edA- | A4B2A2 | AFFF- F4- | F6z2 |
+w:At ev-'ry stop that we made,* oh I thought a-bout you,**
+zDFA c=B=cA- | A4G2A2 | G_GFF-F4- | F6zF ||
+w:but when I pulled down the shade,* then I real-ly felt blue,** I
+P:B
+V:chords
+"Bbmaj7"x4 x4 | "Bbm6"x4 x4 | "Fmaj7"x4 x4 | "G7"x4 "Abdim7"x4 |
+"Gm7"x4 "C7"x4 | "Gm7"x4 "C7"x4 | "F6"x4 x4 | "T.A."x4 x4 |]
+V:melody
+dcdc-c2B2 | _dcdc-c3B | Ac=df-f2g2 | e6d2 |
+w:peeked thru the crack* and looked at the track,* the one go-ing back* to you, and
+cccc-c4 | z2F2AAAF- | F8- | F4-F2z2 |]
+w:what did I do?* I thought a-bout you!***

@@ -1,0 +1,56 @@
+X:1
+T:My foolish heart
+M:4/4
+L:1/8
+C:Victor Young & Ned Washington
+Q:1/4=76
+%%staves (chords melody)
+K:Bb
+%%text (ballad)
+%%vskip 20
+P:verse
+V:chords
+"Bb"x4 x4 | "Gm7"x4 x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 |
+"Gm7"x4 x4 | "C7"x4 x4 | "Fmaj7"x4 "Gm7"x2 "C7"x2 | "Cm7"x4 "F7"x4 ||
+V:melody
+zBAB A2F2 | A2A6 | zGAB c2A2 | G8 |
+w:The scene is set for dream-ing, love's knock-ing at the door,
+zBBB ddd2 | (3d2d2A2 G4 | zccc c3d | c6F2 ||
+w:but oh, my heart, I'm re-luc-tant to start for we've been fooled be-fore. The
+P:A
+V:chords
+"Bb6"x4 x4 | "Dm7" "Gm7"x4 "G7" " "x4 | "Cm7"x4 x4 | "A7sus" "F7"x4 "A7" " "x4 |
+"Dm7" "Bbmaj7"x4 x4 | "Gm7"x4 x4 | "Cm7"x4 x4 | "Gb7" "F7"x4 "F7"x4 ||
+V:melody
+F4- FB,DF | GAG4G2 | G4- GCEG | A6A2 |
+w:night* is like a love-ly tune, be-ware* my fool-ish heart! How
+A4- ADFA | BcB4B2 | B4- BEGB | c6Bc ||
+w:white* the ev-er con-stant moon; Take care* my fool-ish heart! There's a
+P:B
+V:chords
+"Bb"x4 x4 | "Bb7"x4 x4 | "Eb6"x4 x4 | "Am7b5"x4 "D7"x4 |
+"Gm7"x4 x4 | "C7"x4 x4 | "Fmaj7"x4 x4 | "F7"x4 x4 ||
+V:melody
+d3d/d/ dddd | d2d2- ddcB | c2cc cdcB | c6BA |
+w:line be-tween love and fas-ci-na-tion* that's hard to see on an even-ing such as this, for they
+BB2B BcAG | B2B4G^G | A2AA AA=GF | A6G2 ||
+w:both give the ver-y same sen-sa-tion when you're lost in the mag-ic of a kiss. His
+w:*******************(Her)
+P:A
+V:chords
+"Bb6"x4 x4 | "Gm7"x4 x4 | "Cm7"x4 x4 | "F7"x4 x4 |
+"Bbmaj7"x4 x4 | "Gm7"x4 x4 | "Cm7"x4 "-/Bb"x4 | "Am7b5"x4 "D7"x4 ||
+V:melody
+F4- FB,DF | GAG4G2 | G4- GCEG | A6A2 |
+w:lips* are much too close to mine, be-ware* my fool-ish heart! But
+A4- ADFA | BcB4B2 | B4- BEGB | d6c2 ||
+w:should* our ea-ger lips com-bine then let* the fire* start. For
+P:C
+V:chords
+"Gm7"x4 x4 | "Gb7"x4 x4 | "Bb/F"x4 x4 | "Dm7b5"x4 "G7"x4 |
+"Cm7"x4 x4 | "F7"x4 x4 | "Bb6"x4 x4 | "T.A."x4 x4 |]
+V:melody
+B2BB BAGA | B2B4Bc | d2dd ddcB | D6G2 |
+w:this time it is-n't fas-ci-na-tion, or a dream that will fade an fall a-part, it's
+B4- BEGB | c2d2B2c2 | B8- | B2z2 z4 |]
+w:love* this time it's love, my fool-ish heart!*

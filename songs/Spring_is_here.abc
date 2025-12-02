@@ -1,0 +1,46 @@
+X:1
+T:Spring is here
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=110
+%%staves (chords melody)
+K:Ab
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Abdim7"x2 x2 | "Ab6"x2 x2 | "Abdim7"x2 x2 | "Ab6"x2 x2 |
+"Cm7"x2 "F7"x2 | "Bbm7"x2 "( Eb7 "x"-/Db )"x | "Cm7"x2 "F7"x2 | "Bb7"x2 "Eb7"x2 ||
+V:melody
+G3A | F4 | G(3G/G/G/ GA | FF3 |
+w:Spring is here! Why does-n't my heart go danc-ing?
+E3F | D4 | E(3E/E/E/ EF | DD3 ||
+w:Spring is here! Why is-n't the waltz en-tranc-ing?
+P:B
+V:chords
+"Abmaj7"x2 x2 | x2 x2 | "Dbmaj7"x2 x2 | "G7"x2 "C7"x2 |
+"Fm6"x2 x2 | x2 x2 | "( Am7""Bm7"x2 "D7 )""E7"x2 | "Bbm7"x2 "Eb7"x2 ||
+V:melody
+CDEF | GABc | F4 | A4 |
+w:No de-si-re, no am-bi-tion leads me,
+C=D=EF | GABc | =d4 | e4 ||
+w:May-be it's be-cause no-bod-y needs me.
+P:A
+V:chords
+"Abdim7"x2 x2 | "Ab6"x2 x2 | "Abdim7"x2 x2 | "Ab6"x2 x2 |
+"Cm7"x2 "F7"x2 | "Bbm7"x2 "( Eb7 "x"-/Db )"x | "Cm7"x2 "F7"x2 | "Bb7"x2 "Eb7"x2 ||
+V:melody
+G3A | F4 | G(3G/G/G/ GA | FF3 |
+w:Spring is here! Why does-n't the breeze de-light me?
+E3F | D4 | E(3E/E/E/ EF | DD3 ||
+w:Stars ap-pear, why does-n't the night in-vite me?
+P:C
+V:chords
+"Abmaj7"x2 x2 | x2 x2 | "( Am7""Bm7"x2 "D7 )""E7"x2 | "Bbm7"x2 "Eb7"x"( Db67 )""-/Db"x |
+"Cm7"x2 "Fm7"x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+CDEF | GABc | =d4 | e4 |
+w:May-be it's be-cause no-bod-y loves me,
+e3A | c3B | A4 | z4 |]
+w:spring is here, I hear.

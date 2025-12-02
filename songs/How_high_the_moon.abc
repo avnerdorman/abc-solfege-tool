@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1940 by Chappell & Co, Inc.
+T:How high the moon
+M:4/4
+L:1/4
+C:Nancy Hamilton & Morgan Lewis
+Q:1/4=210
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 || "Gmaj7"x2 x2 | x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Fmaj7"x2 x2 | x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+DGA || A2B2- | BDGA | _B4- | BC=FG |
+w:Some-where there's mu-sic,* how faint the tune!* Some-where there's
+G2A2- | AC=FG | _A4- | AD_EF ||
+w:heav-en,* how high the moon!* There is no
+P:B
+V:chords
+"Ebmaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 | "Am7b5"x2 "D7"x2 |
+"Gmaj7"x2 x2 | "Am7"x2 "D7"x2 | "Bm7"x2 "E7"x2 | "Am7"x2 "D7"x2 ||
+V:melody
+GGGG | GG/A/- A/G/A | _B4- | B>A- A/G/A |
+w:moon a-bove when love is far* a-way too,* till* it comes
+=B4- | BABc | dddd | dDGA ||
+w:true* that you love me as I love you. Some-where there's
+P:A
+V:chords
+"Gmaj7"x2 x2 | x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Fmaj7"x2 x2 | x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+A2B2- | BDGA | _B4- | BC=FG |
+w:mu-sic,* it's where you are,* some-where there's
+G2A2- | AC=FG | _A4- | AD_EF ||
+w:heav-en,* how near, how far!* The dark-est
+P:B'
+V:chords
+"Emaj7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gmaj7"x2 x2 | "Cm6"x2 x2 |
+"Bm7"x2 "E7"x2 | "Am7"x2 "D7"x2 | "G6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+GGGG | GG/A/- A/G/A | =B4- | BABc |
+w:night would shine if you would come* to me soon,* un-till you
+dddd | dDGA | G4 | z4 |]
+w:will, how still my heart, how high the moon!

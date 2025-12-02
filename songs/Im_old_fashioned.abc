@@ -1,0 +1,43 @@
+X:1
+T:I'm old fashioned
+M:4/4
+L:1/4
+C:Jerome Kern & Johnny Mercer
+Q:1/4=170
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Gm7"x2 "C7"x2 |
+"Edim7/F"x2 x2 | "F6"x2 x2 | "Em7b5"x2 x2 | "A7"x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Gm7"x2 x2 | "Db7"x2 x2 | "C7sus"x2 x2 | "C7"x2 x2 ||
+V:melody
+F3C | CC2C | A3C | CC2C |
+w:I'm old fash-ioned, I love the moon-light, I
+B3A | CC2A | G4- | G3E |
+w:love the old fash-ioned things. * The
+G3F | E3D | GAGF | E3D |
+w:sound of rain up-on a win-dow pane, the
+BcBA | G2F2 | c4- | c4 ||
+w:star-ry song that A-pril sings.*
+P:B
+V:chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Bm7b5"x2 "E7"x2 |
+"A6"x2 "Bm7"x2 | "A6/C#"x2 "Dmaj7"x2 | "E7"x2 "F#dim7"x2 | "Gm7"x2 "C7"x2 |
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bbmaj7"x2 "Bbm6"x2 | "Am7"x2 "Dm7"x"-/C"x | "Bm7b5"x2 "Bbm6"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+d3F | FF2E | A3E | EE2D |
+w:This year's fan-cies are pass-ing fan-cies, but
+^CA,D2 | E^C^F2 | ^GEA2 | BGc2 |
+w:sigh-ing sighs, hold-ing hands, these my heart un-der-stands.
+F3C | CC2C | A3C | CC2C |
+w:I'm old fash-ioned, but I don't mind it that's
+cdcF | A3G | cdcF | A3G |
+w:how I want to be, as long as you a-gree to
+c3C | CC2C | F4 | z4 |]
+w:stay old fash-ioned with me.

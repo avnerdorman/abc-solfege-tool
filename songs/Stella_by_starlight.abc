@@ -1,0 +1,39 @@
+X:1
+T:Stella by starlight
+M:4/4
+L:1/4
+C:Victor Young & Ned Washington
+Q:1/4=85
+%%staves (chords melody))
+K:Bb
+%%text (medium)
+%%vskip 20
+V:chords
+x||"( Em7b5" "Dbdim7"x2 x2 | "A7 )" " "x2 x2 | "Cm7"x2 x2 | "F7"x2 x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Ebmaj7"x2 x2 | x2 "Ab7"x2 |
+"Bb6"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 x2 | "( Db7 )" "Bbm6/Db"x2 x2 |
+"C7"x2 x2 | "( Bm7b5" " "x2 "Bbm6 )" " "x2 | "( Am7b5" "Am7b5"x2 x2 | "D7"x2 x2 |
+"D7" "G7"x2 x2 | "G7 )" " "x2 x2 | "Cm7"x2 x2 | x2 x2 |
+"Ab7"x2 x2 | x2 x2 | "( Bbdim7" "Bbmaj7"x2 x2 | "Bbmaj7 )" " "x2 x2 |
+"( Em7b5" "C#dim7"x2 x2 | "A7 )" " "x2 x2 | "Dm7b5"x2 x2 | "G7"x2 x2 |
+"( Dbm7" "Cm7b5"x2 "Gb7" " "x2 | "Cm7b5" "F7"x2 "F7 )" " "x2 | "Bbmaj7"x2 x2 | x2 x2 |]
+V:melody
+B||A4-|AGAB|F4-|F2F2|
+w:The song * a rob-in sings * through
+G4-|GFFG|B,4-|B,2C2|
+w:years * of end-less springs. * The
+EDCB,|D3=E|G>FF2-|F3G|
+w:mur-mur of a brook at e-ven-tide * that
+BAGF|G2-(3GAB|d>cc2-|c2d2||
+w:rip-ples by a nook * where two lov-ers hide. * A
+e4-|eeed|f4-|fe(3dcB|
+w:great * sym-phon-ic theme, * that's Stel-la by
+d2d2-|dcBA|c4-|c2B2|
+w:star-light * and not a dream. (Boy:) My
+w:******* (Girl:) She's
+A4-|AGAB|F4-|FFFE|
+w:heart * and I a-gree *she's ev-'ry-
+w:all * of these and more * she's ev-'ry-
+_G4-|G_GGF|F4-|F4|]
+w:thing * on earth to me.*
+w:thing * that you'd a-dore.*

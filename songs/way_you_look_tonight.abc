@@ -1,0 +1,74 @@
+X: 1
+% Copyright 1936 PolyGram International Publishing, Inc. and Aldi Music (c/o The Songwriters Guild Of America)
+T:The way you look tonight
+M:4/4
+L:1/4
+C:Jerome Kern & Dorothy Fields
+Q:1/4=200
+%%staves (chords melody)
+K:F
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Dm7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( -/Bb"" "x2 |
+"Am7 )""Fmaj7"x2 x2 | "D7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 "Gm7"x2 | "C7"x2 x2 |
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+c4 | F4 | GABA | G4 |
+w:Some day when I'm aw-f'ly low,
+ABcB | A4 | Bcdc | Bcde |
+w:when the world is cold, I will feel a glow just think-ing
+f4 | F4 | GAcB | A2G2 |
+w:of you and the way you look to-
+F4- | Fzz2 | z4 | zDEG ||
+w:night.* Oh, but you're
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Dm7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( -/Bb"" "x2 |
+"Am7 )""Fmaj7"x2 x2 | "D7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 "Gm7"x2 | "C7"x2 x2 |
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+c4 | F4 | GABA | G4 |
+w:love-ly, with your smile so warm,
+ABcB | A4 | Bcdc | Bcde |
+w:and your cheek so soft, there is noth-ing for me but to
+f4 | F4 | GAcB | A2G2 |
+w:love you, just the way you look to-
+F4- | Fzz2 | z4 | z4 ||
+w:night.*
+P:B
+V:chords
+"Abmaj7"x2 x2 | "Adim7"x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 "-/Db"x2 |
+"Cm7"x2 x2 | "Bdim7"x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 x2 |
+"Abmaj7"x2 x2 | "Adim7"x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 "-/Db"x2 |
+"Cm7"x2 x2 | "Bdim7"x2 x2 | "C7sus"x2 x2 | "C7"x2 x2 ||
+V:melody
+c2c2 | c2c2 | c_e_dB- | B4 |
+w:With each word your ten-der-ness grows,*
+Bc_AG-| G2_A2 | f4- | f3z |
+w:tear-ing my fear* a-part,*
+_e2e2 | _e2e2 | _ef_dc- | c4 |
+w:and that laugh that wrink-les your nose*
+Bc2_A | G2_A2 | c4- | c3z ||
+w:touch-es my fool-ish heart.*
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Dm7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( -/Bb"" "x2 |
+"Am7 )""Fmaj7"x2 x2 | "D7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 "Gm7"x2 | "C7"x2 x2 |
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Bb6"x2 "Gm7"x2 | "C7"x2 x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |]
+V:melody
+c4 | F4 | GABA | G4 |
+w:Love-ly, nev-er, nev-er change,
+ABcB | A4 | Bcdc | Bcde |
+w:keep that breath-less charm, won't you please ar-range it, 'cause I
+f4 | F4 | GAcB | A2G2 |
+w:love you, just the way you look to-
+Fz3 | z4 | z4 | z4 |
+w:night,
+GAcB | [A2d2][G2e2] | [F4-f4-] | [F2f2] z2 |]
+w:just the way you look to-night.*

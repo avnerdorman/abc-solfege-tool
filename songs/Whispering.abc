@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1920, by Sherman Clay & Co., San Fransisco.
+T:Whispering
+M:4/4
+L:1/4
+C:John & Malvin Schonberger
+Q:1/4=120
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"C6"x2 x2 | x2 x2 | "F#m7"x2 x2 | "B7"x2 x2 |
+"C6"x2 x2 | x2 x2 | "A7"x2 x2 | x2 x2 ||
+V:melody
+c2Bc | dcBc | B4 | A4 |
+w:Whisp-'ring the while you cud-dle near me,
+G2^FG | AG^FG | =F4 | E4 ||
+w:whisp-'ring so no-one near can hear me;
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"D7"x2 x2 | x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"C6"x2 x2 | x2 "Ebdim7"x2 | "Dm7"x2 x2 | "G7"x2 x2 ||
+V:melody
+E2DE | AEDE | E4 | D4 |
+w:Each lit-tle whis-per seems to cheer me;
+C2DE | G2AB | A2GB | A2G2 ||
+w: I know it's true, there is no-one but you. You're
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"C6"x2 x2 | x2 x2 | "F#m7"x2 x2 | "B7"x2 x2 |
+"C6"x2 x2 | x2 x2 | "A7"x2 x2 | x2 x2 ||
+V:melody
+c2Bc | dcBc | B4 | A4 |
+w:whisp-'ring just why you'll nev-er leave me,
+G2^FG | AG^FG | =F4 | E4 ||
+w:whisp-'ring just why you'll nev-er grieve me;
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"D7"x2 x2 | x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Fmaj7"x2 x2 | x2 "Fm6"x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+E2DE | AEDE | E4 | D4 |
+w:Whis-per and say that you be-lieve me,
+DEFG | A2c2 | c4- | cz z2 |]
+w:whis-per that I love but you.*

@@ -1,0 +1,54 @@
+X:1
+%% Copyright 1940 Chappell % Co. (Renewed)
+T:It never entered my mind
+M:4/4
+L:1/4
+C:Richard Rodgers & Lorenz Hart
+Q:1/4=70
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 |
+"F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "G7"x2 x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+AAAA | z/A/G/F/ EE | z/F/E/D/ CC | FE/C/-C2 |
+w:Once I laughed when I heard you say-ing that I'd be play-ing sol-i-taire,*
+z/F/E/D/ CC | FE/C/-C2 | z/D/F/G/ A/F/A/G/- | G3z ||
+w:un-eas-y in my eas-y chair.* It nev-er en-tered my mind.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 |
+"F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "G7"x2 x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+AAAA | z/A/G/F/ EE | z/F/E/D/ CC | FE/C/-C2 |
+w:Once you told me I was mis-tak-en that I'd a-wak-en with the sun*
+z/F/E/D/ CC | FE/C/-C2 | z/D/F/G/ A/F/A/c/- | c3z ||
+w:and or-der or-ange juice for one,* It nev-er en-tered my mind.*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "Gm7"x2 "C7"x2 |
+"Fmaj7"x2 "Gm7"x2 | "Am7"x2 "G#dim7"x2 | "Am7"x2 "D7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+d2FF- | F3E | G2FF- | F2zE |
+w:You have what* I lack my-self,* anp
+A<A B<B | c<c d<d | e2cc- | c3z ||
+w:now I e-ven have to scratch my back my-self,*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A'
+V:chords
+"F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 | "F6"x2 "Am7"x2 |
+"F6"x2 "Bb7"x2 | "Am7b5"x2 "D7"x2 | "Gm7"x2 "C7"x2 |
+"Fmaj7"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "(C7)"x2 |]
+V:melody
+AAAA | z/A/G/F/ EE | z/F/E/D/ CC | FE/C/-C2 |
+w:once you warned me that if you scorned me, I'd sing the maid-en's pray'r a-gain*
+z/F/E/D/ CC | cB/A/-A2 | z/B/A/G/ FE |
+w:and wish that you were there a-gain* to get in-to my
+AE/E/-E2 | z/D/F/G/ A/F/G/F/- | F2z2 |]
+w:hair a-gain,* it nev-er en-tered my mind.*

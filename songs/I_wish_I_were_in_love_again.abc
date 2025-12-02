@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1937 Chappell & Co. (Renewed)
+T:I wish I were in love again
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=140
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x/ || "Gmaj7"x2 x2 | "Gdim7"x2 x2 | "Gmaj7"x2 x2 | "Gdim7"x2 x2 |
+"Gmaj7"x2 x2 | "Gdim7"x2 x2 | "Am7"x2 x2 | "D7"x2 x2 ||
+V:melody
+D/ || FGA>G | FGA>G | FG A/A/G/G/ | FGA>G |
+w:The sleep-less nights, the dai-ly fights, the quick to-bog-gan when you reach the heigths; I
+FG A/A/G/G/ | FGA>G | FAEG | D/D/D- D-D/D/ ||
+w:miss the kiss-es and I miss the bites, I wish I were in love a-gain!** The
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj7"x2 x2 | "Gdim7"x2 x2 | "Gmaj7"x2 x2 | "Gdim7"x2 x2 |
+"Gmaj7"x2 x2 | "Gdim7"x2 x2 | "Am7"x2 "D7"x2 | "G7"x2 x2 ||
+V:melody
+FGA>G | FGA>G | FG A/A/G/G/ | FGA>G |
+w:bro-ken dates, the end-less waits, the love-ly lov-ing and the hate-ful hates, the
+FG A/A/G/G/ | FGA>G | FAEF | B/B/B- B2 ||
+w:con-ver-sa-tion with the fly-ing plates, I wish I were in love a-gain!*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Cmaj7"x2 "Cm6"x2 | "G6"x2 "E7"x2 | "A7"x2 "D7"x2 | "G6"x2 "G7"x2 |
+"Cmaj7"x2 "Cm6"x2 | "G6"x2 "E7"x2 | "A7"x2 x2 | "D7"x2 x2 ||
+V:melody
+zB-B<A | G>zz2 | zB-B<A | G3z |
+w:No* more pain, no* more strain,
+zB-B<A | G>c-c2 | zA/A/ A/A/B | F>F-F z/D/ ||
+w:now* I'm sane, but* I would rath-er be ga-ga!* The
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gmaj7"x2 x2 | "Gdim7"x2 x2 | "Gmaj7"x2 x2 | "Gdim7"x2 x2 |
+"Gmaj7"x2 x2 | "B7"x2 "Em7"x2 | "Am7"x2 "D7"x2 | "G6"x2 x2 |]
+V:melody
+FGA>G | FGA>G | FG A/A/G/G/ | FGA>G |
+w:puled out fur of cat and cur, the fine mis-mat-ing of a him and her, I've
+FG A/A/G/G/ | FGAB | c2F2 | G2z2 |]
+w:learned my les-son, but I wish I were in love a-gain!

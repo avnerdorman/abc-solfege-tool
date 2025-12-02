@@ -1,0 +1,46 @@
+X:1
+T:Long ago (and far away)
+M:4/4
+L:1/4
+C:Jerome Kern & Ira Gershwin
+Q:1/4=220
+K:F
+%%staves (chords melody)
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Am7"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 |
+"F6"x2 "( Gm7"" "x2 | "Am7""Gm7"x2 "Bb7 )"" "x2 | "Am7"x3 "D7"x | "Gm7"x2 "C7"x2 ||
+V:melody
+F3F |FAE>D | E3E | EFDB, |
+w:Long a-go and far a-way, I dreamed a dream one
+D3C | D3C | DEF^F | A2G2 ||
+w:day and now that dream is here be-side me.
+P:B
+V:chords
+"Ab6"x2 "Fm7"x2 | "Bbm7"x2 "Eb7"x2 | "Abmaj7"x2 x2 | "G7"x2 x2 |
+"Cmaj7"x2 "( A7"" "x2 | "Dm7 )""Am7"x2 "D7"x2 | "Gm7"x2 x2 | "C7"x2 x2 ||
+V:melody
+_A3A | _AcGF | G3G | G=BFE |
+w:Long the skies were o-ver-cast, but now the clouds have
+G3E | A3_B | c4- | c4||
+w:passed: you're here at last! *
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Am7"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 |
+"F6"x2 "( Gm7"" "x2 | "Am7""Gm7"x2 "Bb7 )"" "x2 | "Am7"x3 "D7"x | "Gm7"x2 "C7"x2 ||
+V:melody
+F3F |FAE>D | E3E | EFDB, |
+w:Chills run up and down my spine, A-lad-din's lamp is
+D3C | D3C | DEF^F | A2G2 ||
+w:mine, the dream I dreamed was not de-nied me.
+P:C
+V:chords
+"Cm7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | "( Eb7""Bbm6"x2 "-/Db"" "x2 |
+"F/C )""Am7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+c3c | c_eBA | d4- | dBAG |
+w:Just one look and then I knew * that all I
+F3F | FAEG | F4 | z4 |]
+w:longed for long a-go was you.

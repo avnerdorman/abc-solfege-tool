@@ -1,0 +1,48 @@
+X:1
+X:2
+T:Day Dream
+M:4/4
+L:1/4
+C:Duke Ellington & Billy Strayhorn
+S:Ella Fitzgerald - , Ellington - , Tommy Flanagan -
+Q:1/4=70
+K:F
+%%staves (chords melody)
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Bbm7"x2 "A7"x2 | "Dm7"x"Db7"x "Cm7"x"B7"x | "Bbm6"x2 "C7"x2 |
+"Fm6"x2 "Dm7b5"x2 | "Db7"x2 x2 | "C7"x2 x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+C>c-c2 | (3BcB ^cA/F/-| F4 | (3FGF _A>A |
+w:Day-dream * why do you haunt me so * deep in a ros-y
+F3C | (3FGF G>F|c4|z4||
+w:glow the face of my love you show.
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Bbm7"x2 "A7"x2 | "Dm7"x"Db7"x "Cm7"x"B7"x | "Bbm6"x2 "C7"x2 |
+"Fm6"x2 "Dm7b5"x2 | "Db7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Cm7"x2 "F7"x2 ||
+V:melody
+C>c-c2|(3BcB ^cA/F/-|F4|(3FGF _A>A|
+w:Day-dream * I walk a-long on air * build-ing a cas-tle
+F3C|(3FGF c>c|A4-|A3z||
+w:there for me and my love to share.*
+P:B
+V:chords
+"Bbmaj7"x2 "Bm7"x"E7"x | "Amaj7"x2 "Bbm7"x"Eb7"x | "Abmaj7"x2 "Am7"x"D7"x | "Gmaj7"x2 x2 |
+"Gm7"x2 "C7"x2 | "Fmaj7"x2 "Ab7"x2 | "G7"x2 x2 | "Csus7"x2 "C7"x2 ||
+V:melody
+d2e>e|^c2 _e>e|=c2 d>d|=B4|
+w:Don't know the time Lord-y, I'm in a daze.
+_B2 c>c|A2d2|(3eee (3e_ed|G2^G2||
+w:Sun in the sky, while I moon a-round feel-ing haz-y.
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Bbm7"x2 "A7"x2 | "Dm7"x"Db7"x "Cm7"x"B7"x | "Bbm6"x2 "C7"x2 |
+"Fm6"x2 "Dm7b5"x2 | "Db7"x2 "C7"x2 | "Fmaj7"x2 x2 | "T.A."x2 x2 ||
+V:melody
+C>c-c2|(3BcB ^cA/F/-|F4|(3FGF _A>A|
+w:Day-dream * don't break my rev-er-ie * un-til I find that
+F3C|(3FGF cc/c/-|c4|z4|]
+w:she is day-dream-ing just like me.*

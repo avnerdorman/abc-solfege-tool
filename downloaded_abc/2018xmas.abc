@@ -1,0 +1,514 @@
+
+X: 1
+T: What Child Is This?
+T: Greensleeves
+O: trad England
+M: 6/8
+L: 1/8
+K: Dm
+D \
+| "Dm"F2G A>BA | "C"G2E C>DE | "Dm"F2D "Gm"D>^CD | "A7"E3 A,2D \
+| "Dm"F2G A>BA | "C"G2E C>DE | "Dm"F>ED "A7"^C>=B,C | "Dm"D3 D2 |]
+z \
+| "F"c3 c>BA | "C"G2E C>DE | "Dm"F2D "Gm"D>^CD | "A7"E2^C A,3 \
+| "F"c3 c>BA | "C"G2E C>DE | "Dm"F>ED "A7"^C>=B,C | "Dm"D3 D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Sing We Now of Christmas   [Dm]
+C:
+O:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+D [|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+|:\
+"Dm"F2    ED | "A7"E3 A, | "Dm"FF         ED | "A7"E4 :|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: O Come, O Come Emmanuel   [Bm]
+T: Veni Emmanuel
+R: March
+C: Trad. 15C
+O: France
+Z: Paul Hardy's Xmas Tunebook 2012 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+S: http://pghardy.net/concertina/tunebooks/pgh_xmas_tunebook.abc
+M: 4/4
+L: 1/8
+%Q: 1/4=120
+K: Bm
+"Bm"B2 |\
+d2 f2 f2 f2 | "Em"e2 g2 "A"f2 e2 | "Bm(D)"d6 "Em"e2 |\
+"Bm"f2 d2 B2 d2 | "A"e2 c2 B2 A2 | "Bm"B6 |]|\
+"Em"e2 |\
+e2 B2 B2 c2 | "D"d4 c2 B2 | "A"A6 "Bm"d2 |
+e2 f2 f2 f2 | "Em"e2 g2 "A"f2 e2 | "D"d6 |[|\
+"A"a2 |\
+a6 "F#m"f2 | f6 f2 | "Em"e2 g2 f2 e2 | "Bm"d6 e2 |\
+"D"f2 d2 "G"B2 d2 | "A"e2 c2 "F#m"B2 A2 | "Bm"B8- | B4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: How Great Our Joy   [F]
+T: While By the Sheep We Watched
+C: trad. German carol
+S: https://hymnary.org/text/while_by_my_sheep_i_watched_at_night#authority_media_flexscores
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+"^Verse"[|\
+"F"f2 ed | "F"c3 c | "Bb"d2 "C7"e2 | "F"f4 |\
+"F"f2 ed | "F"c3 c | "Bb"d2 "C7"e2 | "F"f3 \
+"^Chorus"|[| f |\
+"A7"e3 e | "Dm"d4 | "A7"e3 e | "Dm"d4 |
+"Dm"f2 "C"g2 | "F"a4 | "Dm"f2 "C"g2 | "F"a4 |\
+"F"a2 "C"g"F"f | "A7"e2 "Bb"d2 | "Gm"e2 "A7"^c2 | "Dm"d4 |\
+"F"a2 "A"g"Dm"f | "A7"e2 "Bb"d2 | "Gm"e2 "A7"^c2 | "Dm"d4 |]
+
+
+X: 1
+T: How Great Our Joy   [C]
+T: While By the Sheep We Watched
+C: trad. German carol
+S: https://hymnary.org/text/while_by_my_sheep_i_watched_at_night#authority_media_flexscores
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+"^Verse"[|\
+"C"c2 BA | "C"G3 G | "F"A2 "G7"B2 | "C"c4 |\
+"C"c2 BA | "C"G3 G | "F"A2 "G7"B2 | "C"c3 c \
+"^Chorus"|[|\
+"E7"B3 B | "Am"A4 | "E7"B3 B | "Am"A4 |
+"Am"c2 "G"d2 | "C"e4 | "Am"c2 "G"d2 | "C"e4 |\
+"C"e2 "G"d"C"c | "E7"B2 "F"A2 | "Dm"B2 "E7"^G2 | "Am"A4 |\
+"C"e2 "E"d"Am"c | "E7"B2 "F"A2 | "Dm"B2 "E7"^G2 | "Am"A4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: the Chipmunk Song    [F]
+C: words & music: Ross Bagdasarian 1958
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+% - - - - - - - - - -
+[| "F"A,2 C | D2 F | "C7"E2 B, | D3 | E2 B, | D2 F | "F"E2 D | D3 \
+|| "Gm7"B,2 D | "C7"E2 G | "Gm7"F2 D | "C7"E3 | "Gm7"F2 D | "C7"E2 G | "F"F2 D | D3 ||
+|| "F"A,2 C | D2 F | "C7"E2 C | D3 | "F"C2 D | "F7"F2 A | "Bb"A2 G | G3 \
+|| "Bb"A2 G | "Bbm"B2 A | "F"G2 F | "Gsus2"A2 E | "Gm"D2 E | "C7"C2 G | "F"F3- | Fzz |]
+
+%%newpage
+
+
+X: 0
+T: 2018 Christmas dances
+K:
+% %begintext
+% % Dance 1: (CiK) A1 , (J&L) AABB AABB , (CiK) A2 B A3
+% % Dance 2: MITH AABB x N
+% %endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 1
+P: Christmas in Killarney    [Refrain]
+C: John Redmond, James Cavanaugh, Frank Weldon
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A1"[|] B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |\
+"G"B2c d2c | "D"B2A z2D | "E7"EFE "A7"D2C | "D"D3 z2 |]
+
+
+X: 2
+P: [2x] Jefferson and Liberty  (the Gobby O)
+C: trad. Irish
+O: renamed 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: NEFR #12 (in Am rather than Ador)
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+M: 6/8
+L: 1/8
+K: Ador
+"A"|:\
+"Am"{AB}c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB |\
+"Am"c2A A^GA | E2A A2e "I"| edc "E7"BAB | "Am"E2A A3 :|
+"B"|:\
+"Am"A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E |\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+
+X: 3
+P: Christmas in Killarney    [Verse]
+C: John Redmond, James Cavanaugh, Frank Weldon
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A2"[|] B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |\
+"G"B2c d2c | "D"B2A "Bm"F2D | "E7"EFE "A7"D2C | "D"D3 z2 |]
+"B"[|] F |\
+"Bm"F2B B2c | d2B z2c | "G"d2c B2c | "Bm"F3 z2F |\
+"A"E2A A2B | c2E E2E | "Bm"d2d "E7"c2B | "A"A3 "A7"z2 |]
+"Coda"[|] B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |\
+"G"B2c d2c | "D"B2A z2D | F2F "D7"G2A | "G"B3 z2c |
+"G"d2c "G#dim"d2B | "D"A2d "Bm"z2D | "E7"EFE "A7"D2C | "D"D3 z2 |]\
+y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+%X: 4
+%P: Masters In This Hall   [Dm]  (the Female Saylor)  (Marche pour les Matelots)
+%C: Marin Marais 1706
+%N: Composed for the opera Alcyone of 1706.
+%N: Feuillet/Playford 1706
+%R: jig
+%Z: 1997 by John Chambers <jc:trillian.mit.edu>
+%B: Playford Ball
+%B: Recu\"eil de Contredances (Feuillet)
+%B: Barnes
+%M: 6/8
+%L: 1/8
+%K: Dm
+%"A"|:\
+%"Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 |  "Dm"A2G "A7"F2E  | "Dm"F2E "A7"D2^C |\
+%"Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 |  "A7"A2G     F2E  | "Dm"D6 :|
+%"B"|:\
+%"Dm"f2e "A7"d2^c | "Dm"d3     A3 |  "Dm"f2e "A7"d2^c | "Dm"d3 "D7"A2=c |\
+%"Gm"B2G "A7"A2E  | "Dm"F2D   F2G |1 "A7"A2A     ^c2c | "Dm"d3 "A7"e3 :|2 "A7"A2A F2E | "Dm"D6 |]
+
+
+X: 5
+P: [3x] Masters In This Hall [Em]
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Em
+|: "Em"E2B "B7"B2A  | "Em"G3 "Am"A3 |  "Em"B2A "B7"G2F  | "Em"G2F "B7"E2^D \
+|  "Em"E2B "B7"B2A  | "Em"G3 "Am"A3 |  "B7"B2A     G2F  | "Em"E6 :|
+|: "Em"g2f "B7"e2^d | "Em"e3     B3 |  "Em"g2f "B7"e2^d | "Em"e3 "E7"B2=d \
+|  "Am"c2A "B7"B2F  | "Em"G2E   G2A |1 "B7"B2B     ^d2d | "Em"e3 "B7"f3 :|2 "B7"B2B G2F | "Em"E6 |]
+
+
+X: 6
+P: [3x] I Saw Three Ships
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: B |\
+"G"G2G A2B | d2B "D7"A2c | "G"B2G G2B | "D7"A2F D2D |\
+"G"G2G A2B | d2B "D7"A2c | "G"B2G GAB | "D7"A3 "G"G2 :|
+|: G |\
+"G"G2G "C"G2e | "D7"d2c "G"B2G | "D7"ABc "G"B2G | "D7"ABc "G"B2G |\
+"G"G2G "C"G2e | "D7"d2c "G"B2G | "C"edc "G"BAG | "D7"A3 "G"B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: O Holy Night   [G]
+T: Cantique de No\`el
+R: Jig
+C: Adolphe Adam (1803-1856)
+O: France
+Z: Paul Hardy's Xmas Tunebook 2012 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+S: http://pghardy.net/concertina/tunebooks/pgh_xmas_tunebook.abc
+M: 6/8
+L: 1/8
+%Q: 3/8=100
+K: G
+%%continueall 0
+[|\
+"G"B3 B2 B | d3- d2 d | "C"e2 e c2 e | "G"g6 |\
+d2 d B2 A | G3 B2 c | "D"d3 c2 A | "G"G6- |\
+G4 z2 | "G"B3 B2 B | d3- d2 d | "C"e2 e c2 e | "G"g6 |
+d2 d ^c2 B | "Bm"f3 d2 e | "F#"f3 g2 f |\
+"Bm"B6- | B3 z2d | "D"d3 e3 | A3 d3 |\
+"G"e2 d g2 B | e3 d2 d | "D"d3 e3 | A3 d3 |\
+"G"e2 d g2 B | d3- d2 z ||
+"Em"g6- | g2 z f2 e | "Bm"f6- | f2 z f3 |\
+"Am"a6- | a z e e2 e | "Em"g6- | g3 z2 g |\
+"G"b6 | "D"a3- a2 d | "G"g6- | "C"g2 z f2 e |
+"G"d6- | "D"d z d e2 d | "G"d6- | d2 z g3 |\
+"D"a6- | a2 z d3 | "G"b6- | b3 "Am"a3 |\
+"G"g3- g2 z | "D"f3 g2 a | "G"g6- | g4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Dzisiaj w Betlejem
+C: words: Jan Siedlecki
+O: Trad. Polish)
+M: 3/4
+L: 1/8
+K: F
+%%continueall no
+V:1 clef=treble staves=2
+[V:1][| "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] |\
+     "Am"[cF][dF] [c2F2] "Bb"[B2F2] | "F"[A2F2] "C"[G2E2] z2 |\
+[V:1] | "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] |\
+     "Am"[cF][dF] [c2F2] "Bb"[B2F2] | "F"[A2F2] "C"[G2E2] z2 |]
+P: Chorus:
+[V:1][| "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] |\
+        "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] |\
+[V:1] | "F"[cF][dF] [cF][BF] [AF][BF] | "C"[cF][dF] [cF][BF] [AF][BF] |\
+     "F"[cF][cG]"D7"[d2^F2][c2A2] | "Gm"[B2G2]"F"[A2F2]"C7"[G2E2] | "F"[F6C6] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Don O\'iche \'ud i mBeithil
+T: That Night in Bethlehem
+O: Irish
+P: Christmas Carol
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+E2 |\
+"Am"A3c "Em"B2A2 | G2 "Am"A4 A2 | c2(de) "G"d2B2 | "Em"G6 E2 |\
+"Am"A3c "Em"B2A2 | G2 "Am"A4 A2 | c2(de) "G"B3A | "Am"A6 ||
+e2 |\
+"C"g3e d2e2 | "G"g2 "Am"a4 (ba) | "C"g2(ed) c2d2 | "E"e6 E2 |\
+"Am"A3c "Em"B2A2 | G2 "Am"A4 A2 | c2(de) "G"B3A | "Am"A6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Wondrous Love    [Dm]
+C: music: 1701 or earlier
+C: words: 1811 songbook
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Ddor
+[|\
+z2 D2 | "Dm"DC "C"EG | "F"A2 GE | "Gm"D2 DC | "Am"E2 A2 | "F"cB "G"AG | "Am"A2 GE |
+%w: What won-drous love is this, O my soul, O my soul! What won-drous love is this O my
+%
+"Dm"D4 | z2 G2  | "F"AG Ac | "Dm"d2 d2 | "F"cA A/G/E | "Dm"D2 D2 | "Dm"DC "C"EG |
+%w: soul?  What won-drous love is this that caused the Lord* of bliss to bear the dread-ful
+%
+"F"A2GE | "Gm"D2 DC | "Am"E2 A2 | "F"cB "G"AG | "Am"A2 GE | "Dm"D4 |] z4 |]
+%w: curse for my soul, for my soul, to bear the dread-ful curse for my soul.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Three Little Drummers From Africa  [Dm]
+M: 3/4
+K: Dm
+
+
+X: 1
+T: Aspenglow  [Am]
+K: Am
+
+
+X: 1
+T: Christmas Hallelujah    [G]
+C: music: Leonard Cohen
+C: words: Cloverton
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+B |\
+"G"d2d d2d | "Em"e2e e2B | "G"d2d d2d | "Em"e2-e- e2d |\
+"C"e2e e2e | "D/f#"e2d d2c | "G"d2d- d3 | "D"z3 z2B |
+"G"d2d d2d | "C"e2e "D"f2f | "Em"gg2 g2g | "C"g2g g2g |\
+"D"a2a a2a | "B"b2b "B/d#"b2a | "Em"a2g- g3 | z3 B2d |
+"C"e3 e3 | z3 e2d | "Em"B3 B3 | z3 B2d |\
+"C"e3 e3 | z3 e2d | "G"B3- BcB | "Dsus4"A3-y "D"A3 |\
+"G"G6- | G3 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Sing We Now of Christmas   [Dm]
+C:
+O:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+D [|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+|:\
+"Dm"F2    ED | "A7"E3 A, | "Dm"FF         ED | "A7"E4 :|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Angels We Have Heard on High   [C]
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+|: "C(Am)"ee "(Em)"eg | "G7"g>f "C"e2 \
+| ed eg | "G7"e>d "C"c2 :|
+|: "C"g2 "A7"a/g/f/e/ | "Dm"f2 "G7"g/f/e/d/ \
+| "C"e2 "F"f/e/d/c/ | "G7"d>G G2 \
+| "C"c"G"d "C(Am)"e "F(Dm)"f | "C"e2 "G7"d2 :| "C"c4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Frosty the Snowman   [G]
+C: music: Steve Nelson
+C: words: Jack Rollins
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"A"|:\
+"G"d4 B3c | d2 g4 "G7"fg |\
+"C"a2g2 "D7"f2e2 | "G"d6 fg |\
+"C"a2g2 "A7"f2ee | "G"d2g2 B2de |\
+"Am"d2c2 [1 "D7"B2c2 | "G"d6 "D7"z2 :|\
+         [2 "D7"B2A2 | "G"G6 H|]
+"G7"G2 "B"|\
+"C"e2e2 "A7"g2g2 | "G"f2e2 d2B2 |\
+"Am"c2e2 "D7"d2c2 | "G"B6 B-B |\
+"D"A2A2 d2d2 | f2f2 "B7"a2fg |\
+"Em"a2g2 "A7"f2e2 | "D"d2z2 "D7"d4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Jingle Bell Rock   [D]
+C: Joe Beal, Jim Booth
+S: Printed copy of unknown origin, MM rehearsal 2018-12-9
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A1"[|\
+"D"ddd2 "(A7)"ccc2 | "D"BcB2 F4 | BcB2 "B7/D#"F2A2 | "Em7"BcB2 "A7"G4 |\
+"Em7"EF2G "A7"AB2A | "Em7"EFGA- "A7"A4 |
+"A2"|| zB2A BAB2 | "A7"B2EE- E4 |\
+!segno!y\
+"D"ddd2 "(A7)"ccc2 | "D"BcB2 F4 | BcB2 "B7/D#"F2A2 | "Em7"BcB2 "A7"G4 |
+"Em7"EF2G "A7"AB2A | "Em7"EFG2 "A7"A4 | "Em7"zB2A "A7"c2A2 | "D"d6 \
+"B"|: "(D7)"dd | "G"(de2)d-d2Bd | "E7/G#"(de2)d- d3d |
+"D"d2c2 B2AF- | F6 dd |\
+"E7"(de2)d- d2Bd | ze2d- d4 | "A7"zAA2 BBBB | cB-B2 A4 ||
+"A3"||\
+"D"ddd2 "(A7)"ccc2 | "D"BcBF- F4 | BcB2 F2A2 | "B7"B8 |\
+"G"B2d2 eedd | "Gm"_BBde- e4 |
+[1 "E7"zd2B "A7"cde2 | "D"d4 z2 !segno!:|\
+[2  "E7"zd2B "A7"cBA2 | "E7"zd2B "A7"cBA2 | "E7"zd2B "A7"cde2 | "D"d8- | d6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Silent Night [G]
+T: Stille Nacht
+S: Page from Merry Minstrels' collection, shifted up an octave
+C: Franz Gruber
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/4
+K: G
+%%continueall 0
+[| "G"[dB]>[ec][dB] | "(Em)"[B3G3] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |\
+   "D"[a2d2][ad] | "D7"[f2-c2-][fc] | "G"[g2B2][gB] | "G7"[d3B3] |
+w:  Stil-*le Nacht, hei-li-ge Nacht, all-les schl\"aft,_ ein-sam wacht.
+w:  Si--lent night, Ho-*ly night, All is calm,_ all is bright.
+|  "C"[e2c2][ec] | [ge]>[fd][ec] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |\
+   "C"[e2c2][ec] | [ge]>[fd][ec] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |
+w: Nur das trau-te hoch-hei-li-ge Paar, hol-der Kna-be im lock-i-gen Haar,
+w: Round yon vir-*gen mo-ther and child, Ho-ly in-fant so ten-der and mild
+|  "D"[a2d2][ad] | "D7"[c'f]>[ad][fc] | "G(Em)"[g3B3] | "G"[b2d2]z |\
+   "(Em)"[gB2][dB][BG] | "D7"[dF]>[cA][AF] | "C"[G3-G3-] | "G"[G2G2]z |]
+w: Schlaf in himm-lich-er Ruh!_ schlaf_ in himm-lich-er Ruh!_
+w: Sleep in hea-ven-ly peace,_ Sleep_ in hea-ven-ly peace.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Auld Lang Syne (Song)
+C: words: Robert Burns
+O: music: trad.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: F
+"G7"G \
+| "C"c>B "Am7"ce | "Dm"d>c "G7"d(e/d/) | "C"c>c "C7"e"(G)"g | "F"a3 "G9"a |
+w: Should auld ac-quain-tance be for-got, and_ ne-ver brought to mind? Should
+w: And here's a hand, my trus-ty friend, and_ gie's a hand o' thine; We'll
+| "C"g>e "Am7"ec | "G7"d>c "E7"d(e/d/) | "Am"c>A "G7/D"AG | "C"c3 "G9"a |
+w: auld ac-quain-tance be for-got, and_ days of auld lang syne? For
+w: tak' a right guid wil-lie-waugh for_ auld_ lang_ syne. For
+| "C"(g>e) "Am"(ec) | "Dm"d>c "G9"da | "C"(g>e) "C7"(eg) | "F"a3 "G9"a |
+w: auld_ lang_ syne, my dear, for auld_ lang_ syne, We'll
+| "C"g>e "Am"ec | "G7"d>c "E7"d(e/d/) | "Am"(c>A) "G7"(AG) | "C"c3 |]
+w: tak' a cup o' kind-ness yet, for_ auld_ lang_ syne.

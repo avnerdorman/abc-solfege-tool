@@ -1,0 +1,46 @@
+X:1
+T:Dancing in the dark
+M:4/4
+L:1/4
+C:Arthur Schwartz
+Q:1/4=150
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Ebmaj7"x2 x2 | x2 x2 | "Gbdim7"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Abm6"x2 x2 | "( Db7 )" "Bb7"x2 x2 ||
+V:melody
+D>D D>D | D4- | D2 C>D | E2 D>C |
+w:Danc-ing in the dark* till the tune ends, we're
+A>A A>A | A4- | A2 F>G | A2 G>F ||
+w:danc-ing in the dark* and it soon ends; We're
+P:B
+V:chords
+"Eb6"x2 x2 | "Ab7"x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7b5"x2 x2 | x2 x2 | "B7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+B>B B>B | Bc2B | _d>c B2- | B4 |
+w:waltz-ing in the won-der of why we're here.*
+AB2A | _c>B A2- | A2 _G2 | F4 ||
+w:Time hur-ries by, we're here* and gone.
+P:A
+V:chords
+"Ebmaj7"x2 x2 | x2 x2 | "Gbdim7"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Abm6"x2 x2 | "( Db7 )" "Bb7"x2 x2 ||
+V:melody
+D>D D>D | D4- | D2 C>D | E2 D>C |
+w:Look-ing for the light* of a new love to
+A>A A>A | A4- | A2 F>G | A2 G>F ||
+w:bright-en up the night,* I have you, love, and
+P:B'
+V:chords
+"Eb6"x2 x2 | "Ab7"x2 x2 | "Gm7b5"x2 "Gb7"x2 | "F7"x2 "E7"x2 |
+"Eb"x2 x2 | "Abm7"x2 "Db7"x2 | "Eb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+B>B B>B | Bc2B | _d4 | =d4 |
+w:we can face the mu-sic to-geth-er,
+e>e e>e | e4- | e4- | ez z2 |]
+w:danc-ing in the dark.**

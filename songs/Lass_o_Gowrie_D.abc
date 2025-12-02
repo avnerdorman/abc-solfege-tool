@@ -1,0 +1,18 @@
+X: 1
+T: the Lass o' Gowrie
+C: "Composed by Niel Gow & his 2nd Wife." ca.1788
+%O: John Rook collection 1840
+%D:1788
+R: march
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Hugh Foss "DANCES to SONG TUNES" 1966 (music: Peter White)
+M: C
+L: 1/8
+K: D
+"^A"[|] AG \
+| "D"F2A2 "A7"A2Bc | "D"d3e d2c2 | "G"B3A "Em"B2d2 | "E7"e3f "A"e2AG |
+| "D"F2A2 "F#m"A2Bc | "Bm"d3e "F#7"f3e | "Bm"dcBA "D"d2[f2F2] | "A7"[e4E4] "D"[d2D2] :|
+"^B"|: g2 \
+| "D"f2a2 d3e | "D"fefg "B7"a2gf | "Em"g2b2 e3f | "Em"gfga "A7"b2ag |
+| "D"f2a2 "F#7"e2f2 | "Bm"d3{cd}e "F#7"f3e | "Bm"dcBA "D"d2[f2F2] | "A7"[e4E4] "D"[d2D2] :|
+%%text As a song, the parts aren't repeated.

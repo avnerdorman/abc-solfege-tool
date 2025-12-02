@@ -1,0 +1,47 @@
+X:1
+% Copyright 1938 by Gershwin Publishing Corporation
+T:Love is here to stay
+M:4/4
+L:1/4
+C:George & Ira Gershwin
+Q:1/4=130
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 ||"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "F/A"x2 "( Bb7"" "x2 | "Am7""D7"x2 "D7 )"" "x2 |
+"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "( Fmaj7""Eb7"x2 "D7"x2 | "Bm7b5""G7"x2 "E7"" "x2 ||
+V:melody
+CDA || F4 | F/GF/ GG | F4 | zCDc |
+w:It's ver-y clear our love is here to stay; not for a
+A4 | F/GF/ GG | A4 | zeed ||
+w:year but ev-er and a day. The ra-di-
+P:B
+V:chords
+"Am7 )""C7"x2 "D7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 ||
+V:melody
+c2d>c | B/B/B c>B | AAcB | GAAG |
+w:o and the tel-e-phone and the mov-ies that we know may just be
+FGEF | z/GA/ ^FG | d4 | zCDA ||
+w:pass-ing fan-cies, and in time may go. But, oh my
+P:A
+V:chords
+"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "F/A"x2 "( Bb7"" "x2 | "Am7""D7"x2 "D7 )"" "x2 |
+"G7"x2 "( Db7 )"x2 | "C7sus"x2 "C7"x2 | "( Fmaj7""Eb7"x2 "D7"x2 | "Bm7b5""G7"x2 "E7"" "x2 ||
+V:melody
+F4 | F/GF/ GG | F4 | zCDc |
+w:dear, our love is here to stay; to-geth-er
+A4 | F/GF/ GG | A4 | zeed ||
+w:we're go-ing a long, long way. In time the
+P:B'
+V:chords
+"Am7 )""C7"x2 "D7"x2 | "Gm7"x2 "C7"x2 | "Eb7"x2 "D7"x2 | "( Gm7""Bb6"x2 "G#dim7""Bdim7"x2 |
+"Am7 )""F/C"x2 "D7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+c/c/c d/dc/ | B/B/B c<c | z/A/ ^G/A/ cB | =G2d2 |
+w:Rock-ies may crum-ble, Gi-bral-tar may tum-ble, they're on-ly made of clay, but
+zcdA | c2D2 | F4- | Fz3 |]
+w:our love is here to stay.*

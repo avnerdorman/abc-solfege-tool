@@ -1,0 +1,46 @@
+X:1
+T:Strike up the band
+M:4/4
+L:1/4
+C:George & Ira Gershwin
+Q:1/4=230
+%%staves (chords melody)
+K:Bb
+%%text (up)
+%%vskip 20
+P:A
+V:chords
+x || "Bb6"x2 x2 | x2 x2 | "Bdim7"x2 x2 | x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+F/>=E/ || FGG2- | G3F/>=E/ | F_AA2- | A3F/>=E/ |
+w:Let the drums roll out!* Let the trum-pet call!* While the
+F=AA2- | A2F/GF/ | B4- | B3B/>A/ ||
+w:peo-ple shout!* Strike up the band!* Hear the
+P:A
+V:chords
+"Eb6"x2 x2 | x2 x2 | "Edim7"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Eb6"x2 x2 | "F7"x2 x2 ||
+V:melody
+Bcc2- | c3B/>A/ | B_dd2- | d3B/>A/ |
+w:cym-bals ring!* Call-ing one and all* to the
+B=dd2- | d2 B/cB/ | e4- | e2fe||
+w:mar-tial swing* strike up the band!* There is
+P:B
+V:chords
+"Bb6"x2 x2 | "( Dm7b5" " "x2 "G7" " "x2 | "Cm7" "Am7b5"x2 x2 | "Am7b5" "D7"x2 "D7" " "x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "Cm7"x2 x2 | "F7"x2 x2 ||
+V:melody
+dd/B/dd/B/ | d2ed | cc/A/cc/A/ | c2dc |
+w:work to be done, to be done! There's a war to be won, to be won! Come, you
+BB/G/BB/G/ | B2Bd | f4- | f2-f/z/F/>=E/ ||
+w:son of a son of a gun! Take your stand!** Fall in
+P:A
+V:chords
+"Bb6"x2 x2 | x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+FGG2- | G3d/>^c/ | dff2- | f3z |
+w:line, yea bo!* Come a-long, let's go!*
+e2dc | gf2d | B4- | Bzz2 |]
+w:Hey, lead-er! Strike up the band!*

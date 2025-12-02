@@ -1,0 +1,54 @@
+X:1
+%% Copyright 1964 by Productions Michel Legrand
+T:I will wait for you
+M:4/4
+L:1/4
+C:Michel Legrand
+Q:1/4=100
+%%staves (chords melody)
+K:Dm
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"A7"x2  |: "Dm"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | x2 x2 |
+"C7"x2 x2 | x2 x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm7"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | "Em7b5"x2 x2 |
+"Dm/A"x2 x2 | "A7"x2 x2 | "Dm"x2 x2 |[1 "Em7b5"x2 "A7"x2 :|[2 x2 x2 ||
+V:melody
+^GA || =G2F2 | ED^cd | c2B2 | B2^FG |
+w:If it takes for-e-ver, I will wait for you. For a
+w:**where you wan-der, an-y-where you go, e-very
+=F2E2 | DC=Bc | B2A2 | A2^GA |
+w:thou-sand sum-mers, I will wait for you. Till you're
+w:day re-mem-ber how I love you so. In your
+=G2F2 | ED^cd | c2B2 | B2AG |
+w:back be-side me, till I'm hold-ing you, till I
+w:heart be-lieve what in my heart I know, that for-
+AdD2 | EAA,2 | D4 |[1 z2 ^GA :|[2 z3 z/B/ ||
+w:hear you sigh, here in my arms. An-y- *
+w:e-ver more I'll wait for you. ** The
+P:B
+V:chords
+[L:1/8]"Bb7"x4 x4 | "Ebmaj7"x4 x4 | "Eb7"x4 x4 | "D7"x4 x4 |
+"Gm7"x4 x4 | "Em7b5"x4 "A7"x4 | "Dm"x4 x4 | "Bm7b5"x4 x4 | "Bb7"x4 x4 | "A7"x4 x4 ||
+V:melody
+[L:1/8]ccBB ccB2 | cdzB-B2zA | BBAA BBAA | cBzA-A2zG |
+w:clock will tick a-way the hours one by one,* and then the time will come when all the wait-ing's done.* The
+AAGG AAGG | BAzG-G4 | F8 | z2EFG2D2 | E8- | E4 ^G2A2 ||
+w:time when you re-turn and find me here and run* straight to my wait-ing arms.* If it
+P:A
+V:chords
+[L:1/4]"Dm"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | x2 x2 |
+"C7"x2 x2 | x2 x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm7"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | "Em7b5"x2 x2 |
+"Dm/A"x2 x2 | "A7"x2 x2 | "Dm"x2 x2 | x2 x2 |]
+V:melody
+[L:1/4]=G2F2 | ED^cd | c2B2 | B2^FG |
+w:takes for-e-ver, I will wait for you. For a
+=F2E2 | DC=Bc | B2A2 | A2^GA |
+w:thou-sand sum-mers, I will wait for you. Till you're
+=G2F2 | ED^cd | c2B2 | B2AG |
+w:back be-side me, till I'm touch-ing you, and for-
+AdD2 | EAA,2 | D4 | z4 |]
+w:e-ver more share-ing your love.

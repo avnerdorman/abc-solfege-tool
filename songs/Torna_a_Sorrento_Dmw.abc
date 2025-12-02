@@ -1,0 +1,34 @@
+X: 1
+T: Torna a Surriento  [Dm,D]
+%T: Torna a Sorrento
+%T: Come Back To Sorrento
+C: Ernesto De Curtis (1902)
+R: waltz
+%O: Italy
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"A"|: "Dm"DE FG AF | A2 A4 | "Gm"GA BG BG | "Dm"d2 d4 |
+w: 1.~Vid' o ma-re quant' \`e bel-lo,~i-spi-ra tan-tu sen-ti-men-to,
+w: 2.~Vid' o ma-re de Sur-rien-to, che te-so-ro te-ne nfun-no:
+   | "Bb"de fe de | "Dm"A2 A4 | "A7"GA GF EF | "Dm"D4 z2 :|
+K: D
+w: 1.~Com-me tu~a chi tiene a' men-te, ca sce-ta-to~'o faie sun-n\`a.
+w: 2.~chi~ha gi-ra-to tut-to~'o mun-no nun l'ha vis-to com-m'a cc\`a.
+"B"[| "D"dc AB cA | "Em"B2 B4 | "A7"cB AB cA | "D"B2 B4 |
+w: 1.~Guar-da gua' chi-stu ciar-di-no; sien-te, sie' sti sciu-re~a-ran-ce:
+w: 2.~Guar-da~at-tuor-no sti Se-re-ne, ca te guar-da-no 'ncan-ta-te,
+   | FG AF ED | "Em"G2 G4 | "A7"AB cB Ac | "D"F4 z2 |]
+w: 1.~Nu pro-fu-mo~ac-cus-si fi-no din-to~'o co-re se ne va
+w: 2.~e te von-no tan-tu be-ne  te vu-les-se-ro va-s\`a.
+"C"[|"D"dc AB cA | "Em"B2 B4 | "A7"ed cd ec | "Bb"d2 d4 |
+w: E tu di-ce:~"I' par-to, ad-dio!" t'al-lun-ta-ne da stu co-re
+   | "Gm"de =fe de | "Dm"A2 A4 | "A7"GA G=F EF | "Dm"D4 z2 |]
+w: Da sta ter-ra de l'am-mo-re tie-ne~'o co-re~'e nun tur-n\`a?
+"D"[|"D"de c3 B | "Em"d6 | "A7"zc de cB | "D"A2 A4 |
+w: Ma nun me las-s\`a, nun dar-me stu tur-mien-to!
+   | "Gm"G2 _B2 d2 | "Dm"(=f3 e) d2 | "A7"ze ^c3 d | "Dm"d4 z2 |]
+w: Tor-na~a Sur-rien-*to, fam-me cam-p\`a!
+%
+% %text Play A part as instrumental, then vocal.

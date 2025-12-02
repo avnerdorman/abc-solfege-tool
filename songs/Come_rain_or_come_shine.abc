@@ -1,0 +1,48 @@
+X: 1
+T:Come rain or come shine
+M:4/4
+L:1/8
+C:Harold Arlen & Johnny Mercer
+Q:1/4=150
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Ebmaj7"x4 x4 | "Dm7b5"x4 "G7"x4 | "( Cm""Cm7"x4 "(Db7)"" "x4 | "Cm""F7"x4 x4 |
+"F7""Fm7"x4 x4 | "Fm7""Bb7"x4 "Bb7)"" "x4 | "Eb6"x4 "( B7 )"" "x4 | "Bbm7"x4 "Eb7"x4 ||
+V:melody
+G2GG GG2G|G2GG GG2G|GEEE-E4-|E8|
+w:I'm gon-na love you like no-bod-y's loved you, come rain or come shine. **
+G2GG GG2G|B2GG GG2G|GEEE-E4-|E8||
+w:High as a moun-tain and deep as a riv-er, come rain or come shine.**
+P:B
+V:chords
+"Abm7"x4 "( Bb7 )"x4 | "Ebm6"x4 "( A7 )"x4 | "Abm7"x4 "( Gbm7 )""-/Gb"x4 | "Fm7b5"x4 "Bb7"x4 |
+"Ebm6"x4 x4 | "Bbm7"x4 "-/Ab"x4 | "Gm7b5"x4 "C7"x4 | "Fm7"x4 "Bb7"x4 ||
+V:melody
+A4A2_GA|B2E4EE|A4A2_GA|B8|
+w:I guess when you met me  it was just one of those things,
+c4c2Bc|_d2B4Bc|_dBc2B2AF|G2F6||
+w:but don't ev-er bet me  'cause I'm gon-na be true if you let me.
+P:A
+V:chords
+"Ebmaj7"x4 x4 | "Dm7b5"x4 "G7"x4 | "Cm"x4 "( Db7"x4 | "Cm )"x4 x4 |
+"( F#m7""( Em7""Am7b5"x4 "B7""A7"" "x4 |\
+ "Em7""Am7""D7"x2 "A7"" "" "x2 "Am7""D7 )"" "x2 "D7 )"" "" "x2 |\
+"G7"x4 x4 | x4 x4 ||
+V:melody
+G2GG GG2G|G2GG GG2G|GEEE-E4-|E8|
+w:You're gon-na love me like no-bod-y's loved me, come rain or come shine.**
+=A2AA AA2A|=A2AA AA2A|=BGGG-G4-|G8||
+w:Hap-py to-geth-er, un-hap-py to-geth-er and won't it be fine.**
+P:C
+V:chords
+"Gm7"x4 x4 | "C7"x4 x4 | "Cm7"x4 x4 | "F7"x4 x2 "( Fm )"x2 |
+"Cm"x4 "( A7""Am7b5"x4 | "Ab7 )""Dm7b5"x4 "G7"x4 | "Cm6"x4 x4 | "Fm7"x4 "Bb7"x4 |]
+V:melody
+c2cc cc2c|c2C4C2|c2cc cc2c|c2C2- C2D2|
+w:Days may be cloud-y or sun-ny, we're in or we're out of the mon-ey, * but
+G2GA =Ac3|d2dc dcd2|{ed}c8|z8|]
+w:I'm with you al-ways, I'm with you rain * or shine.

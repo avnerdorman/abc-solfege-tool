@@ -1,0 +1,46 @@
+X:1
+T:Time after time
+M:4/4
+L:1/4
+C:Jule Styne & Sammy Cahn
+Q:1/4=150
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Dm7"x2 "G7"x2 | "C6"x2 "Am7"x2 | "Dm7"x2 "G7"x2 |
+"Cmaj7"x2 x2 | x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 ||
+V:melody
+E2C>D|C3D|EAGE|C3D|
+w:Time af-ter time I tell my-self that I'm so
+EBAE|D3C|D4-|D3E||
+w:luck-y to be lov-ing you, * so
+P:B
+V:chords
+"Am7"x2 x2 | "F#m7b5"x2 "B7"x2 | "Em7"x2 x2 | "(Em7b5)"x2 "A7"x2 |
+"Dm7"x2 x2 | "( A7" " "x2 x2 | "Ab7" "G7"x2 x2 | "G7 )" " "x2 x2 ||
+V:melody
+c2A>B|A3B|AG^FG|E2_BA|
+w:luck-y to be the one you run to see in the
+GFEF|G3F|D4-|DB,CD||
+w:eve-ning when the day is through. * I on-ly
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Dm7"x2 "G7"x2 | "C6"x2 "Am7"x2 | "Dm7"x2 "G7"x2 |
+"Cmaj7"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Fm6"x2 x2 ||
+V:melody
+E2C>D|C3D|EAGE|C3D|
+w:know that I know, the pass-ing years will show you've
+EBAE|D3C|c4-|c3c||
+w:kept my love so young, so new. * And
+P:C
+V:chords
+"C/G"x2 x2 | "F#m7b5"x2 "Fm6"x2 | "Em7"x2 "Am7"x2 | "D7"x2 "D#dim7"x2 |
+"Em7"x2 "Am7"x2 | "Dm7"x2 "G7"x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+e2c>d|c3d|dec>d|c3d|
+w:time af-ter time you'll hear me say that I'm so
+decd|c2B2|c2z2|z4|]
+w:luck-y to be lov-ing you.

@@ -1,0 +1,52 @@
+X:1
+%% Copyright 1951 by Barton Music Corp., 9220 Sunset Blvd., Los Angeles, Calif
+T:I'm a fool to want you
+M:4/4
+L:1/4
+C:Jack Wolf, Joe Herron & Frank Sinatra
+Q:1/4=100
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x "B7"x2 |: "Em"x2 x2 | x2 "E7"x2 | "Am"x2 x2 | x2 x2 | "Em"x2 x2 |
+"C7"x2 x2 |[1 x2 x2 | "B7"x2 x2 :|[2 "Em"x2 "B7"x2 | "Em"x2 x2 ||
+V:melody
+^A,/B,/ G>^D |: F/E/-E3 | z^D/E/ c>^G | B/A/-A3 | zABc | cB FG |
+w:I'm a fool to want you,* I'm a fool to want you,* to want a love that can't be
+w:****hold you,* such a fool to hold you,* to seek a kiss not mine a-
+A>E FG |[1 A>G F/EF/- | F^A,/B,/ G>^D :|[2 B>B B/FG/ | E4 ||
+w:true, a love that's there for oth-ers too.* I'm a fool to******
+w:lone to share a ********** kiss the dev-il has known.
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | x2 x2 |
+"F#m7b5"x2 x2 | "B7"x2 x2 | "Em"x2 x2 | x2 x2 |
+"C7"x2 x2 | x2 x2 | "B7"x2 x2 | x2 x2 ||
+V:melody
+e>e e>e | e>z (3eee | ed3- | d3z |
+w:Time and time a-gain I say I'd leave you,*
+c>c c>c | c>z (3cdc | B4- | B2 zB |
+w:time and time a-gain I went a-way,* but
+A>A A>A | A>A A>A | AG3- | G2 zE |
+w:then would come the time when I would need you,* and
+G>G G>G | GEFE | F4- | F^A,/B,/ G>^D ||
+w:once a-gain these words I have to say:* I'm a fool to
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Em"x2 x2 | x2 "E7"x2 | "Am"x2 x2 | x2 x2 |
+"Em"x2 x2 | "C7"x2 x2 | "Am"x2 x2 |
+"F#m7b5"x2 "B7"x2 | "Em"x2 x2 | "T.A."x2 x2 |]
+V:melody
+F/E/-E3 | z^D/E/ c>^G | B/A/-A3 | zABc |
+w:want you,* pit-y me, I need you,* I know it's
+c>B FG | A>E FG | d>d (3cdc |
+w:wrong, it must be wrong, but right or wrong, I can't get a-
+B2- B/F/G | E4- | E4 |]
+w:long* with-out you.*

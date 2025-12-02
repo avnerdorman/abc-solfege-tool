@@ -1,0 +1,56 @@
+X:1
+%%scale		0.63
+T:I'll remember April
+M:4/4
+L:1/4
+C:Don Raye, Gene de Paul & Pat Johnson
+Q:1/4=210
+%%staves (chords melody)
+K:G
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Gmaj7"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"Gm"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"Am7b5"x2 x2 | "D7"x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Gmaj7"x2 x2 | x2 x2 ||
+V:melody
+zBcd | cB (3AGA- | A3G | FE3 |
+w:This love-ly day will length-en in-*to ev-'ning;
+zA_Bc | _BAG=F | G/A/G3- | G3G |
+w:We'll sigh good-bye to all we've ev-er had.* A-
+A3A | AAB>c |dd3- | d2 e/d/B/c/ |
+w:lone where we have walked to-geth-er,* I'll re-mem-ber
+dc3- | c2- (3cB^A | B4- | B3B ||
+w:A-pril** and be glad.* I'll
+P:B
+V:chords
+"Cm7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | "(G7)"x2 x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "(Gdim7" "Gmaj7"x2 "Gmaj7)" " "x2 | x2 x2 |
+"F#m7b5"x2 x2 | "B7"x2 x2 | "E"x2 x2 | "(Am7" "D7"x2 "D7)" " "x2 ||
+V:melody
+GGG2- | GA_Bc | d3c | _BG2F |
+w:be con-tent* you loved me once in A-pril, your
+GGG2- | GA_Bc | ddd2- | dd (3ddd |
+w:lips were warm* and love and spring were new* but I'm not a-
+d3d | ecd>B | AB3- | BBdc |
+w:fraid of Au-tumn and her sor-row* for I'll re-
+B/B/-B3- | B2(3BA^G | B4- | B4 ||
+w:mem-ber** A-pril and you.*
+P:A
+V:chords
+"Gmaj7"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"Gm"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"Am7b5"x2 x2 | "D7"x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "G6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zBcd | cB (3AGA- | A3G | FE3 |
+w:The fire will dwin-dle in-to glow-*ing ash-es;
+zA_Bc | _B2(3AG=F | G/A/G3- | G3G |
+w:for flames and love live such a lit-tle while.* I
+A>A A2- | AA (3ABc |dd3- | d2 e/d/B/c/ |
+w:won't for-get,* but I won't be lone-ly,* I'll re-mem-ber
+dc3- | c2- (3cBB | G4- | G4 ||
+w:a-pril** and I'll smile.*

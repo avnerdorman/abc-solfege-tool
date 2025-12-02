@@ -1,0 +1,47 @@
+X:1
+T:Have you met Miss Jones?
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=160
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 x2 | "F#dim7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Am7"x2 x2 | "Dm7"x2 x2 | "( Abm7""Gm7"x2 "Db7"" "x2 | "Gm7""C7"x2 "C7 )"" "x2 ||
+V:melody
+AD CD | C3z | DE FG | AB c2 |
+w:"Have you met Miss Jones?" Some one said as we shook hands.
+dG FG | F3A | B4- | B3z ||
+w:She was just Miss Jones to me.*
+P:A
+V:chords
+"F6"x2 x2 | "F#dim7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Am7"x2 x2 | "Dm7"x3 "( Dbdim7 )"x | "Cm7"x2 x2 | "F7"x2 x2 ||
+V:melody
+AD CD | C3z | DE FG | AB c2 |
+w:Then I said, "Miss Jones, you're a girl who un-der-stands
+dG FG | F3A | c4- | cd dd ||
+w:I'm a man who must be free." * And all at
+P:B
+V:chords
+"Bbmaj7"x2 "( Eb7"" "x2 | "D7 )""Abm7"x2 "Db7"x2 |\
+"Gbmaj7"x2 "( B7"" "x2 | "Bb7 )""Em7"x2 "A7"x2 |
+"Dmaj7"x2 x2 | "Abm7"x2 "Db7"x2 | "Gbmaj7"x2 x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+cB FG | _AA AA | _A_G _D_E | =EE EE |
+w:once I lost my breath, and all at once was scared to death, and all at
+ED ^FA | _d2 d2 | B4- | B3z ||
+w:once I owned the earth and sky!*
+P:A
+V:chords
+"F6"x2 x2 | "F#dim7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"Am7"x2 "Ab7""Dm7""Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+AD CD | C3z | DE FG | AB cd |
+w:Now I've met Miss Jones, and we'll keep on meet-ing till we
+e4- | ed AG | F4 | z4 |]
+w:die, * Miss Jones and I.

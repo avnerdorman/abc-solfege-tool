@@ -1,0 +1,46 @@
+X:1
+%%Copyright 1934, Warner Bros. Inc.
+T:You and the night and the music
+M:4/4
+L:1/4
+C:Arthur Schwartz & Howard Dietz
+Q:1/4=190
+K:Cm
+%%staves (chords melody)
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Cm"x2 x2 | "( Dm7b5"x2 "G7 )"x2 | "Cm"x2 "C7"x2 | "Fm"x2 x2 |
+"Dm7b5"x2 x2 | "G7"x2 x2 | "Cmaj7"x2 x2 |[1 "Ab7"x2 "G7"x2 :|[2 x2 x2 ||
+V:melody
+(3GA^F (3GA^F | GG z2 | (3GA^F G/cG/ | F2 z2 |
+w:You and the night and the mu-sic fill me with flam-ing de-sire,
+w:You and the night and the mu-sic thrill me, but will we be one
+(3FG=E (3FG=E | FF2G | =E4 | z4 :| zG=Ac ||
+w:set-ting my be-ing com-plete-ly on fire.***
+w:af-ter the night and the mu-sic are gone? Un-til the
+P:B
+V:chords
+"Ab7"x2 x2 | x2 x2 | "G7"x2 x2 | x2 x2 |
+"( Fm6" "Ab7"x2 "Eb6" " "x2 | "D7 )" " "x2 x2 | "G7"x2 "( Ab7"x2 | "G7 )"x2 x2 ||
+V:melody
+(3efd (3efd | eezc | (3de^c (3de^c | d2 z2 |
+w:pale light of dawn-ing and day-light our hearts will be throb-bing gui-tars;
+(3cd=B (3cdB | cc2d | =B>GA>F | G2z2 ||
+w:morn-ing may come with-out warn-ing, and take a-way the stars.
+P:A
+V:chords
+"Cm"x2 x2 | "( Dm7b5"x2 "G7 )"x2 | "Cm"x2 "C7"x2 | "Fm"x2 x2 |
+"Dm7b5"x2 "G7"x2 | "Cm6"x2 "Am7b5"x2 | "Ab7"x2 "G7"x2!coda! | "Cm6"x2 "( G7 )"x2 |]
+V:melody
+(3GA^F (3GA^F | GG z2 | (3GA^F G/cG/ | F2 z2 |
+w:If we must live for a mo-ment love till the mo-ment is through,
+(3FG=E (3FGA | G=A=Bc | e2 d2 | c4 |]
+w:af-ter the night and the mu-sic die will I have you?
+%%vskip 20
+%%text solo break
+V:chords
+O[|]"Gb7(b5)"cz3 | "F7(b5)"=Bz3 | z"E7(b5)"_Bz2 | z"Eb7(b5)"=Az2 |
+w:you? ***
+z/"D7(b5)"_A/zA2 | z/"Db7(b5)"G/zG>"Cm6"G | z4 | z4 ||

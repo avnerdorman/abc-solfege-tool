@@ -1,0 +1,22 @@
+X: 1
+T: Bells of Norwich
+O: England
+M: C|
+L: 1/8
+N: Sing extra chorus 4 as a coda.
+%%vocalfont Helvetica-Narrow-bold 18
+K: C
+|: "C"[c4E4] "G7"[G3D3][GD] | "C"[c2E2][e2G2] [fA][eG][dF][cE] \
+| [e2G2][c2E2] [e2G2]"F"[f2A2] |1 "G7"[g8B8] :|2 "C7"[g8_B8] |]
+w:1.~Loud are the bells of Nor-wich and the peo-ple come and go.
+w:   Here by the tower of Ju-li-an I tell them what I_ know.
+w:2.~Love like the  yel-low daf-fo-dil is com-ing through the snow.
+w:   Love like the  yel-low daf-fo-dil it touch-es all I_ know.
+w:3.~Ring for the yel-low daf-fo-dil, the flo-wer in the snow.
+w:   Ring for the yel-low daf-fo-dil and tell them what I_ know.
+[| "F"[a4F4] [f2-c2-][f2c2] | "C"[g2e2][g2e2] [ge][fd][e2c2] \
+| "G7"[d3B3][ec] [f2d2]"C"[e2c2] | "G7"[d2B2][B2G2] ([G2-G2][G2F2]) |
+w: 1\-3.~Ring out* bells of Nor-wich and let the win-ter come and go,
+w:  ~~4.~All shall be well I'm tell-ing you, let the win-ter come and go,
+| "C"[c4E4] [d2F2][e2G2] | "F"[fA][eG]([d2-F2] "G7"[d2G2])[B2F2] | "C"[c8-E8-] | [c4E4] z4 |]
+w: All shall be well a-gain,* I know.

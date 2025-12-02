@@ -1,0 +1,62 @@
+X:1
+% Transcribed from Wayne Shorter - "Speak no evil"
+T:Dance Cadaverous
+M:3/4
+L:1/4
+C:Wayne Shorter
+Q:1/4=80
+%%staves (chords melody)
+K:Bm
+%%text (jazz waltz)
+%%vskip 20
+P:intro
+V:chords
+"Abmaj7"x x x | x x x | x x x | x x x |\
+"A7"x x x | x x x | x x x | x x x ||
+V:melody
+[G=C][=F/_E/][G/C/]z | z3 | [G=C][=F/_E/][G/C/]z | z3 |\
+[GB,][A/^C/][G/B,/]z | z3 | [_B_D][A/=F/][G/_E/]z | z3 ||
+P:A
+V:chords
+"Bmmaj7"x x x | x x x | "Cmaj7(#5)"x x x | x x x |\
+"C#m7b5"x x x | x x x | "-/F#"x x x | x x x |
+"Bmmaj7"x x x | x x x | "Cmaj7(#5)"x x x | x x x |\
+"C#m7b5"x x x | x x x | "-/F#"x x x | "B7(b9,#11,13)"x x x ||
+V:melody
+^A3- | (4:3:3A2F^A | B3- | (4:3:2B3A | (4:3:2F2F2- | F3- | F3- | F3 |
+w:Bm:T *** S(nap.)** S** D*
+^A3- | (4:3:3A2F^A | B3- | (4:3:2B3A | F3- | F3- | F3- | F2B, ||
+w:T *** S(nap.)** S* D (D)>*
+P:B
+V:chords
+"Gmaj7"x x x | x x x | "C7(9)"x x x | x x x |\
+"C7"x x x | x x x | "Ebm7/Ab"x x x | x x x |
+"Fm7b5"x x x | x x x | "Bb7"x x x | x x x |\
+"Bbm7"x x x | x x x | "C#m7"x x x | "F#7(b9)"x x x ||
+V:melody
+F3- | F2E/F/ | G3- | G2-G/F/ | GF/_A,/- A,/G/-| G2-G/F/ | C3- | C3 |
+w:S*** D*** D******* ?*
+G3- | G>.B z/F/- | F3 | z>_B,- B,/_E/- | E3- | E3- | E3- | E3 ||
+w:?***?***?*S D
+P:A
+V:chords
+"Bmmaj7"x x x | x x x | "Cmaj7"x x x | x x x |\
+"C#m7b5"x x x | x x x | "-/F#"x x x | x x x |
+"Bmmaj7/D"x x x | x x x | "Cmaj7/D"x x x | x x x |\
+"Gmaj7#5"x x x | "-/F#"x x x | "Emmaj7"x x x | "Em7/D"x x x ||
+V:melody
+^A3- | (4:3:3A2FA | B3- | (4:3:2B3A | (4:3:2F2F2- | F3 | z3 | F^A>c |
+w:T***S(nap.)** S** D**
+^A3- | (4:3:3A2FA | B3- | (4:3:2B3A | F3- | F3- | F3- | F2B, ||
+w:T***S(nap.)** S** **
+P:B'
+V:chords
+"C#m7b5"x x x | x x x | "C7(9)"x x x | x x x |\
+"C7"x x x | x x x | "Ebm7/Bb"x x x | x x x |
+"G7"x x x | x x x | "Db7"x x x | x x x |\
+"Cmaj7"x x x | x x x | x x x | x x x |]
+V:melody
+F3- | F2E/F/ | G3- | G2-G/F/ | GF/_A,/- A,/G/-| G2-G/F/ | C3- | C3 |
+w:S*** D*** D******* ?*
+D3- | D2E/D/ | B,3- | B,3 | [d3-B3-] | [d3-B3-] | [d3-B3-] | [d3B3] |]
+w:(D)>*****S(nap.)***

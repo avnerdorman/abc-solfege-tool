@@ -1,0 +1,64 @@
+
+X: 1
+T: Christmas Hallelujah    [Bb]
+C: music: Leonard Cohen
+C: words: Cloverton
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+D | "Bb"F2F F2F | "Gm7"G2G G2D | "Bb"F2F F2F | G2G G2F |
+w: I've heard a-bout this ba-by boy, Who's come to earth to bring us joy, And
+ "Eb"G2G G2G | "F/A"G2F F2E | "Bb"F2F- F3 | "F"z3 z2D |
+w: I just want to sing this song* to you.* It
+ "Bb"F2F F2F | "Eb"G2G "F"A2A | "Gm"BB2 B2B | "Eb"B2B B2B |
+w: goes like this: the fourth, the fifth, the minor fall,_ the ma-jor lift. With
+ "F"c2c c2c | "D"d2d "D/F#"d2c | "Gm"c2B- B3 |
+w: e-very breath I'm sing-ing "Hal-le-lu-jah."_
+ z3 D2F | "Eb"G3 G3 | z3 G2F | "Gm"D3 D3 | z3 D2F |
+w: Hal-le-lu-jah, hal-le-lu-jah, hal-le-
+ "Eb"G3 G3 | z3 G2F | "Bb"D3- DED | "Fsus4"C3- "F"C3 | "Bb"B,6- | B,3 z2 |]
+w: \-lu-jah, hal-le-lu-_____jah.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Christmas Hallelujah    [C]
+C: music: Leonard Cohen
+C: words: Cloverton
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+E |\
+"C"G2G G2G | "Am"A2A A2E | "C"G2G G2G | "Am"A2-A- A2G |\
+"F"A2A A2A | "G/b"A2G G2F | "C"G2G- G3 | "G"z3 "(D)"z2E |
+"C"G2G G2G | "F"A2A "G"B2B | "Am"cc2 c2c | "F"c2c c2c |\
+"G"d2d d2d | "E"e2e "E/g#"e2d | "Am"d2c- c3 | z3 E2G |
+"F"A3 A3 | z3 A2G | "Am"E3 E3 | z3 E2G |\
+"F"A3 A3 | z3 A2G | "C"E3- EFE | "Gsus4"D3-y "G"D3 |\
+"C"C6- | C3 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Christmas Hallelujah    [G]
+C: music: Leonard Cohen
+C: words: Cloverton
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+B |\
+"G"d2d d2d | "Em"e2e e2B | "G"d2d d2d | "Em"e2-e- e2d |\
+"C"e2e e2e | "D/f#"e2d d2c | "G"d2d- d3 | "D"z3 z2B |
+"G"d2d d2d | "C"e2e "D"f2f | "Em"gg2 g2g | "C"g2g g2g |\
+"D"a2a a2a | "B"b2b "B/d#"b2a | "Em"a2g- g3 | z3 B2d |
+"C"e3 e3 | z3 e2d | "Em"B3 B3 | z3 B2d |\
+"C"e3 e3 | z3 e2d | "G"B3- BcB | "Dsus4"A3-y "D"A3 |\
+"G"G6- | G3 z2 |]

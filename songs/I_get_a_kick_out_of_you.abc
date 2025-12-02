@@ -1,0 +1,46 @@
+X:1
+T:I get a kick out of you
+M:4/4
+L:1/4
+C:Cole Porter
+Q:1/4=200
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"B4-       | B4                |
+w:I get no kick from cham-pagne,*
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"(3B2A2G2  | G3G               |
+w:mere al-co-hol does-n't thrill me at all, so
+"Fm7"(3A2G2F2  | "Bb7"(3F2E2F2   | "Ebmaj7"G4-       | G2  zC            |
+w:tell me why should it be true * that
+"Fm7"FG  AB-   | "Bb7"BA2G       | "Eb6"E4-         | Ez  z2            ||
+w:I get a kick * out of you?*
+P:A
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"B4-       | B4                |
+w:Some like a bop type re-frain*
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"(3B2c2=A2 | (3B2c2=A2         |
+w:I'm sure that if I heard ev-en one riff that would
+"Fm7"(3B2c2=A2 | "Bb7"(3B2=A2_A2 | "Ebmaj7"G4-       | G2  zC            |
+w:bore me ter-rif-ic-'ly too, * yet
+"Fm7"FG  AB-   | "Bb7"BA2G       | "Eb6"E4-         | Ez  z2            ||
+w:I get a kick * out of you.*
+%%newpage
+P:B
+"Eb7"zE  FG    | (3A2B2c2        | "Db/Ab"_d3"Ab"c  | "Db/Ab"_d2 z"Ab"c |
+w:I get a kick ev-'ry time I see you're
+"Eb7"c3B       | c3B             | "Edim7"B4           | C4                |
+w:stand-ing there be-fore me.
+"Fm6"zC  =D=E  | (3F2G2A2        | "Bbm/F"B3"Fm"A   | "Bbm/F"B2  z"Fm"A |
+w:I get a kick tho' it's clear to me you
+"F7"G3F        | Fc2F            | "Fm7"E4          | "Bb7"D4           ||
+w:ob-vious-ly don't a-dore me.
+P:A
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"B4-       | B4                |
+w:I get no kick in a plane,*
+"Fm7"zC  DE    | "Bb7"(3F2G2A2   | "Ebmaj7"(3B2c2d2  | (3e2f2d2          |
+w:fly-ing too high with some guy in the sky is my
+"Fm7"(3e2d2c2  | "Bb7"(3d2c2B2   | "Gm7"G4-         | "C7"G2  zC        |
+w:i-dea of noth-ing to do, * yet
+"Fm7"(3F2G2A2  | "Fm7"Bc2d       | "Eb6"e4          | z4                |]
+w:I get a kick out of you.

@@ -1,0 +1,51 @@
+X:1
+T:Prelude to a kiss
+M:4/4
+L:1/4
+C:Duke Ellington & Irving Gordon
+C:& Irving Mills
+Q:1/4=72
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"D7"x2 "G7"x2 | "C7"x2 "Fmaj7"x2 | "B7"x2 "E7"x2 | "A7"x2 "Dm7"x2 |
+"(G7sus)""Dm7"x2 "G7"x"(-/F"" "x | "C/E""Am7"x2 "Ebdim7)""D7"x2 | "Dm7"x2 "G7"x2 | "C6"x"(F7"x "E7"x"Eb7"x ||
+V:melody
+B_B A_A | GA/E/- (3EFG | ^G=G ^F=F | EF/D/- D2 |
+w:If you hear a song in blue * like a flow-er cry-ing for the day*
+(3GGG (3G^GA | Cd/B/- B2 | D/E/F/_A/- AA/=A/- | A2 z2 ||
+w:that was my heart ser-a-nad-ing you, * my pre-lude to * a kiss.*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"D7"x2 "G7"x2 | "C7"x2 "Fmaj7"x2 | "B7"x2 "E7"x2 | "A7"x2 "Dm7"x2 |
+"(G7sus)""Dm7"x2 "G7"x"(-/F"" "x | "C/E""Am7"x2 "Ebdim7)""D7"x2 | "Dm7"x2 "G7"x2 | "C6"xx "F#m7b5"x"B7"x ||
+V:melody
+B_B A_A | GA/E/- (3EFG | ^G=G ^F=F | EF/D/- D2 |
+w:If you hear a song that grows * from my ten-der sen-ti-men-tal woes*
+(3GGG (3G^GA | Cd/B/- B2 | D/E/F/_A/- A=A/C/- | C4 ||
+w:that was my heart try-ing to com-pose * a pre-lude to * a kiss.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Emaj7"x2 "C#m7"x2 | "F#m7b5"x2 "B7"x2 | "G#m7"x2 "Gdim7"x2 | "F#m7"x2 "B7"x2 |
+"Emaj7"x2 "C#m7"x2 | "F#m7b5"x2 "B7"x2 | "Bb7"x2 "A7"x2 | "Dm7"x"Ebm7"x "Em7"x"A7"x ||
+V:melody
+z^A/B/ ^D/E/^d/^c/ | B/=A/C- C^C | z^F/F/ FE | zA/A/ A2 |
+w:Though it's just a sim-ple me-lo-dy * with noth-ing fan-cy, noth-ing much
+z^A/B/ ^D/E/^d/^c/ | B/=A/C- C^C | E/EE/- EE/E/ | G^G A^A ||
+w:you could turn it to a sym-pho-ny * a Schu-bert tune * with a Gersh-win touch Oh!
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"D7"x2 "G7"x2 | "C7"x2 "Fmaj7"x2 | "B7"x2 "E7"x2 | "A7"x2 "Dm7"x2 |
+"(G7sus)""Dm7"x2 "G7"x"(-/F"" "x | "C/E""Am7"x2 "Ebdim7)""D7"x2 | "Dm7"x2 "G7"x2 | "C6"x"(F7"x "E7"x"Eb7"x |]
+V:melody
+B_B A_A | GA/E/- (3EFG | ^G=G ^F=F | EF/D/- DD |
+w:How my love song gen-tly cries * for the ten-der-ness with-in your eyes * my
+(3GGG (3G^GA | Cd/B/- B2 | D/E/F/_A/- A=A/C/- | C4 |]
+w:love is a pre-lude that nev-er dies, * a pre-lude to * a kiss.*

@@ -1,0 +1,48 @@
+X:1
+%%Copyright 1939, Lewis Music Publishing Co., Inc
+T:Darn that dream
+M:4/4
+L:1/4
+C:Jimmy Van Heusen
+Q:1/4=70
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"G6"x2 "Bbm7"x"Eb7"x | "Am7"x2 "B7(b5)"x2 | "Em7"x"-/D"x "C#m7b5"x"Cm6"x | "Bm7"x2 "E7"x2 |
+"Am7"x2 "Cm6"x"(F7)"x | "Bm7"x2 "Bbdim7"x2 | "Am7"x2 "D7"x2 | "Bm7"x"Bb7"x "Am7"x"D7"x ||
+V:melody
+DG_E>E | =EA=F>^F | GB^G/A/B/c/ | deB2 |
+w:Darn that dream I dream each night, you say you love me and you hold me tight,
+Bdc/B/A/G/ | FAE_E | D2F2 |D4 ||
+w:but when I a-wake you're out of sight, oh, darn that dream.
+P:A
+M:none
+V:chords
+"G6"x2 "Bbm7"x"Eb7"x | "Am7"x2 "B7(b5)"x2 | "Em7"x"-/D"x "C#m7b5"x"Cm6"x | "Bm7"x2 "E7"x2 |
+"Am7"x2 "Cm6"x"F7"x | "Bm7"x2 "Bbdim7"x2 | "Am7"x2 "D7"x2 | "( Db7" "G6"x"C7" " "x"B7" "Fm7"x"Bb7 )" "Bb7"x ||
+V:melody
+DG_E>E | =EA=F>^F | GB^G/A/B/c/ | deB2 |
+w:Darn your lips and darn your eyes, they lift me high a-bove the moon-lit skies,
+Bdc/B/A/G/ | FAE_E | D2B2 |G3z ||
+w:then I tum-ble out of par-a-dise, oh, darn that dream.
+P:B
+V:chords
+"Ebmaj7"x2 "Cm7"x2 | "Fm7"x2 "Bb7"x"-/Ab"x | "Gm7"x2 "F#m7"x"B7"x | "Fm7"x2 "Bb7"x2 |
+"Emaj7"x2 "Cm7"x"-/Bb"x | "Am7b5"x"D7"x "Gm6"x2 | "Ebmaj7" "Am7"x2 "D7"x2 | "Bbm7"x"Eb7"x "Am7"x"D7"x ||
+V:melody
+z/GG/=F_E | cc_B>c |(3d_ed ^c>=B | _B_A=F2 |
+w:Darn that one track mind of mine, It can't un-der-stand that you don't care.
+z/GG/=F_E | GA_B>c | d/d/d/d/-dD | _B2 =B2 ||
+w:Just to change the mood I'm in I'd wel-come a nice* old night-mare.
+P:A
+V:chords
+"G6"x2 "Bbm7"x"Eb7"x | "Am7"x2 "B7(b5)"x2 | "Em7"x"-/D"x "C#m7b5"x"Cm6"x | "Bm7"x2 "E7"x2 |
+"Am7"x2 "Cm6"x"F7"x | "Bm7"x2 "Bbdim7"x2 | "Am7"x2 "D7"x2 | "G6"x2 "T.A."x2 |]
+V:melody
+DG_E>E | =EA=F>^F | GB^G/A/B/c/ | deB2 |
+w:Darn that dream and bless it, too, with-out that dream I nev-er would have you,
+Bdc/B/A/G/ | FAE_E | D2B2 |G3z |]
+w:but it haunts me and it won't come true, oh, darn that dream.

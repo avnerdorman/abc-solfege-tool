@@ -1,0 +1,47 @@
+X:1
+%%vocalfont Helvetica 12.0
+T:Lullaby of the leaves
+M:4/4
+L:1/4
+C:Bernice Petkere & Joe Young
+Q:1/4=110
+%%staves (chords melody)
+K:Cm
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+C>DE>F | ^FGe>d | c>dc>G | BAEF |
+w:Crad-le me where south-ern skies can watch me with a mil-lion eyes, Oh
+(3GGG G2 | (3GGG GE | C4-| C2z2 ||
+w:sing me to sleep, lul-la-by of the leaves.*
+P:A
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+C>DE>F | ^FGe>d | c>dc>G | BAEF |
+w:Cov-er me with heav-en's blue and let me dream a dream or two, Oh
+(3GGG G2 | (3GGG GE | C4-| C3z/C/ ||
+w:sing me to sleep, lul-la-by of the leaves.* I'm
+P:B
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+(3C/^C/D/ E/>E/ (3E/D/C/ =C/>C/ | (3C/^C/D/ E/>E/ (3E/D/C/ =C/>C/ | G>=EG>E | G3z/C/ |
+w:breez-ing a-long, a-long with the breeze, I'm hear-ing a song, a song through the trees, Ooh, ooh, ooh, ooh, ooh, ooh. That
+(3C/^C/D/ E/>E/ (3E/D/C/ =C/>C/ | (3C/^C/D/ E/>E/ (3E/D/C/ =C/>C/ | G>=EG2- | G/z/_EED ||
+w:pine mel-o-dy car-ess-ing the shore, fa-mi-liar to me, I've heard it be-fore, Ooh, ooh, ooh, ooh.* That's south-land.
+P:A
+V:chords
+x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+V:melody
+C>DE>F | ^FGe>d | c>dc>G | BAEF |
+w:Don't I feel it in my soul, and don't I know I've reached my goal, Oh
+(3GGG G2 | (3GGG ee | c4-| czz2 ||
+w:sing me to sleep, lul-la-by of the leaves.*

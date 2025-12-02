@@ -1,0 +1,48 @@
+X:1
+%% Copyright ...
+T:A flower is a lovesome thing
+M:4/4
+L:1/8
+C:Billy Strayhorn
+%%staves (chords melody)
+Q:1/4=72
+K:Db
+%%text (Ballad)
+%%vskip 20
+P:A
+V:chords
+x || "Cb7(#11)""Ebm7b5/Db"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"Bb7"x4 "Eb7"x4 | "Ab7"x4 "Db7"x4 | "(Gbm7)""Dmaj7"x4 "Eb7"x2"Dmaj7"x2 | "Db6"x4 x4 ||
+V:melody
+F || AGFG F2F2 | F6zF | AGFG F2F2 | F6zF |
+w:A flow-er is a love-some thing, a lusc-ious, liv-ing love-some thing, a
+GF=DB, c3B | _FECA, B3D | _F__EDED2D2 | D6zF ||
+w:daff-o-dil, a rose, no mat-ter where it grows, it's such a love-ly love-some thing. A
+P:A
+V:chords
+"Cb7(#11)""Ebm7b5/Db"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"Bb7"x4 "Eb7"x4 | "Ab7"x4 "Db7"x4 | "(Gbm7)""Dmaj7"x4 "Eb7"x2"Dmaj7"x2 | "Db6"x4 x4 ||
+V:melody
+AGFG F2F2 | F6zF | AGFG F2F2 | F6zF |
+w:flow-er is the heart of spring that makes the lone-ly hill-side sing, the
+GF=DB, c3B | _FECA, B3D | _F__EDED2D2 | D6z2 ||
+w:gen-tle winds that blow blow gen-tly for they know a flow-er is a love-some thing.
+P:B
+V:chords
+"Ebm7b5"x4 "Ab7"x4 | "(Dbdim7""Dbmaj7"x4 "Dbmaj7)"" "x4 | "Em7b5"x4 "A7"x4 | "(Ddim7""Dmaj7"x4 "Dmaj7)"" "x4 |
+"Bm7"x4 "G#m7b5"x2"Gm6"x2 | "D/F#"x4 "Bm7"x2 "-/A"x2 |\
+"Bb7/Ab"x4 "Gm7b5"x2"Gdim7"x2 | "Ab7sus"x4 "Ab7"x4 ||
+V:melody
+A3__BA2B2 | c8 | =A3BA2B2 | ^c8 |
+w:Sway-ing in the breeze, play-ing with the trees,
+^c3=dc2d2 | ^f=dd=A A^F (3F=GA | _B4B4 | B4z3=F ||
+w:In a si-lent night or in the mor-ning light, such a mir-a-cle. A-
+P:A
+V:chords
+"Cb7(#11)""Ebm7b5/Db"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"Bb7"x4 "Eb7"x4 | "Ab7"x4 "Db7"x4 | "(Gbm7)""Dmaj7"x4 "Eb7"x2"Dmaj7"x2 | "Db6"x4 x4 |]
+V:melody
+AGFG F2F2 | F6zF | AGFG F2F2 | F6zF |
+w:za-leas drink-ing pale moon-beams, gar-den-ias float-ing through day-dreams, where-
+GF=DB, c3B | _FECA, B3D | _F__EDED2D2 | D6z2 |]
+w:ev-er it may grow, no mat-ter where you go; a flow-er is a love-some thing.

@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1933, by Harms Inc
+T:I cover the waterfront
+M:4/4
+L:1/4
+C:John W. Green & Edward Heyman
+Q:1/4=80
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 "(Gm7)""Bbmaj7"x2 | "Am7"x2 "Abdim7"x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "Fmaj7"x2 x2 | "Am7"x2 "D7"x2 ||
+V:melody
+zA (3GFG | AA/2A/2- A2 | zc (3cAF | E3 D/2E/2 |
+w:I cov-er the wa-ter-front,* I'm watch-ing the sea, will the
+F/2FF/2- F>G | A/2AA/2- AG | c4- | c4 ||
+w:one I love* be com-ing back* to me?*
+P:A
+V:chords
+"Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 "(Gm7)""Bbmaj7"x2 | "Am7"x2 "Abdim7"x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "F6"x2 "Bbm6"x2 | "F6"x2 x2 ||
+V:melody
+zA (3GFG | AA/2A/2- A2 | zc (3cAF | E3 D/2E/2 |
+w:I cov-er the wa-ter-front* in search of my love, and I'm
+F/2FF/2- F>G | A/2AA/2- AG | F4- | Fzz2 ||
+w:cov-ered by* a star-less sky* a-bove.*
+P:B
+V:chords
+"Gm7"x2 "C7"x2 | "Fmaj7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 |
+"Am7"x2 "D7"x2 | "Gmaj7"x2 "Em7"x2 | "Am7"x2 "D7"x2 | "Gm7"x2 "( C7""Em7b5"x"C#dim7)""A7"x ||
+V:melody
+cc/2c/2- c2 | (3CC^C D<D | (3=ccc c<c | (3CC^C D2 |
+w:Here am I* pa-tient-ly wait-ing, hop-ing and long-ing. Oh! how I yearn!
+dd/2d/2- d2 | (3DDD E<E | (3ddd =B<B | (3_BBB G2 ||
+w:Where are you?* Are you for-get-ting? Do you re-mem-ber? Will you re-turn?
+P:A
+V:chords
+"Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 "(Gm7)""Bbmaj7"x2 | "Am7"x2 "Abdim7"x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "F6"x2 x2 | "Em7b5"x2 "A7"x2 |]
+V:melody
+zA (3GFG | AA/2A/2- A2 | zc (3cAF | E3 D/2E/2 |
+w:I cov-er the wa-ter-front,* I'm watch-ing the sea, for the
+F/2FF/2- F>G | A/2AA/2- AG | F4 | z4 |]
+w:one I love* must soon come back* to me.

@@ -1,0 +1,47 @@
+X:1
+T:My shining hour
+M:4/4
+L:1/4
+C:Harold Arlen &
+C:Johnny Mercer
+Q:1/4=240
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"( Ebmaj7" "Ebmaj7"x2 "D7" " "x2 | "Db7" "Cm7"x2 "Gb7 )" " "x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"( Ebmaj7" "Ebmaj7"x2 "D7" " "x2 | "Db7" "Cm7"x2 "Gb7 )" " "x2 | "( Cbmaj7" "Fm7"x2 x2 | "Fm7" "Dm7b5"x2 "Dm7b5" "G7"x"G7 )" " "x ||
+V:melody
+G3A | B2E2 | G3G | G2B,2 |
+w:This will be my shin-ing hour, *
+G3A | BEA2 | B,4- | B,4 ||
+w:calm and hap-py and bright,*
+P:A
+V:chords
+"( Cm7" "Cm6"x2 x2 | "-/Bb" "Am7b5"x2 x2 | "F/A" "Dm7b5"x2 x2 | "Ab7" "G7"x2 "G7 )" " "x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+E3F | G2C2 | F2F2 | F2D2 |
+w:in my dreams, your face will flow-er,
+E3F | GE=AF | B4- | B4 ||
+w:through the dark-ness of the night.*
+P:B
+V:chords
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | x2 x2 |
+"Abm6"x2 x2 | x2 x2 | "( Eb/G" "Fm7"x2 "Gbdim7" " "x2 | "Fm7" "Bb7sus"x2 "Bb7 )" "Bb7"x2 ||
+V:melody
+B3c | e2c2 | E2E2 | E2B2 |
+w:Like the lights of home be-fore me,
+E2E2 | E2B2 | E2E2 | E2B2 ||
+w:or an an-gel watch-ing o'er me,
+P:A
+V:chords
+"( Ebmaj7" "Ebmaj7"x2 "D7" " "x2 | "Db7" "Cm7"x2 "Cm7 )" " "x2 | "( Am7b5" "Ebmaj7"x2 "Abm6" "Fm7"x2 | "Eb/G" "Gm7b5"x2 "Gb7 )" "C7"x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Eb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+G3A | B2E2 | G2A2 | B2c2 |
+w:this will be my shin-ing hour,*
+e2E2 | AGF2 | E4- | E2z2 |]
+w:till I'm with you a-gain.*

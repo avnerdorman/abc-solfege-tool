@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1934 Cambell Connelly & Co Ltd, 11 Denmark Street, London
+T:The very thought of you
+M:4/4
+L:1/4
+C:Ray Noble
+Q:1/4=80
+%%staves (chords melody)
+K:Ab
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x/x || "Abmaj7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Bbm7"x2 "Eb7"x2 |
+"Ab6"x2 "Bbm7"x2 | "Bdim7"x2 "Ab/C"x2 | "Bb7"x2 x2 | x2 x2 ||
+V:melody
+C/E/C/ || E/E/E3- | E2-E/C/E/C/ | F/F/F3- | F2-F/F/A/F/ |
+w:The ve-ry thought of you,** and I for-get to do,** the lit-tle
+A>FA>F | A>F (3AFA | c/c/c3- | c2-c/c/e/c/ ||
+w:or-di-na-ry things that ev-'ry-one ought to do.** I'm liv-ing
+P:B
+V:chords
+"Bbm7"x2 "-/Ab"x2 | "Gm7b5"x2 "C7"x2 | "Fm7"x2 "-/Eb"x2 | "Dm7b5"x2 "G7"x2 |
+"Cm7"x2 "B7"x2 | "Bb7"x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 x2 ||
+V:melody
+e>ce>c | BB2A | c>Ac>A | G3F |
+w:in a kind of day-dream, I'm hap-py as a king, and
+E>CE>F | GG2A | B2-B/A/F/D/ | B,2 z/C/E/C/ ||
+w:fool-ish tho' it may seem, to me* that's ev-'ry-thing. The mere i-
+P:A
+V:chords
+"Abmaj7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Bbm7"x2 "Eb7"x2 |
+"Ab6"x2 "Bbm7"x2 | "Bdim7"x2 "Ab/C"x2 | "Bb7"x2 x2 | x2 x2 ||
+V:melody
+E/E/E3- | E2-E/C/E/C/ | F/F/F3- | F2-F/F/A/F/ |
+w:dea of you,** the long-ing here for you,** you'll nev-er
+A>FA>F | A>F (3AFA | c/c/c3- | c2-c/c/e/c/ ||
+w:know how slow the mo-ments go till I'm near to you.** I see your
+P:C
+V:chords
+"Bbm7"x2 "-/Ab"x2 | "Gm7b5"x2 "C7"x2 | "Fm7"x2 "-/Eb"x2 | "Ddim7"x2 "Adim7"x2 |
+"Bbm7"x2 "Adim7"x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+e>ce>c | BB2A | c>Ac>A | F2z/C/E/C/ |
+w:face in ev-'ry flow-er; your eyes in stars a-bove, it's just the
+E/E/E-E/C/E/C/ | E/E/E2c | A4- | Az3 |]
+w:thought of you,* the ve-ry thought of you, my love.*

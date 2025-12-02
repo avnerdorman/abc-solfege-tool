@@ -1,0 +1,66 @@
+
+X: 1
+T: Wondrous Love    [Dm]
+C: music: 1701 or earlier
+C: words: 1811 songbook
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Ddor
+D2 | "Dm"DC "C"EG | "F"A2 GE | "Gm"D2 DC | "Am"E2 || A2 | "F"cB "G"AG | "Am"A2 "Em"GE |
+w: What won-drous love is this, O my soul, O my soul! What won-drous love is this O my
+%
+"Dm"D4 | z2 || G2  | "F"AG Ac | "Dm"d2 d2 | "F"cA A/G/E | "Dm"D2 || D2 | "Dm"DC "C"EG |
+w: soul?  What won-drous love is this that caused the Lord* of bliss to bear the dread-ful
+%
+"F"A2 "Em"GE | "Gm"D2 DC | "Am"E2 || A2 | "F"cB "G"AG | "Am"A2 "Em"GE | "Dm"D4 | z2 |]
+w: curse for my soul, for my soul, to bear the dread-ful curse for my soul.
+
+%%sep 1 1 500
+
+X: 2
+T: Wondrous Love    [Em]
+C: music: 1701 or earlier
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Edor
+E2 | "Em"ED "D"FA | "G"B2 AF | "Am"E2 ED | "Bm"F2 || B2 | "G"dc "A"BA | "Bm"B2 "F#m"AF |
+"Em"E4 | z2 || A2  | "G"BA Bd | "Em"e2 e2 | "G"dB B/A/F | "Em"E2 || E2 | "Em"ED "D"FA |
+"G"B2 "F#m"AF | "Am"E2 ED | "Bm"F2 || B2 | "G"dc "A"BA | "Bm"B2 "F#m"AF | "Em"E4 | z2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Wondrous Love    [Fm]
+C: music: 1701 or earlier
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Fdor
+F2 | "Fm"FE "Eb"GB | "Ab"c2 BG | "Bbm"F2 FE | "Cm"G2 || c2 | "Ab"ed "Bb"cB | "Cm"c2 "Gm"BG |
+"Fm"F4 | z2 || B2  | "Ab"cB ce | "Fm"f2 f2 | "Ab"ec c/B/G | "Fm"F2 || F2 | "Fm"FE "Eb"GB |
+"Ab"c2 "Gm"BG | "Bbm"F2 FE | "Cm"G2 || c2 | "Ab"ed "Bb"cB | "Cm"c2 "Gm"BG | "Fm"F4 | z2 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Wondrous Love    [Am]
+C: music: 1701 or earlier
+C: words: 1811 songbook
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Ador
+A2 | "Am"AG "G"Bd | "C"e2 dB | "Dm"A2 AG | "Em"B2 || e2 | "C"gf "D"ed | "Em"e2 "Bm"dB |
+"Am"A4 | z2 || d2 | "C"ed eg | "Am"a2 a2 | "C"ge e/d/B | "Am"A2 || A2 | "Am"AG "G"Bd |
+"C"e2 "Bm"dB | "Dm"A2 AG | "Em"B2 || e2 | "C"gf "D"ed | "Em"e2 "Bm"dB | "Am"A4 | z2 |]
+

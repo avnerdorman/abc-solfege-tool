@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1937 by Gershwin Publishing Corporation
+T:Nice work if you can get it
+M:4/4
+L:1/4
+C:Ira & George Gershwin
+Q:1/4=160
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"A7"x2 "D7"x2 | "G7"x2 "C7"x2 | "F7"x2 "Bb7"x2 | "G7"x2 "G#dim7"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "F#dim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "(Bb7)"x2 ||
+V:melody
+AB BA | GA3 | FG GF | E4 |
+w:Hold-ing hands at mid-night 'neath a star-ry sky,
+C>D- D/2C/2D/2F/2 | G<A z/2C/2D/2F/2 | G<A FF/2F/2- | F3z ||
+w:nice work* if you can get it, and you can get it if you try.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"A7"x2 "D7"x2 | "G7"x2 "C7"x2 | "F7"x2 "Bb7"x2 | "G7"x2 "G#dim7"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "F#dim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "A7"x2 ||
+V:melody
+AB BA | GA3 | FG (3G_GF | E4 |
+w:Strol-ling with the one girl, sigh-ing sigh af-ter sigh,
+C>D- D/2C/2D/2F/2 | G<A z/2C/2D/2F/2 | G<A FF/2F/2- | F4 ||
+w:nice work* if you can get it, and you can get it if you try.*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Dm6"x2 x2 | "Bb7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Cm7"x2 x2 | "Dm7"x2 "G7"x2 | "C7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+z/2AF/2 AF | _A>F- F2 | A/2A/2A,/2A,/2 D<F | E4 |
+w:Just im-ag-ine some-one* wait-ing at the cot-tage door,
+z/2G_E/2 GE | G>G- GG/2A/2 | cc c/2d/2A | _A4 ||
+w: where two hearts be-come one* who could ask for an-y-thing more?
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"A7"x2 "D7"x2 | "G7"x2 "C7"x2 | "F7"x2 "Bb7"x2 | "G7"x2 "G#dim7"x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "-/F"x2 | "Eb7"x2 "D7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+AB BA | GA3 | FG (3G_GF | E4 |
+w:Lov-ing one who loves you, and then tak-ing that vow,
+C>D- D/2C/2D/2F/2 | G<A z/2C/2D/2F/2 | G<A- A2 | cA FD | F3z | z4 |]
+w:nice work* if you can get it, and if you get it,* won't you tell me how?

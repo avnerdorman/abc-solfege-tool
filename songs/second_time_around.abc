@@ -1,0 +1,50 @@
+X:1
+%% Copyright 1960 Twentieth Century Music Corporation
+T:The second time around
+M:4/4
+L:1/4
+C:Sammy Cahn & James Van Heusen
+Q:1/4=100
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"G7"x2 || "Cmaj7"x2 "( Dm7"x2 | "Em7 )"x2 "Ebdim7"x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"C6"x2 x2 | x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 ||
+V:melody
+Bc || GGG>c | BcBc | F4- | F2^AB |
+w:Love is love-li-er the sec-ond time a-round,* just as
+EEE>A | ^GAGA | D4- | D2^DE ||
+w:won-der-ful with both feet on the ground.* It's that
+P:B
+V:chords
+"Am"x2 x2 | "C7/G"x2 x2 | "Fmaj7"x2 x2 | x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "G7"x2 x2 | x2 x2 ||
+V:melody
+CCC>=D | EFG^G | A4- | A2^GA |
+w:sec-ond time you hear your love song sung,* makes you
+DDD>E | ^FGA^A | B^ABA | B2Bc ||
+w:think per-haps, that love like youth is wast-ed on the young. Love's more
+P:A
+V:chords
+"Cmaj7"x2 "( Dm7"x2 | "Em7 )"x2 "Ebdim7"x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"C6"x2 x2 | x2 x2 | "Bm7b5"x2 x2 | "E7"x2 x2 ||
+V:melody
+GGG>c | BcBc | F4- | F2^AB |
+w:comf'-ta-ble the sec-ond time you fall,* like a
+EEE>A | ^GAGA | D4- | D2^DE ||
+w:friend-ly home the sec-ond time you call.* Who can
+P:C
+V:chords
+"Am"x2 x2 | "C7/G"x2 x2 | "Fmaj7"x2 "Eb7"x2 | "D7"x2 "Ebdim7"x2 |
+"Dm7"x2 x2 | "G7"x2 "-/F"x2 | "E7"x2 x2 | "A7"x2 x2 |
+"Am7"x2 "D7"x2 | "Dm7"x2 "Fm6"x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+C3=D | EFG^G | AAAA | B2Bc |
+w:say what led us to this mir-a-cle we found? There are
+GGG2- | GA^GA | EEE2- | EG^FG |
+w:those who'll bet* love comes but once, and yet,* I'm, oh, so
+DDD>D | DECC | C4- | C2z2 |]
+w:glad we met the sec-ond time a-round.*

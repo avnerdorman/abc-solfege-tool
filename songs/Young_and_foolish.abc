@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1954 by Chappel & Co, Inc. Copyright renewed
+T:Young and foolish
+M:4/4
+L:1/4
+C:Arnold Horwitt & Albert Hague
+Q:1/4=100
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Ab7""Dm7"x2 "G7"x2 | "Cmaj7"x2 "(Am7"x"Abdim7)"x | "Gm7"x2 "C7"x2 |
+"Fmaj7"x2 x2 | "Bb7""Em7b5"x2 "A7"x2 | "Dm7"x2 "A7"x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+G3C | CD3 | zEEF | FGG2 |
+w:Young and fool-ish, why is it wrong to be
+A3D | DE3 | zFFG | GAA2 ||
+w:young and fool-ish? We have-n't long to be.
+P:B
+V:chords
+"Cmaj7"x2 x2 | "F#m7b5"x2 "B7"x2 | "C/E"x2 "E7"x2 | "Am"x2 x2 |
+"Am7"x2 x2 | "D7"x2 x2 | "Ab7""G7sus"x2 x2 | "G7"x2 x2 ||
+V:melody
+Bcc>B | Bcc>B | cGED | C4 |
+w:Soon e-nough the care-free days, the sun-lit days go by.
+cdd>c | cdBc | d4- | d4 ||
+w:Soon e-nough the blue-bird has to fly.*
+P:A
+V:chords
+"Cmaj7"x2 "Am7"x2 | "Ab7""Dm7"x2 "G7"x2 | "Cmaj7"x2 "(Am7"x"Abdim7)"x | "Gm7"x2 "C7"x2 |
+"Fmaj7"x2 x2 | "Bb7""Em7b5"x2 "A7"x2 | "Dm7"x2 "A7"x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+G3C | CD3 | zEEF | FGG2 |
+w:We were fool-ish, one day we fell in love.
+A3D | DE3 | zFFG | GAA2 ||
+w:Now we won-der what we were dream-ing of?
+P:B'
+V:chords
+"Cmaj7"x2 "F7"x2 | "E7"x2 x2 | "Am7"x2 x2 | "D7"x2 x2 |
+"C/G"x2 "Eb7""A7"x2 | "Ab7""Dm7"x2 "G7"x2 | "C6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+Bcc>B | Bc3 | cddc | e3e |
+w:Smil-ing in the sun light, laugh-ing in the rain, I
+ecAF | D>d (3dcB | c4- | czz2 |]
+w:wish that we were young and fool-ish a-gain.*

@@ -1,0 +1,32 @@
+X: 1
+%% staffsep 60
+T:I remember you
+M:4/4
+L:1/4
+C:Victor Schertzinger & Johnny Mercer
+Q:1/4=170
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+"Fmaj7"EFCD|"Fdim7"E4|"Fmaj7"EFCD|"Cm7"_EF"F7"B,C|
+w:I re-mem-ber you. You're the one who made my dreams come
+"Bbmaj7"D3F|"Bbm6"_D2 "C7"(3DED|"Fmaj7"C4|"Gm7    C7"z4||
+w:true a few kiss-es a-go.
+P:A
+"Fmaj7"EFCD|"Fdim7"E4|"Fmaj7"EFCD|"Cm7"_EF"F7"B,C|
+w:I re-mem-ber you. You're the one who said: "I love you,
+"Bbmaj7"D3F|"Bbm7"_D2 "C7"(3DED|"Fmaj7"C4|"Cm7     F7"z4||
+w:too." I do. Did-n't you know?
+P:B
+"Bbmaj7"ABFG|"Em7"A>A"A7"AG|"Dmaj7"^F4|"Em7"zA"A7"AG|
+w:I re-mem-ber too a dis-tant bell and stars that
+"Dmaj7"^F3D|"Dm7"=F2 "G7"(3FGF|"Cmaj7"E4|"Gm7   C7"z4||
+w:fell like rain, out of the blue.
+P:A
+"Fmaj7"EFCD|"Fdim7"E4|"Fmaj7"EF"(Bb7)"EF|"Am7b5"cc"D7"c>^c|
+w:When my life is through and the an-gels ask me to re-
+"Gm7"B4|"Bbm7"zB "Eb7"(3BcB|"Dm7  -/C"A4|"Bm7b5"zA"Bbm6"GF|
+w:call the thrill of them all, then I shall
+"Am7"EF"D7"CD|"Gm7"F2"C7"G2|"F6"F4|"T.A."z4|]
+w:tell them I re-mem-ber you.

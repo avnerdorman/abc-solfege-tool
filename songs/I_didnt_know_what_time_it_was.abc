@@ -1,0 +1,52 @@
+X:1
+T:I didn't know what time it was
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=135
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Em7b5"x2 "A7"x2 | "Dm"x2 "( G7 )"x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 "G7"x2 |
+"Gm7"x2 "C7"x"( C7/Bb" "( C#dim7 )"x | "Am7" "Dm7"x2 "Abdim7" "F/C"x2 |\
+"Gm7 )" "Bbmaj7"x2 "Am7"x2 | "Gm7"x2 "-/F"x2 ||
+V:melody
+A2- A/2EF/2 | GGG/2A/2F | A2-A/2EF/2 | G4 |
+w:I* did-n't know what time it was, then* I met you.
+G2- G/2DE/2 | FFF/2G/2E | DDD/2E/2C | B4 ||
+w:Oh,* what a love-ly time it was, how sub-lime it was, too!
+P:A
+V:chords
+"Em7b5"x2 "A7"x2 | "Dm"x2 "( G7 )"x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 "G7"x2 |
+"Gm7"x2 "C7"x"( C7/Bb" "( C#dim7 )"x | "Am7" "Dm7"x2 "Abdim7" "F/C"x2 |\
+"Gm7 )" "Bbmaj7"x2 "Am7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+A2- A/2EF/2 | GGG/2A/2F | A2-A/2EF/2 | G4 |
+w:I* did-n't know what day it was. You* held my hand,
+G2- G/2DE/2 | FFF/2G/2E | DDD/2E/2C | c4 ||
+w:warm* like the month of may it was, and I'll say it was grand.
+P:B
+V:chords
+"F6"x2 x2 | "Em7b5"x2 "A7"x2 | "Em7b5"x2 "A7"x2 | "Dm7"x"Db7"x "Cm7"x"Cb7"x |
+"Bbmaj7"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 "-/F"x2 ||
+V:melody
+d2- d/2c/2B/2A/2 | GG/2E/2 GG/2E/2 | GG/2E/2 G_G | F4 |
+w:Grand* to be a-live, to be young, to be mad to be yours a-lone!
+d2- d/2c/2B/2A/2 | GG/2E/2 GG/2E/2 | GG/2E/2 GF | c4 ||
+w:Grand* to see your face, feel your touch, hear your voice say I'm all your own!
+P:A
+V:chords
+"Em7b5"x2 "A7"x2 | "Dm"x2 "( G7 )"x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 "G7"x2 |
+"Gm7"x2 "C7"x"( C7/Bb" "( C#dim7 )"x | "Am7" "Dm7"x2 "Abdim7" "F/C"x2 |\
+"Gm7 )" "Bbmaj7"x2 "Am7"x2 | "Bbm7"x2 "Eb7"x2 |
+"( F/A" "F/C"x2 "Abdim7" "A7"x2 | "Gm7 )" "Bb6"x2 "C7"x2 | "F6"x2 x2 | x2 x2 |]
+V:melody
+A2- A/2EF/2 | GGG/2A/2F | A2-A/2EF/2 | G4 |
+w:I* did-n't know what year it was, life* has no prize.
+G2- G/2DE/2 | FFF/2G/2E | DDD/2E/2C | c3B |
+w:I* want-ed love and here it was shin-ing out of your eyes. I'm
+A2- A/2EF/2 | GGG/2A/2F | F4 | z4 |]
+w:wise* and I know what time it is now!

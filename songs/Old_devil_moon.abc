@@ -1,0 +1,59 @@
+X:1
+%% Copyright 1946 by The Players Music Corporation, New York, N.Y. Crawford Music Corporation, New York, N.Y.
+T:Old devil moon
+M:4/4
+L:1/8
+C:E.Y.Harburg & Burton Lane
+Q:1/4=180
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 x4 |
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 "F7"x4 |
+"Bbmaj7"x4 x4 | x4 x4 | "Bbm"x4 x4 | "Eb7"x4 x4 |
+"Abm7"x4 "Db7"x4 | "Gb6"x4 "C7"x4 | "F6"x4 x4 | "Cm7"x4 x4 ||
+V:melody
+F8 | _EEEE E2G2 | F8 | GGGGG2B2 |
+w:I look at you and sud-den-ly, some-thing in your eyes I
+A8 | BBBBB2d2 | c8- | c4c2c2 |
+w:see soon be-gins be-witch-ing me.* It's that
+c4BA2F- | F4A2B2 | c4BA2F- | F4 A2B2 |
+w:old dev-il moon* that you stole from the skies.* It's that
+_d4_cB2_G- | G4A=G2F- | F8 | z4 _ECEF- ||
+w:old dev-il moon* in your eyes.* You and your glance
+P:B
+V:chords
+"F6"x4 "Cm7/-F"x4 | "Cm7/Eb"x4 x4 | "D7"x4 x4 | x4 "Dm7"x4 |
+"Dm7"x4 x4 | "G7"x4 x4 | "Gm7"x4 x4 | "C7"x4 x4 ||
+V:melody
+F4_ECEG- | G4 (3_E2C2E2 | A4A4- | A4 FDFA- |
+w:*make this ro-mance* too hot to hand-le.* Stars in the night
+A4FDF=B- | B4(3F2D2F2 | c4c4- | cd2_A GFDC ||
+w:*blaz-ing their light* can't hold a can-dle* to your raz-zle daz-zle.
+P:A
+V:chords
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 x4 |
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 "F7"x4 |
+"Bbmaj7"x4 x4 | x4 x4 | "Bbm"x4 x4 | "Eb7"x4 x4 |
+"Abm7"x4 "Db7"x4 | "Gb6"x4 "C7"x4 | "F6"x4 x4 | "Cm7"x4 x4 ||
+V:melody
+F8 | _EEEE E2G2 | F8 | GGGGG2B2 |
+w:You've got me fly-in' high and wide, on a mag-ic car-pet
+A8 | BBBBB2d2 | c8- | c4c2c2 |
+w:ride, full of but-ter-flies in side.* Wan-na
+c4BA2F- | F4A2B2 | c4BA2F- | F4 A2B2 |
+w:cry, wan-na croon,* wan-na laugh like a loon.* It's that
+_d4_cB2_G- | G4A=G2F- | F8 | z4 _ECE2 ||
+w:old dev-il moon* in your eyes.* Just when I
+P:C
+V:chords
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 x4 |
+"Am7b5"x4 "D7"x4 | "Gm7"x4 "C7"x4 | "F6"x4 x4 | "T.A."x4 x4 |]
+V:melody
+F4F4- | F4 _ECE2 | F8- | F4 (3_e2e2e2 |
+w:think I'm* free as a dove* old dev-il
+c4 (3B2c2B2 | A4 (3F2_E2=E2 | F8 | z8 |]
+w:moon deep in your eyes blind me with love.

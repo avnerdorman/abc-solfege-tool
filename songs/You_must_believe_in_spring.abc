@@ -1,0 +1,60 @@
+X:1
+T:You must believe in spring
+M:4/4
+L:1/8
+C:Michel Legrand
+C:Lyrics: Alan & Marilyn Bergman
+Q:1/4=88
+%%staves (chords melody)
+K:D
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"C#m7b5"x4 "-/F#"x2"F#7"x2 | "A#dim7/B"x4 "Bm"x4 |
+"Em7"x4 "-/A"x2"A7"x2 | "C#dim7/D"x4 "Dmaj7"x4 |
+"G#m7b5"x4 "-/C#"x2"C#7"x2 | "F#m7b5"x4 "-/B"x2"B7"x2 |
+"Em7"x4 "-/A"x2"A7"x2 | "C#dim7/D"x4 "G#7"x4 ||
+V:melody
+zEFG B,G^A,F | EDEC D4 |
+w:When lone-ly feel-ings chill the mead-ows of your mind,
+zGAB DBCA | GFGE F4 |
+w:just think when win-ter comes, can spring be far be-hind?
+zBcd F^G^E2 | zAB=c =EF^D2 |
+w:Be-neath the deep-est snows, the se-cret of a rose
+zGAB =DB^CA | GFED E4 ||
+w:is mere-ly that it knows you must be-lieve in spring.
+P:B
+V:chords
+"C#m7b5"x4 "-/F#"x2"F#7"x2 | "A#dim7/B"x4 "Bm"x4 |
+"Em7"x4 "-/A"x2"A7"x2 | "C#dim7/D"x4 "Dmaj7"x4 |
+"G#m7b5"x4 "-/C#"x2"C#7"x2 |[K:Eb]"Gm7b5"x4 "-/C"x2"C7"x2 |
+"Fm7"x4 "-/Bb"x2"Bb7"x2 | "Ddim7/Eb"x4 "A7"x4 ||
+V:melody
+zEFG B,G^A,F | EDEC D4 |
+w:Just as a tree is sure its leaves will re-ap-pear;
+zGAB DBCA | GFGE F4 |
+w:it knows its emp-ti-ness is-just a time of year.
+zBcd F^G^E2 |[K:Eb]zBc_d =FG=E2 |
+w:The fro-zen moun-tain dreams of Ap-ril's melt-ing streams.
+zABc _Ec=DB | AGFE F4 ||
+w:How crys-tal clear it seems, you must be-lieve in spring.
+%%newpage
+P:C
+V:chords
+"Dm7b5"x4 "-/G"x2"G7"x2 | "Bdim7/C"x4 "Cm"x4 |
+"Fm7"x4 "-/Bb"x2"Bb7"x2 | "Ddim7/Eb"x4 "Ebmaj7"x4 |
+"Am7b5"x4 "-/D"x2"D7"x2 | "Gm7b5"x4 "-/C"x2"C7"x2 |
+"Fm7"x4 "-/Bb"x2"Bb7"x2 | "Ddim7/Eb"x4 "Abmaj7"x4 |
+"Dm7b5"x4 "(Ab7)""-/G"x2 "G7"x2 | "Cm6"x4 x4 |]
+V:melody
+zFGA CA=B,G | FEFD E4 |
+w:You must be-lieve in love and trust it's on its way,
+zABc EcDB | AGAF G4 |
+w:just as the sleep-ing rose a-waits the kiss of May.
+zcde G=A^F2 | zBc_d =FG=E2 |
+w:So in a world of snow, the things that come and go,
+zABc _Ec=DB | AGFE D2C2 |
+w:where what you think you know, you can't be cer-tain of, you
+GFED C2=B,2 | C8 |]
+w:must be-lieve in spring and love.

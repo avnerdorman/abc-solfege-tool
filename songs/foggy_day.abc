@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1937 by Gershwin Publishing Corporation
+T:A foggy day
+M:4/4
+L:1/4
+C:Gershwin
+Q:1/4=100
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x || "F6"x2 x2 | "Ab7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"F6"x2 x2 | "Dm7b5"x2 x2 | "G7"x2 x2 | "C7"x2 x2 ||
+V:melody
+C || CC2_E- | E3_E | DD2A- | A4 |
+w:A fog-gy day* in Lon-don town*
+F2G_A- | A3_A | G2Gd- | d4 ||
+w:had me low* and had me down.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Fmaj7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | "Bbm6"x2 x2 |
+"Fmaj7"x2 x2 | "D7"x2 x2 | "G7"x2 x2 | "C7"x2 x2 ||
+V:melody
+zeee | cc3 | A2AF- | F3F |
+w:I viewed the morn-ing with a-larm* the
+AAAc- | cc2c | A2AD- | D3C ||
+w:Brit-ish mu-se-*um had lost its charm.* How
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 x2 | "Ab7"x2 x2 | "Gm7"x2 x2 | "C7"x2 x2 |
+"F6"x2 x2 | "Dm7b5"x2 x2 | "G7"x2 x2 | "C7"x2 x2 ||
+V:melody
+C2C_E- | E_E2E | D2DA- | A2AA |
+w:long, I won-*dered, could this thing last?* But the
+F2F_A- | AB_A2 | G2Gd- | d3d ||
+w:age of mir-*a-cles had-n't passed,* for
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Cm7"x2 x2 | "F7"x2 x2 | "Bbmaj7"x2 x2 | "Bbm6"x2 x2 |
+"F6"x2 "Bb6"x2 | "F6"x2 "Bb6"x2 | "G7"x2 x2 | "C7"x2 x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+f2fd- | d3d | c2cA- | A2AB |
+w:sud-den-ly,* I saw you there* and through
+cFGB | AFGB | A2f2 | F2{G}G2 | F4 | z4 |]
+w:fog-gy Lon-don town the sun was shin-ing ev-'ry-where.

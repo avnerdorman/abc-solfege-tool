@@ -1,0 +1,46 @@
+X:1
+T:The days of wine and roses
+M:4/4
+L:1/4
+C:Henry Mancini & Johnny Mercer
+Q:1/4=140
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+V:chords
+x || "Fmaj7"x2 x2 | "Eb7"x2 x2 | "D7sus"x2 x2 | "D7"x2 x2 |
+"Gm7"x2 x2 | x2 x2 | "Bbm6"x2 x2 | x2 x2 ||
+V:melody
+P:A
+C||A4-|AGAc|d2c2-|c2cA|
+w:The days * of wine and ros-es * laugh and
+ADD2-|D2cA|A_DD2-|D2AG||
+w:run a-way * like a child at play, * through the
+P:B
+V:chords
+"Am7"x2 x2 | "Dm7"x2 x2 | "Gm7"x2 x2 | "-/F"x2 x2 |
+"Em7b5"x2 "A7"x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 x2 | "C7"x2 x2 ||
+V:melody
+GCD>E|GFAd|c3B|cBAG|
+w:mead-ow-land to-ward a clos-ing door, a door marked "nev-er
+A3E|GFE>D|G4-|G3C||
+w:more", that was-n't there be-fore. * The
+P:A
+V:chords
+"Fmaj7"x2 x2 | "Eb7"x2 x2 | "D7sus"x2 x2 | "D7"x2 x2 |
+"Gm7"x2 x2 | x2 x2 | "Bbm6"x2 x2 | x2 x2 ||
+V:melody
+A4-|AGAc|d2c2-|c2cA|
+w:lone- * ly night dis-clos-es * just a
+ADD2-|D2cA|A_DD2-|D2AG||
+w:pass-ing breeze * filled with mem-o-ries * of the
+P:B
+V:chords
+"Am7"x2 x2 | "Dm7"x2 "-/C"x2 | "Bm7b5"x2 x2 | "E7"x2 x2 |
+"Am7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+GCDE|FGAc|e4-|e3d|
+w:gold-en smile that in-tro-duced me to * the
+cAGF|AA2D|F4-|F2z2|]
+w:days of wine and ros-es and you.*

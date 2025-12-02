@@ -1,0 +1,29 @@
+X: 1
+T: O Marenariello   [Gm,G]
+C: Salvatore Gambardella (1893)
+M: 6/8
+L: 1/8
+P: Andante
+%%slurgraces
+K: Gm
+"Intro"[|]y (g2a) |\
+("D7"g3 ^f3) | zcd edc | "Gm"{d}c2B/A/ B3- | B2z (g2a) |\
+("D7"g3 ^f3) | z^fg aba | "Gm"{ba}g ^FG "D7"ABA | "Gm"{BA}G2z z2 ||
+"A"[| D |\
+"Gm"d3 "D7"cdc | "Gm"B3 B3 |\
+zBA "D7"G^FA | "Gm"G "pp"ba "D7"g^fa |\
+"Gm"gz2 z2D | "Gm"d3 "F7"cdc |\
+"Bb"B3 "Eb"B3 | "Gm"zBA "D7"G^FA |
+"Gm"Gy "pp"ba "D7"g^fa |[K:=B=e][K:G]"G"gz2 "(D7)"z3 \
+"B"|: "G"BFG B2G | "C"E3 "G"D3 |\
+B^AB "E7"c2B | "Am"{cB}A3 z3 |\
+cde "D7"f2e | "G"e2d G2z |
+"Am"ABc "D7"B2A | "G"d3 "(D7)"z3 "C":|\
+"G"z2B d2B | d3 d3 |\
+z2e f2e | "Am"e2d c3 |\
+z2A c2A | "D7"c3 c3 |\
+z2d e2d | "G"{dc}B6 |
+z2B d2B | d3 d3 |\
+z2B c2d | "Am"f3 e3 |\
+z2e d2c | "G"B3 d3 |\
+z2B "D7"{AB}A2G | "G"G3- "C"G3- | "G"G3 z2 |]

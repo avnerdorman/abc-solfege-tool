@@ -1,0 +1,46 @@
+X:1
+T:My romance
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=170
+%%staves (chords melody)
+K:Bb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x || "Bbmaj7"x2 "Cm7"x2 | "Dm7"x2 "Dbdim7"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 "D7"x2 |
+"Gm"x2 x2 | x2 "( G7 )"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 "Bb7"x2 ||
+V:melody
+D/2E/2||F3D/2E/2|FGAB|B3A/2G/2|F3B,/2C/2|
+w:My ro-mance does-n't have to have a moon in the sky, my ro-
+D3B,/2C/2|DEFG|G3F/2E/2|D3F||
+w:mance does-n't need a blue la-goon stand-ing by, no
+P:B
+V:chords
+"Ebmaj7"x2 "Ab7"x2 | "Bbmaj7"x2 "Bb7"x2 | "Ebmaj7"x2 "Ab7"x2 | "Bbmaj7"x2 x2 |
+"Em7b5"x2 "A7"x2 | "Dm7"x2 "Ab7"x2 | "Gm7"x2 "C7"x2 | "Cm7"x2 "F7"x2 ||
+V:melody
+B,3B|F3F|B,3B|F3B|
+w:month of May, no twink-ling stars, no
+A3G|F3B|A3G|F3D/2E/2||
+w:hide-a-way, no soft gui-tars. My ro-
+P:A
+V:chords
+"Bbmaj7"x2 "Cm7"x2 | "Dm7"x2 "Dbdim7"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 x2 |
+"Gm"x2 x2 | x2 "( G7 )"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 "Bb7"x2 ||
+V:melody
+F3D/2E/2|FGAB|B3A/2G/2|F3B,/2C/2|
+w:mance does-n't need a cas-tle ris-ing in Spain, nor a
+D3B,/2C/2|DEFG|G3F/2E/2|D3E/2F/2||
+w:dance to a con-stant-ly sur-pris-ing re-frain, wide a
+P:C
+V:chords
+"Ebmaj7"x2 "Dm7b5"x"G7"x | "Cm7"x2 "-/Bb"x2 | "Am7b5"x2 "D7"x2 | "Gm7"x2 "Cm7b5/Gb""Gb7"x2 |
+"Bb/F"x2 x2 | "F7sus"x2 "F7"x2 | "Bb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+G3E/2F/2|GABc|dddd|B3B/2c/2|
+w:wake I can make my most fan-tas-tic dreams come true; My ro-
+d3B/2c/2|dBGE|B4|z4|
+w:mance does-n't need a thing but you.

@@ -1,0 +1,58 @@
+X:1
+% copyright 1943 and 1944, Leeds Music Corporation, USA, MCA Music Limited
+%%staffsep 50
+T:Is you is, or is you ain't (my baby)
+M:4/4
+L:1/4
+C:Billy Austin & Louis Jordan
+Q:1/4=160
+%%staves (chords melody)
+K:Ab
+%%text (medium)
+%%vskip 20
+P:Intro
+V:chords
+"Ab6"x2 "Bbm7"x2 | "Cm7"x2 "Dbm6"x2 | "Cm7"x2 "F7"x2 | "Bbm7"x2 "Gm7b5"x"C7"x ||
+V:melody
+x2 x2 | x2 x2 | x2 x2 | x2 x2 ||
+P:A
+V:chords
+"Fm6"x2 "C7/G"x2 | "Fm6/Ab"x2 "C7/G"x2 | "Fm6"x2 "( C7 )"x2 | "F7"x2 x2 |
+"Bb7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Gm7b5"x2 "C7"x2 ||
+V:melody
+cccc|cccB/A/-|A<Fz2|z2z>F|
+w:Is you is, or is you ain't ma' ba- * by, the
+cccc|cccc/A/-|Azz2|z4||
+w:way you're act-ing late-ly makes me doubt.*
+P:A
+V:chords
+"Fm6"x2 "C7/G"x2 | "Fm6/Ab"x2 "C7/G"x2 | "Fm6"x2 "( C7 )"x2 | "F7"x2 x2 |
+"Bb7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Ebm7"x2 "Ab7"x2 ||
+V:melody
+c3c|cccB/A/-|A<Fz2|z4|
+w:You'se is still my ba-by, ba- * by,
+cccc|cccc/A/-|Azz2|z3A||
+w:seems my flame in you heart's done gone out. * A
+P:B
+V:chords
+"Db6"x2 x2 | "Gb7"x2 x2 | "Abmaj7"x2 x2 | "Ebm7"x2 "Ab7"x2 |
+"Db6"x2 x2 | "Gb7"x2 x2 | "Gb7"x2 "F7"x2 | "Bbm7"x2 "Gm7b5"x"C7"x ||
+V:melody
+B<ABA|B<ABA/c/-|c<E-EG/F/-|F3A|
+w:wo-man is a crea-ture that has al*-ways been strange,* just
+w:man is just *************
+BABA|BABA|cccc/D/-|Dzz2||
+w:when you're sure of one you find she's gone and made a change,*
+w:******* he's ******
+P:A
+V:chords
+"Fm6"x2 "C7/G"x2 | "Fm6/Ab"x2 "C7/G"x2 | "Fm6"x2 "( C7dim7 )"x2 | "F7"x2 x2 |
+"Bb7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Gb7"x2 x2 | "F7"x2 x2 ||
+"Bb7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Gm7b5"x2 "C7"x2 |]
+V:melody
+cccc|cccB/A/-|A<Fz2|z4|
+w:Is you is, or is you ain't ma' ba-*by.
+cccc|ccc/cc/-|c4-|c3F|
+w:May-be ba-by's found some-bod-y new,** or
+cccc|ccc/cA/-|A4|z4|]
+w:is ma' ba-by still my ba-by true.*

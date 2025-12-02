@@ -1,0 +1,24 @@
+X: 1
+T: Zemer Atik (Dm)
+T: Nigun Atik
+T: Old Melody
+O: Israel
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%%vocalfont Helvetica-Narrow-Bold 20
+%%vocalspace 25
+K: Dm
+[| "A"^cdBc decd | e2 z6 | "Gm"efga gfed | "A"e2 z6 |
+w: Od na-shu-va el ni-gun a-tik, ve ha ze-mer yif ve ye-'e-rav.
+  "A"eaag gffe | "Dm"d2e2 "A"^c4 | "Gm"^cdBc decB | "A"A2 z6 |]
+w: Od ga-vi-a me-shu-mar,~ na-shik, na-shik, A-li-zei ei-na-yim ve-lei-vav.
+[| "F"a4 a4 | "C"gagf "A"g2e2 | "Dm"f6 ed | "A"e2a2 e2A2 |
+w: To-vu to-vu o-ha-lei-nu. Ki ha-ma-chol hif-tsi-a,
+  "F"a4 a4 | "C"gagf "A"g2e2 | "Dm"defd "A"efe^c | "Dm"d2 z6 |]
+w: To-vu to-vu o-ha-lei-nu. Od na-shu-va el ni-gun a-tik.
+%
+W: Again we return to the ancient song,     And the melody will linger on.
+W: When we raise our glasses with a friend, Our eyes will be as bright as our hearts.
+W: How good, how good are our tents,        Because there's dancing here.
+W: How good, how good are our tents,        Still, we return to the ancient song.

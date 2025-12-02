@@ -1,0 +1,36 @@
+X:1
+T:Stormy weather
+M:4/4
+L:1/4
+P:Slow Ballad
+Q:60
+C:Words by Ted Hoehler
+C:Music by Harold Arlen
+K:G
+%%text (ballad)
+%%vskip 20
+P:A
+^A/B/ |: "Gmaj7"d2-"G#dim7"d-(3d/^A/B/ | "Am7"d/Bd//^c//"D7"=c-c/^A//B// | "GMaj7"d<D-"G#dim"D2 |
+w:Don't know why, _ * there's no sun up in the sky. * Stor-my wea-ther. _
+w:* * bare, _ * bloom-in' mis'-ry ev-ry-where. * Stor-my wea-ther. _
+"Am7"A/A/A/A/"D9"A-(3A/G/E/ | "G6"G<D-"G#dim"D2 | "Am7"z/C/E/"D7#5#9"G/^A>^A |
+w:Since my man and I * ain't to-ge-ther, _ keeps rain-in' all the
+w:Just can't get my poor * self to-ge-ther. _ I'm wear-y all the
+|1 "G6"B<G-"E7#9"G2 | "Am7"z2"D7"z^A/B/ :|
+w:ti-me. _ Life is
+|2 "G6"B<G-"C9"GG | "Bm7"E<D-"G#dim"D2 ||
+w:time, _ * the time. _ _
+P:B
+"Am7"C/E/G/^A-<"D7#5#9"^A^A/ | "G6"B<G-"G7"G2 |"C6"E/F/ (3G/A/G/- "C#dim"G/G/G/G/ | "G6/D"G>G "G7"B<G |
+w:So wear-y all _ the time. _ _ When he went a-way _ the blues walked in and met me.
+"C6"E/F/ (3G/A/G/- "C#dim"G/G/G/G/ | "G6/D"G>G "G7"E<D |"C6"E/F/ (3G/A/G/- "C#dim"G/G/G/G/
+w:If he stays a-way _ old rock-in' chair will get me. All I do is pray _ the Lord a-
+"G6/D"G>G "E7"c<B | "G6/D"d"D#dim"B/A/"Em7"GE |"Am7/D"A2"D7b9"z^A/B/ ||
+w:bove will let me walk in the sun once more. Can't go
+P:A
+"GMaj7"d2-"G#dim"d-(3d/^A/B/ | "Am7"d/B/d/^c/"D7b9"=c-c/^A//B// | "GMaj7"d<D-"G#dim"D2 |
+w:on, _ _ ev'-ry-thing I have is gone. _ Stor-my wea-ther. _
+"Am7"A/A/A/A/"D7"A-(3A/G/E/ | "G6"G<D-"G#dim"Dz | "Am7"z/C/E/G/"D7#5#9"^A>^A | "G6"B<G-"E7#9"G2 |
+w:Since my man and I _ ain't to-ge-ther, _ keeps rain-in' all the ti-me, _
+"Am7"z/C/E/G/"D7#5"^A>^A | "G6"A<G-"E7#9"G2- | "Am7"Gz"(D7)"z2 |]
+w:keeps rain-in' all the ti-me. _ _

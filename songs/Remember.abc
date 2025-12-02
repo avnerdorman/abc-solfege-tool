@@ -1,0 +1,47 @@
+X:1
+T:Remember
+M:4/4
+L:1/4
+C:Irvin Berlin
+Q:1/4=170
+S:Ella Fitzgerald - "The Irvin Berlin Songbook", Hank Mobley - "Workout"
+%%staves (chords melody)
+K:Ab
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x||"Dbmaj7"x2 x2 | "( C7" "Gm7b5"x2 "C7"x2 | "B7 )" "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "Ebm7"x2 "Ab7"x2 ||
+V:melody
+E || FA2F | c2zB | A3F | c2zA |
+w:Re-mem-ber the night, the night you said: "I
+F4 | _F2zE | ce3 | z2zE ||
+w:love you"?, re-mem-ber? Re-
+P:A
+V:chords
+"Dbmaj7"x2 x2 | "( C7" "Gm7b5"x2 "C7"x2 | "B7 )" "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "Ebm7"x2 "Ab7"x2 ||
+V:melody
+FA2F | c2zB | A3F | c2zA |
+w:mem-ber you vowed by all the stars a-
+F4 | _F2zE | ce3 | z2ze ||
+w:bove you?, Re-mem-ber? Re-
+P:B
+V:chords
+"Dbmaj7"x2 x2 | x2 x2 | x2 x2 | "Dbm6"x2 x2 |
+"Abmaj7"x2 x2 | x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 ||
+V:melody
+fa2f | a3d | f2A2 | d2zd |
+w:mem-ber we found a lone-ly spot, and
+ce2c | e3c | B3d | c2zA ||
+w:af-ter I learned to care a lot you
+P:A
+V:chords
+"Dbmaj7"x2 x2 | "( C7" "Gm7b5"x2 "C7"x2 | "B7 )" "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "Ebm7"x2 "Ab7"x2 |]
+V:melody
+FA2F | c2zB | A3F | c2zA |
+w:pro-missed that you'd for-get me not, but
+F3E | B2cd | cA3 | z4 |]
+w:you for-got to re-mem-ber.

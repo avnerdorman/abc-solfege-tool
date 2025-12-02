@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1931, Metro Goldwyn Mayer corp, New York
+T:Sweet and lovely
+M:4/4
+L:1/8
+C:Gus Arnheim, Harry Tobias & Jules Lemare
+Q:1/4=160
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"C7"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"F7"x4 x4 | "Bbmaj7"x4 "Bbm6"x4 | "G7"x4 x4 | "C6"x4 x4 ||
+V:melody
+c6d2 | d2G6 | cccc c^cdG- | G8 |
+w:Sweet and love-ly, sweet-er than the ros-es in May,*
+A6c2 | c2F6 | =B,CEG ^GAB,C- | C8 ||
+w:sweet and love-ly, heav-en must have sent her my way.*
+P:A
+V:chords
+"C7"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"F7"x4 x4 | "Bbmaj7"x4 "Bbm6"x4 | "G7"x4 x4 | "C6"x4 x4 ||
+V:melody
+c6d2 | d2G6 | cccc c^cdG- | G8 |
+w:Skies a-bove me nev-er were as blue as her eyes,*
+A6c2 | c2F6 | =B,CEG ^GAB,C- | C8 ||
+w:and she loves me, who would want a sweet-er sur-prise.*
+P:B
+V:chords
+"Fm"x4 x4 | "Cmaj7"x4 x4 | "Fm"x4 x4 | "Cmaj7"x4 x4 |
+"Abm"x4 x4 | "Ebmaj7"x4 x4 | "Ab7"x4 x4 | "G7"x4 x4 |
+V:melody
+C_AAG GFFC | =E/F/G-G6 | C_AAG GFFE | G8 |
+w:When she nes-tles in my arms so ten-der-ly* there's a thrill that words can-not ex-press,
+_E_CC_B B_AAE | G/_A/_B-B6 | _G_A _B6 | =G=A =B6 ||
+w:in my heart a song of love is taunt-ing me,* me-lo-dy haunt-ing me.
+P:A
+V:chords
+"C7"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"F7"x4 x4 | "Bbmaj7"x4 "Bbm6"x4 | "G7"x4 x4 | "C6"x4 x4 |]
+V:melody
+c6d2 | d2G6 | cccc c^cdG- | G8 |
+w:Sweet and love-ly sweet-er than the ros-es in May,*
+A6c2 | c2F6 | =B,CEG ^GAB,C- | C8 |]
+w:and she loves me, there is noth-ing more I can say.*

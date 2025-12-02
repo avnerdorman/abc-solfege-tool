@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1937 by HARMS Inc., New York
+T:Too marvellous for words
+M:4/4
+L:1/4
+C:Richard A. Whiting & Johnny Mercer
+Q:1/4=140
+%%staves (chords melody)
+K:G
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x || "Am7"x2 x2 | "D7"x2 x2 | "Am7"x2 x2 | "D7"x2 x2 |
+"Gmaj7"x2 x2 | "C7"x2 x2 | "(Bm7""G/B"x2 "A#dim7"" "x2 | "Bm7""E7"x2 "E7)"" "x2 ||
+V:melody
+D || A3E | B/B/B2E | ABAE | B3A |
+w:You're just too mar-vel-lous, too mar-vel-lous for words, like
+FG/E/- E2 | FG/E/- E>F | B,DEG | F/G/E2D ||
+w:glo-ri-ous,* glam-our-ous* and that old stand-by, am-or-ous, it's
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Am7"x2 x2 | "D7"x2 x2 | "Am7"x2 x2 | "D7"x2 x2 |
+"Gmaj7"x2 x2 | "(C7)"x2 x2 | "B6"x2 "F#7"x2 | "B6"x2 "Ebdim7"x2 ||
+V:melody
+A3E | B/B/B2E | ABAE | B3A |
+w:all too won-der-ful, I'll nev-er find the words, that
+FG/E/- E2 | FG/E/- EF | ^DF ^G^c | B/^c/B2B ||
+w:say e-nough,* tell e-nough,* I mean they just aren't swell e-nough, you're
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Dm7"x2 x2 | "G7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Cmaj7"x2 x2 | "F7"x2 x2 | "Em7"x2 "A7"x2 | "Am7"x2 "D7"x"(E7)"x ||
+V:melody
+d3A | c3B | dddA | cc2G |
+w:much too much, and just too ve-ry ve-ry to
+B3G | A3G | BAGF | EF2D ||
+w:ev-er be in Web-ster's Dic-tion-a-ry, and
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Am7"x2 x2 | "D7"x2 x2 | "(Bm7""G"x2 "-/F"x2 | "E7)""E7sus"x2 "E7"x2 |
+"Am7"x2 x2 | "Cm7"x2 x2 | "D7"x2 x2 | "G6"x2 x2 |]
+V:melody
+A3E | B/B/B2A | FG AB | d3B |
+w:so I'm bor-row-ing a love song from the birds, to
+d^c=cE | d/^c/=c2B | ABGA | G3z |]
+w:tell you that you're mar-vel-lous, too mar-vel-lous for words.

@@ -1,0 +1,53 @@
+X:1
+%% Copyright 1950 by Duchess Music Corp. New York
+T:The end of a love affair
+M:4/4
+L:1/4
+C:Edward C. Redding
+Q:1/4=180
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x |: "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Fm7"x2 "Bb7"x2 | "Ebmaj7"x2 x2 |
+"Ebm7"x2 "Ab7"x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 "C7"x2 |[1 "Fmaj7"x2 x2 :|[2 "Fmaj7"x2 x2 ||
+V:melody
+F/G/ |: A>A (3AGF | E2 zD/C/ | G>G (3GF_E | D2zC/B,/ |
+w:So I walk a lit-tle too fast, and I drive a lit-tle too fast, and I'm
+w:**talk a lit-tle too much, and I laugh a lit-tle too much, and my
+FF/F/ F_A/B/ | FF/F/ F_E/_D/ | CC/B,/ C>C |[1 C2 zF/G/ :|[2 C2 zD/E/ ||
+w:reck-less, it's true, but what else can you do, at the end of a love af-fair? So I***
+w:voice is too loud, when I'm out in a croud, so that peo-ple are apt to*** stare. Do they
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Dm7"x2 "G7"x2 | "Dm7"x2 "G7"x2 | "Dm7"x2 "G7"x2 | "Dm7"x2 "G7"x2 |
+"Cmaj7"x2 x2 | "Am7"x2 "D7"x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+FD/F/ AF/D/ | FF2D/E/ | FD/F/ AF/D/ | F2zE/F/ |
+w:know, do they care that it's on-ly that I'm lone-ly and low as can be? And the
+GE/G/ =BA/G/ | A=B/c/ d>d | d4- | d2 zF/G/ ||
+w:smile on my face is-n't real-ly a smile at all!* So I
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Fm7"x2 "Bb7"x2 | "Ebmaj7"x2 x2 |
+"Ebm7"x2 "Ab7"x2 | "Ebm7"x2 "Ab7"x2 | "Dbmaj7"x2 "C7"x2 | "Cm7"x2 "F7"x2 ||
+V:melody
+A>A (3AGF | E2 zD/C/ | G>G (3GF_E | D2zC/B,/ |
+w:smoke a lit-tle too much, and I drink a lit-tle too much, and the
+FF/F/ F_A/B/ | FF/F/ F_E/_D/ | CC/B,/ C>C | c2 zB/A/ ||
+w:tunes I re-quest are not al-ways the best, but the ones where the trum-pets blare! So I
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Bbmaj7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Fmaj7"x2 x2 | "Abdim7"x2 x2 |
+"Gm7"x2 "C7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+AA/G/ (3AAG | B2 z/A/G/F/ | EE/D/ EE/D/ | G2 zF/E/ |
+w:go at a mad-den-ing pace, and I pre-tend that it's tak-ing his/her place, but what
+DD/C/ DD/C/ | DF/B/ d>E | F4 | z4 |]
+w:else can you do, at the end of a love af-fair?

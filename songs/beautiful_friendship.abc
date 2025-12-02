@@ -1,0 +1,50 @@
+X:1
+T:A beautiful friendship
+M:4/4
+L:1/4
+C:D. Kahn
+Q:1/4=180
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Ebmaj7"x2 x2 | "A7"x2 x2 | "Abmaj7"x2 x2 | "Db7"x2 "C7"x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+G3 G/^F/ | G3 G/^F/ | G3 E/F/ | GA2G |
+w:This is the end of a beau-ti-ful friend-ship it
+F3 D/E/ | F3G/E/ | F4- | F4 ||
+w:end-ed a mo-ment a-go.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Ebmaj7"x2 x2 | "A7"x2 x2 | "Abmaj7"x2 x2 | "Db7"x2 "C7"x2 |
+"Cm7"x2 x2 | "F7"x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+G3 G/^F/ | G3 G/^F/ | G3 E/F/ | GA2G |
+w:This is the end of a beau-ti-ful friend-ship I
+F3 D/E/ | F3G/E/ | B4- | B4 ||
+w:know for your eyes told me so.*
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "(Abm7""Db7"x2 "Db7)"" "x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V:melody
+c3B | cc2G | B2BA | B_c2c |
+w:We were al-ways like sis-ter and bro-ther un-
+=c3B | c3 B/G/ | F2FE | F^F3 ||
+w:til to-night when we looked at each ot-her.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Ebmaj7"x2 x2 | "A7"x2 x2 | "Abmaj7"x2 x2 | "Gm7b5"x2 "C7"x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Eb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+G3 G/^F/ | G3 G/^F/ | G2cB | _dc2=d |
+w:That was the end of a beau-ti-ful friend-ship and
+e3 c/d/ | ef2d | e4- | e4 |]
+w:just the be-gin-ning of love.*

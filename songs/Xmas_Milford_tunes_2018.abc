@@ -1,0 +1,115 @@
+% Upper-Case Titles
+X: 0
+T: Xmas Milford tunes - 2018
+C: arr. Paul Lizotte
+K:
+
+
+X: 2
+P: The Old Gray Cat  (The Auld Grey Cat)
+R: reel
+O: Kerr c.1880
+B: Kerr's Merry Melodies, v.1p.28 c.1880
+B: Roaring Jelly Coll.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+|:\
+"Em"{^d}e2e2 E3F | GFGA BABc |\
+[1,3 "D"{^c}d2d2 D3E | FAdB AFED :|\
+[2,4 "D"{^c}dcBA "B7"BAGF | "Em"G2E2 E4 :|
+|:\
+"Em"B2e2 e3d  | Bdef gfed | "D"A2d2 d3B | ABde fedf |\
+"Em"e2B2 "D"g2B2 | "C"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e4 e4 :|
+
+
+X: 3
+P: Ding Dong! Merrily on High
+O: Anonymous 16th c. French tune
+B: From Carols for Choirs, v.1, Oxford, 1960, ed. by Reginald Jacques and David Willcocks
+R: march, reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+F: http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc	 2007-01-26 21:28:22 UT
+M: 4/4
+L: 1/4
+K: D
+|:\
+"D"d d "Em" e/d/c/B/ | "A"A3 A |\
+"G"B{c}d "A7"dc | "D"d2 d2 :|\
+"D"a>g "(Bm)"f/g/a/f/ | "Em"g>f "(A7)"e/f/g/e/ |
+"Bm(D)"f>e "Bm"d/e/f/d/ | "A7(Em)"e>d "A7"c/d/e/c/ ||\
+"G(Bm)"d>c "G" B/c/d/B/ | "A"c>B AA |\
+"G"Bd "A7"dc | "D"d2 d2 |]
+P: Return to --> OLD GREY CAT - 2X
+
+
+X: 4
+P: Frosty the Snowman   [C]
+C: music: Steve Nelson
+C: words: Jack Rollins
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"A"|:\
+"C"G4 E3F | G2 c4 "C7"Bc |\
+"F"d2c2 "G7"B2A2 | "C"G6 Bc |\
+"F"d2c2 "D7/f#"B2AA | "C/g"G2c2 "C"E2GA |\
+"Dm"G2F2 [1 "G7"E2F2 | "C"G6 "G7"z2 :|\
+         [2 "G7"E2D2 | "C"C6 ||
+"C7"C2 "B"|\
+"F"A2A2 "D7/f#"c2c2 | "C"B2A2 G2E2 |\
+"Dm"F2A2 "G7"G2F2 | "C"E6 E-E |\
+"G"D2D2 G2G2 | B2B2 "E7/g#"d2Bc |\
+"Am"d2c2 "D7"B2A2 | "G"G2z2 "G7"G4 "->A2"y|]
+P: Return to --> OLD GREY CAT - 2X
+
+
+X: 5
+P: Rudolph the Red Nose Reindeer [D]
+C: Tune: Johnny Marks
+%C: Words: Egil Hagen
+M: C
+L: 1/8
+K: D
+"A"\
+|: "D"A B2 A F2 d2 \
+| B2 A4 z2 \
+|  AB AB A2 "E7/g#"[d2^G2] \
+| "A7"[c6=G6] z2 \
+| "A7"G A2 G E2 [c2G2] \
+| [B2G2] [A4G4] z2 \
+|[1 "A7"AB AB A2 "A7+5"[B2^E2] \
+| "D"[F6D6] z2 :|
+|[2 "A7"AB AB A2 [e2G2] \
+| "D"[d6F6] Hz2 \
+"B"\
+[| "G"B2 B2 d2 B2 \
+| "D"A2 F2 A3 A \
+| "Em"G2 B2 "A7"A2 G2 \
+| "D"F6 "E7/g#"z2 \
+| "A"E2 F2 A2 B2 \
+| c2 c2 "Fm"c2 z2 \
+| "Bm"d2 d2 "E7"c2 B2 \
+| "A7"A2 G2 E2 "->A2"z2 |]
+P: Return to --> OLD GREY CAT - 2X
+
+
+X: 6
+P: Jingle Bells   [G]
+C: J. Pierpont
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"C"|:\
+"G"B2B2 B4 | B2B2 B4 | B2d2 G3A |\
+B4 z4 | "C"c2c2 c3c | "G"c2B2 B2BB |\
+[1 B2A2 A2B2 | "D7"A4 d4 :|[2 "D7"d2d2 c2A2 | "G"G6 |]
+"D7"D2 \
+"V"|:\
+"G"D2B2 A2G2 | D4 z2D-D | D2B2 A2G2 | "C"E4 z4 | E2c2 B2A2 |\
+[1 "D7"F4 z4 | d2d2 c2A2 | "G"B4 z4 :|\
+[2 "G"d2d2 d2d2 | "D7"e2d2 c2A2 | "G"G4 "D7"d4 |]
+

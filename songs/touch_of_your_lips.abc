@@ -1,0 +1,47 @@
+X:1
+T:The touch of your lips
+M:4/4
+L:1/4
+C:Ray Noble
+Q:1/4=190
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x||"Cmaj7"x2x2|"(Dm7)"x2"G7"x2|"C6"x2"(Eb7" " "x2|"D7" "(Dm7)"x2"Db7)" "G7"x2|
+"Cmaj7"x2x2|"(Gb7" " "x2"F7" " "x2|"E7" "Em7b5"x2x2|"Eb7)" "A7"x2x2||
+V:melody
+C || (3DED E2- | E2 G2 | A>G A2- | A2 A2 |
+w:The touch of your lips * up-on my brow; * your
+(3BcB c2- | c2 B2 | _B4-    | B2 A2 ||
+w:lips that are cool * and sweet. * Such
+P:B
+M:none
+V:chords
+"Dm7b5"x2x2|"G7"x2x2|"C6"x2x2|"F#m7b5"x2"B7"x2|
+"Emaj7"x2"C#m7"x2|"F#m7"x2"B7"x2|"Emaj7"x2x2|"G7"x2x2||
+V:melody
+_A>F D2-  | D2 (3DEF | G>E C2- | C2 c2  |
+w:ten-der-ness * lie in their soft ca-ress, * my
+B2 ^G2 | ^F2 ^D2 | B,4- | B,2 C2 ||
+w:heart for-gets to beat. * The
+P:A
+V:chords
+"Cmaj7"x2x2|"(Dm7)"x2"G7"x2|"C6"x2"(Eb7" " "x2|"D7" "(Dm7)"x2"Db7)" "G7"x2|
+"Cmaj7"x2x2|"(Gb7" " "x2"F7" " "x2|"E7" "Em7b5"x2x2|"Eb7)" "A7"x2x2||
+V:melody
+(3DED E2- | E2 G2 | A>G A2- | A2 A2  |
+w:thouch of your hands * up-on my head, * the
+(3BcBc2- | c2 B2 | _B4- | B2 A2 ||
+w:love in your eyes * a-shine; * and
+P:C
+V:chords
+"Dm7b5"x2x2|"G7"x2"G#dim7"x2|"Am7"x2x2|"D7"x2x2|
+"(C/G" "Dm7"x2"Ab7" " "x2|"Dm7/G" "G7"x2"G7)" " "x2|"C6"x2x2|"T.A."x2x2|]
+V:melody
+_A>F D2- | DE (3F_Ac | c4- | c2c2 |
+w:now at last * the mo-ment di-vine, * the
+(3ded e2- | e2 d2   | c4- | c2 z2 |]
+w:touch on your lips * on mine. *

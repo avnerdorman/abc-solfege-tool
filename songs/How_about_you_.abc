@@ -1,0 +1,48 @@
+X:1
+T:How about you?
+M:4/4
+L:1/4
+C:Burton Lane &
+C:Ralph Freed
+Q:1/4=200
+S:Keith Jarrett - "Standards in Norway"
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"( Am7b5" "Eb6"x2 "Abdim7" "( Ab7"x2 | "Gm7 )" "Gm7 )"x2 "Gbdim7"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"( Am7b5" "Eb6"x2 "Abdim7" "( Ab7"x2 | "Gm7 )" "Gm7 )" x2 "F#dim7"x2 | "Gm7b5"x2 x2 | "C7"x2 x2 ||
+V:melody
+E2FD | EFD2 | Cz/C/CG- | G4 |
+w:I like New York in June, how a-bout you?*
+E2FD | EFD2| _Dz/D/DA- | A4 ||
+w:I like a Gersh-win tune, how a-bout you?*
+P:B
+V:chords
+"( Am7b5" "Fm7"x2 x2 | "Abm6 )" "Bb7"x2 x2 | "Eb6"x2 x2 | "Am7b5"x2 "D7"x2 |
+"Gmaj7"x2 "Em7"x2 | "Am7"x2 "D7"x2 | "Gmaj7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 ||
+V:melody
+G2FE | FGE2 | F/2G/2EEE- | E4 |
+w:I love a fire- * side when a storm is due.*
+DD/D/ D/D/D | DD/D/ D/D/D | =Bz/2G/2GG- | G4||
+w:I like po-ta-to chips, moon-light and mo-tor trips, how a-bout you?*
+P:A
+V:chords
+"( Am7b5" "Eb6"x2 "Abdim7" "( Ab7"x2 | "Gm7 )" "Gm7 )"x2 "Gbdim7"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "Abm6"x2 x2 ||
+V:melody
+E2FD | EFD2 | Cz/2C/2CG- | G4 |
+w:I'm, mad a-bout good books, can't get my fill.*
+B2cA | BcA2 | Gz/2G/2GF | z2GA ||
+w:And Frank-lin Roose-velt's looks give me a thrill. Hold-ing
+P:C
+V:chords
+"Eb/G"x2 x2 | "Gbdim7"x2 x2 | "Fm7"x2 x2 | "Dm7b5"x2 "G7"x2 |
+"Cm7"x2 "Gbdim7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+BE/2E/2 E/2E/2E | =BE/2E/2 E/2E/2E | zcBA | G2zF |
+w:hands in a mov-ie show, when all the lights are low may not be new, but
+E2FD | EcD2 | E4 | z4 |]
+w:I like it, how a-bout you?

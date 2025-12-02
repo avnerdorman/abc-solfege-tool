@@ -1,0 +1,46 @@
+X:1
+T:But beautiful
+M:4/4
+L:1/4
+C:Jimmy Van Heusen & Johnny Burke
+Q:1/4=70
+%%staves (chords melody)
+K:G
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x || "Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "Am7"x2 x2 | "C#m7b5"x2 "F#7"x2 |
+"Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "A7"x2 x2 | x2 x2 ||
+V:melody
+^C/D/ || AA2G/F/ | =F3^D/E/ | BB2A/_A/ | G3F/G/ |
+w:Love is fun-ny or it's sad or it's qui-et or it's mad; It's a
+dd2B/_B/ | A3^G | B/B/B3- | B4 ||
+w:good thing or it's bad, but beau-ti-ful! *
+P:B
+V:chords
+"Am7"x2 "D7"x"-/C"x | "Bm7"x2 "Em7"x2 | "Am7"x2 "D7"x2 | "Gmaj7"x2 "B7"x2 |
+"Em7"x2 x2 | "A7"x2 x2 | "Eb7""Am7"x2 x2 | "D7"x2 x2 ||
+V:melody
+B/B/B2A | dB A>G | cA GF | B3D/^D/ |
+w:Beau-ti-ful to take a chance and if you fall, you fall, and I'm
+EE2G | BG FE | A4- | A3^C/D/ ||
+w:think-ing I would-n't mind at all. * Love is
+P:A
+V:chords
+"Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "Am7"x2 x2 | "C#m7b5"x2 "F#7"x2 |
+"Gmaj7"x2 "C7"x2 | "Bm7b5"x2 "E7"x2 | "A7"x2 x2 | x2 x2 ||
+V:melody
+AA2G/F/ | =F3^D/E/ | BB2A/_A/ | G3F/G/ |
+w:tear-ful or it's gay; It's a prob-lem or it's play; It's a
+dd2B/_B/ | A3^G | B/B/B3- | B3E/^E/ ||
+w:heart-ache ei-ther way, but beau-ti-ful! *And I'm
+P:C
+V:chords
+"D7"x2 "-/C"x2 | "Bm7"x2 "Em7"x2 | "Am7"x2 "F#m7b5"x"B7"x | "Em7"x2 "F7"x2 |
+"Bm7"x2 "Em7"x2 | "Am7"x2 "D7"x2 | "G6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+FF2A | dB A>G | ec BA |G3G |
+w:think-ing if you were mine I'd nev-er let you go and
+d/d/d2G | c/c/c2F | G4- | G3z |]
+w:that would be but beau-ti-ful I know.*

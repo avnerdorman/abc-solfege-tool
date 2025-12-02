@@ -1,0 +1,71 @@
+X: 1
+%% Copyright 1928 Warner Bros. Inc (renewed)
+T:Lover come back to me
+M:4/4
+L:1/4
+C:Sigmund Romberg & Oscar Hammerstein II
+Q:1/4=250
+%%staves (chords melody)
+K:Ab
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Ab6"x2 x2 | x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Bb7"x2 x2 | x2 x2 |
+"Ab6"x2 x2 | x2 x2 | "Bb7"x2 x2 | "Eb7"x2 x2 |
+"Ab6"x2 x2 | "Dbm7"x2 "Gb7"x2 | "Ab6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zAAB | c4 | zGGA | B4 |
+w:The sky was blue, and high a-bove,
+zAAB | c4 | zFFG | A4 |
+w:the moon was new and so was love.
+zEEF | ABce | c4 | B4 |
+w:This eag-er heart of mine was sing-ing:
+EFA2 | A2A2 | (A4 | e2)z2 ||
+w:"Lov-er, where can you be?"*
+P:A
+V:chords
+"Ab6"x2 x2 | x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Bb7"x2 x2 | x2 x2 |
+"Ab6"x2 x2 | x2 x2 | "Bb7"x2 x2 | "Eb7"x2 x2 |
+"Ab6"x2 x2 | "Dbm7"x2 "Gb7"x2 | "Ab6"x2 x2 | "Gm7b5"x2 "C7"x2 ||
+V:melody
+zAAB | c4 | zGGA | B4 |
+w:You came at last, love had it's day,
+zAAB | c4 | zFFG | A4 |
+w:that day is past, you've gone a-way.
+zEEF | ABce | c4 | B4 |
+w:This ach-ing heart of mine was sing-ing:
+EFA2 | A2A2 | A4 | G4 ||
+w:"Lov-er, come back to me!" When
+P:B
+V:chords
+"Fm6"x2 x2 | x2 x2 | "Bbm6"x2 x2 | "Fm6"x2 x2 |
+"Gm7b5"x2 x2 | x2 x2 | "C7"x2 x2 | x2 x2 |
+"Fm6"x2 x2 | x2 x2 | "Bbm6"x2 x2 | "Fm6"x2 x2 |
+"Bb7"x2 x2 | x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 x2 ||
+V:melody
+FGAB | cf=ef | df=ef | c4 |
+w:I re-mem-ber ev-'ry lit-tle thing you used to do,
+c4 | G4 | A4 | G4 |
+w:I'm so lone-ly,
+FGAB | cf=ef | df=ef | c4 |
+w:ev-'ry road I walk a-long I've walked a-long with you,
+c4 | FGAc | e4 | B4 ||
+w:No won-der I am lone-ly.
+P:A
+V:chords
+"Ab6"x2 x2 | x2 x2 | "Gm7b5"x2 x2 | "C7"x2 x2 |
+"Fm7"x2 x2 | x2 x2 | "Cm7b5"x2 x2 | "F7"x2 x2 |
+"Bbm7"x2 x2 | x2 x2 | "Eb7"x2 x2 | x2 x2 |
+"Ab6"x2 x2 | "Dbm7"x2 "Gb7"x2 | "Ab6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+zAAB | c4 | zGGA | B4 |
+w:The sky is blue, the night is cold,
+zAAB | c4 | zccd | e4 |
+w:the moon is new, but love is old,
+zdde | fafd | cecA | B2c2 |
+w:and while I'm wait-ing here, this heart of mine is sing-ing:
+EFA2 | A2A2 | A4 | z4 |]
+w:"Lov-er, come back to me!"

@@ -1,0 +1,51 @@
+X: 1
+%% Copyright 1942 by Chappell & Co., Inc.
+T:You'd be so nice to come home to
+M:4/4
+L:1/4
+C:Cole Porter
+Q:1/4=200
+%%staves (chords melody)
+K:Bb
+%%text (medium/up)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x2 || "Gm6"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Eb6"x2 x2 | x2 x2 ||
+V:melody
+GA || B4 | A2- A/2G^F/2 | G2 D2- | D2 ^CD |
+w:You'd be so nice* to come home to,* you'd be
+G4 | F2- F/2DC/2 | B,4- | B,2 CD ||
+w:so nice* by the fire,* while the
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Am7b5"x2 x2 | "D7"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 |
+"Em7b5"x2 x2 | "Eb7"x2 x2 | "D7"x2 x2 | x2 x2 ||
+V:melody
+E3^C | D2- D/2^FA/2 | c3A | B2- B/2c^c/2 |
+w:breeze, on high,* sang a lull-a-by,* you'd be
+d3B | _d2B>A | A4- | A2 GA ||
+w:all that I could de-sire,* un-der
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Gm6"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 | x2 x2 |
+"Fm7"x2 x2 | "Bb7"x2 x2 | "Eb6"x2 x2 | x2 x2 ||
+V:melody
+B4 | A2- A/2G^F/2 | G2 D2- | D2 (3DEF |
+w:stars, chilled* by the win-ter,* un-der an
+GBG2 | F2- F/2DB,/2 | C4- | C2 DE ||
+w:Aug-ust moon burn-*ing a-bove,* you'd be
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+V:chords
+"Edim7"x2 x2 | "Bb/F"x2 x2 | "F#dim7"x2 x2 | "Gm7"x2 x2 |
+"C7"x2 "Gb7"x2 | x2 "F7"x2 | "Bb6"x2 x2 | "(Am7b5"x2 "D7)"x2 |]
+V:melody
+G4 | F2 z/2GA/2 | c3B | G2Bc |
+w:so nice, you'd be par-a-dise to come
+d2 _d2- | d2 c2 | B4 | z4 |]
+w:home to* and love.

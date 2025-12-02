@@ -1,0 +1,47 @@
+X: 1
+%% Copyright 1930 (Renewed) WB Music Corp.
+T:But not for me
+M:4/4
+L:1/4
+C:Gershwin
+Q:1/4=180
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x3 || "Fmaj7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Dm7"x2 x2 |
+"G7"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj"x2 x2 | "F7"x2 x2 ||
+V:melody
+GAG || A2GF- | F/2z/2 GAG | A4 | zGAG |
+w:They're writ-ing songs of love,* but not for me. A luck-y
+A2GF- | F/2z/2 GAG | A4 | zABc ||
+w:star's a-bove,* but not for me. With love to
+P:B
+V:chords
+"(Bbdim7""Bbmaj7"x2 "Bbmaj7)"" "x2 | "Bbm6"x2 x2 | "(Fdim7""Fmaj7"x2 "Fmaj7)"" "x2 | "Dm7"x2 x2 |
+"Gm7"x2 x2 | x2 x2 | "Db7"x2 x2 | "C7"x2 x2 ||
+V:melody
+^c2df | zGAB | =B2cf | zFGA |
+w:lead the way I've found more clouds of gray than an-y
+A2Bf | zfdB | G4 | zGAG ||
+w:Rus-sian play could guar-an-tee. I was a
+P:A
+V:chords
+"Fmaj7"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Dm7"x2 x2 |
+"G7"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj"x2 x2 | "F7"x2 x2 ||
+V:melody
+A2GF- | F/2z/2 GAG | A4 | zGAG |
+w:fool to fall* and get that way; heigh-ho! A-
+A2GF- | F/2z/2 GAG | A4 | zABc ||
+w:las and al-*so, lack-a-day! Al-though I
+P:B'
+V:chords
+"(Bbdim7""Bbmaj7"x2 "Bbmaj7)"" "x2 | "Bbm6"x2 x2 | "(Fdim7""Fmaj7"x2 "Fmaj7)"" "x2 | "Dm7"x2 x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+^c2df | zGAB | =B2cg | zfd_B |
+w:can't dis-miss the mem-'ry of his kiss, I guess he's
+A4 | G4 | F4 | z4 |]
+w:not for me.

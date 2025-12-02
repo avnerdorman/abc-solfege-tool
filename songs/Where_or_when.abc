@@ -1,0 +1,47 @@
+X:1
+T:Where or when
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=84
+%%staves (chords melody)
+K:Eb
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"Ebmaj7"x2 x2 | "( Fm7" " "x2 x2 | "Gm7" " "x2 x2 | "Gb7 )" " "x2 x2 |
+"Fm7"x2 "( Eb/G" " "x2 | "Ab6" " "x2 "Gb7" " "x2 |\
+"Fm7" " "x2 "Gb7" " "x2 | "Fm7" "Bb7sus"x2 "Emaj7 )" " "x2 |
+[1 "Ebmaj7"x2 x2 | "Fm7b5"x2 "Bb7"x2 :|[2 "Ebmaj7"x2 x2 | "Dm7b5"x2 "G7"x2 ||
+V:melody
+zB,B,B, | CCCC | D3B, | D3B, |
+w:It seems we stood and talked like this be-fore, we
+w:The clothes you're wear-ing are the clothes you wore. The
+EE/E/ E/E/E/E/ | EAC2 | E/E/E/E/ EA | C3E |
+w:looked at each oth-er in the same way then, but I can't re-mem-ber where or
+w:smile you are smil-ing you were smil-ing then, but I can't re-mem-ber where or
+[1G4- | G3z :|[2 G4- | G3z ||
+w:when.***
+w:**when.*
+P:B
+V:chords
+"Cm6"x2 "( C7 )"x2 | "Fm7"x2 "-/Eb"x2 | "Dm7b5"x2 x2 | "G7"x2 x2 |
+"Cm6"x2 "( C7 )"x2 | "Fm7"x2 x2 | "Cm7"x2 "( B7" "F7"x2 | "Bb7sus" "Fm7"x2 "Bb7 )" "Bb7"x2 ||
+V:melody
+G2^FG | BAC>E | GzG2- | G3z |
+w:Some things that hap-pen for the first time,*
+G2^FG | BAC>E | F4- | F4 ||
+w:seem to be hap-pen-ing a-gain.*
+P:A'
+V:chords
+"Ebmaj7"x2 x2 | "( Fm7" " "x2 x2 | "Gm7" " "x2 x2 | "A7 )" "Eb+7"x2 x2 |
+"Ab6"x2 x2 | "Db7"x2 "C7"x2 | "Fm7"x2 x2 | "C7"x2 x2 |
+"( Fm7" "Fm7"x2 "Bb7" " "x2 | "Bm7" "Bb7"x2 "E7 )" " "x2 | "Eb6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+zB,B,B, | CCCC | D3D | E3E |
+w:And so it seems that we have met be-fore, and
+F3F | G3G | A3G | B3B |
+w:laughed be-fore, and loved be-fore, but
+c2c2 | d2d2 | e4 | z4 |]
+w:who knows where or when!

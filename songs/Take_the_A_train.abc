@@ -1,0 +1,48 @@
+X: 1
+%% Copyright 1941 and 1943 by Tempo Music, Inc. Copyright renewed 1969
+T:Take the "A" train
+M:4/4
+L:1/4
+C:Billy Strayhorn & The Delta Rhythm Boys
+Q:1/4=210
+K:C
+%%staves (chords melody)
+K:E
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"C6"x2 x2 | x2 x2 | "D7"x2 x2 | x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "C6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+G4-|G>eGc|e<^G-G2-|G4|
+w:Get * a-board the "A" train **
+A4|A/2^A/2B/2e/2 G/2^F/2=F/2^c/2| =c<E-E2-|E4||
+w:To take a lit-tle ride a-round the ci-ty. **
+P:A
+V:chords
+"C6"x2 x2 | x2 x2 | "D7"x2 x2 | x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "C6"x2 x2 | "C7"x2 x2 ||
+V:melody
+G4-|G>eGc|e<^G-G2-|G4|
+w:Brook- * lyn or Broad-way train **
+A4|A/2^A/2B/2e/2 G/2^F/2=F/2^c/2| =c<E-E2-|E2z2||
+w:you'll see that old Ney York is might-y pret-ty. **
+P:B
+V:chords
+"Fmaj7"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"D7"x2 x2 | x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 ||
+V:melody
+A<c-c2|e<FAc|e<A-A2-|A4|
+w:Take your * ba-by sub-way rid-ing **
+A<c-c2|e<^FAc|e<A-A2-|A2_A2||
+w:That's where* ro-mance may be hi-ding.** For-
+P:A
+V:chords
+"C6"x2 x2 | x2 x2 | "D7"x2 x2 | x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+G4-|G>eGc|e<^G-G2-|G4|
+w:get* your car or air-plane**
+A4|A/2^A/2B/2e/2 G/2^F/2=F/2^c/2| =c<E-E2-|E2z2|]
+w:you'll find that it-'ll pay to take the "A" train.**

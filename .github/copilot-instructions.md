@@ -5,20 +5,6 @@ A single-file HTML educational tool that renders ABC notation music with movable
 
 ## Known Issues
 
-### CRITICAL: Last System Solfège Not Showing
-**Current bug:**
-- Solfège syllables and Kodály hand signs are not appearing on the last system of music
-- All other systems display overlays correctly
-- **Root cause:** Unknown - needs investigation
-- **Location:** `overlaySolfegeAndKodaly()` function, system clustering, or SVG viewport expansion logic
-- **Priority:** High - breaks core functionality
-
-**Debugging steps needed:**
-1. Check if notes on last system are being detected/clustered correctly
-2. Verify SVG viewport height expansion includes last system
-3. Test if overlay elements are being created but positioned outside visible area
-4. Compare last system rendering with earlier systems
-
 ### MEDIUM: ABC Spacing Should Be Scale-Dependent
 **Current issue:**
 - `preprocessAbcForSpacing()` uses fixed values: `max: 120, sep: 90`

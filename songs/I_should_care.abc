@@ -1,0 +1,61 @@
+X:1
+T:I should care
+M:4/4
+L:1/4
+C:Sammy Cahn, Axel Stordahl & Paul Weston
+Q:1/4=150
+%%staves (chords melody)
+K:C
+%%text (medium)
+%%vskip 20
+P:A
+%
+%
+V:chords
+"Dm7"x2 "G7"x2 | "( Em7" "Cmaj77"x2 "A7 )" " "x2 | "Dm7"x2 "G7"x2 | "Cmaj7"x2 "( F7" " "x2 |
+"E7(b5)" "Em7b5"x2 x2 | "Eb7(b5) )" "A7"x2 x2 | "Dm7"x2 x2 | "Fm7"x2 "Bb7"x2 ||
+%
+%
+V:melody
+c3B | B4 | zA/2B/2 (3cBA | BB3 |
+w:I should care, I should go a-round weep-ing,
+_B3A | A4 | zE/2F/2 (3GDE | FF3 ||
+w:I should care, I should go with-out sleep-ing,
+P:B
+V:chords
+"Cmaj7"x2 x2 | "Bm7b5"x2 "E7"x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 |
+"Bm7b5"x2 "E7"x2 | "Am7"x2 x2 | "D7"x2 x2 | "Dm7"x2 "G7"x2 ||
+%
+%
+V:melody
+(3EFE FE | EE3 | (3EFE GF | E4 |
+w:strange-ly e-nough I sleep well, 'cept for a dream or two
+(3DED FE | CC3 | (3DEC DE | (3ABG  AB ||
+w:but when I count my sheep well, fun-ny how sheep can lull you to sleep. So
+P:A
+%
+%
+V:chords
+"( Gb7(b5)" " " "Dm7"x2 "F7(b5)" " " "G7"x2 | "E7(b5)" "( Em7" "Cmaj77"x2 "Eb7(b5) )" "A7 )" " "x2 |\
+ "Dm7"x2 "G7"x2 | "Cmaj7"x2 "( F7" " "x2 |
+"E7(b5)" "Em7b5"x2 x2 | "Eb7(b5) )" "A7"x2 x2 | "Dm7"x2 x2 | "Fm7"x2 "Bb7"x2 ||
+%
+%
+V:melody
+c3B | B4 | zA/2B/2 (3cBA | BB3 |
+w:I should care, I should let it up-set me,
+_B3A | A4 | zE/2F/2 (3GDE | FF3 ||
+w:I should care, but it just does-n't get me,
+P:C
+%
+%
+V:chords
+"Cmaj7"x2 x2 | "Bm7b5"x2 "E7"x2 | "Am7"x2 x2 | "D7"x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+%
+%
+V:melody
+(3EFE FE | GF2E  | B^G2A | d3_d |
+w:may-be I won't find some one as love-ly as you, but
+c3A | B3A/2B/2 | c4- | cz z2 |]
+w:I should care, and I do!*

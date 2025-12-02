@@ -1,0 +1,34 @@
+X:1
+%% Copyright 1942 by Mayfair Music Corp., 1619 Broadway, New York, N.Y.
+T:I'm glad there is you
+C:Paul Madeira & Jimmy Dorsey
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+"Fmaj7"EE2E-E4- | E2E2 AAEE | "Fm7"_EE-E6- | E2_E2_AAEE |
+w:In this world** of or-di-na-ry peo-ple,** ex-t'ro-di-na-ry
+"Gm7"DD-D6- | "C7"D2D2(3E2F2G2 | "Fmaj7"c8- | "T.A."c8 ||
+w:peo-ple,** I'm glad there is you.*
+P:A'
+"Fmaj7"cc2c-c4- | c2c2"F/A"ee"Abdim7"dd | "Gm7"BB-B6- | "C7"B2B2ddcc |
+w:In this world** of o-ver-rat-ed pleas-ures,** of un-der-rat-ed
+"Fmaj7"AA-A6- | "Am7b5"A2A2"D7"cBAG- | "Gm7 C7"G8- | "Cm7"G2A2"F7"B2c2||
+w:treas-ures,** I'm glad there is you.** I'll live to
+P:C
+"Bbmaj7"c4-cFGA | "Bbm6"c2B2F2G2 | "Fmaj7"A3A-A4- | "Em7b5"A2E2"A7"F2G2 |
+w:love,* I'll love to live with you be-side me,** this role so
+"Dm7"A4-"G7"AEFG | "Dm7"A2G2"G7"E2F2 | "Gm7 C7""Gm7"D8| "Dbm7 Gb7""C7"E8 ||
+w:new,* I'll mud-dle thru' with you to guide me.
+P:A
+"Fmaj7"EE2E-E4- | E2E2 AAEE | "Fm7"_EE2E-E4- | E2_E2_AAEE |
+w:In thit world** where man-y, man-y play at love,** and hard-ly an-y
+"Gm7"DD2D-D4- | "C7"D2D2(3E2F2G2 | "Am7b5"c8- | "D7"c6c^c |
+w:stay in love,** I'm glad there is you,* more than
+"Gm7"df3-f4- | "C7"f2F2AFA2 | "F6"F6z2 | "T.A."z8 |]
+w:ev-er,** I'm glad there is you.

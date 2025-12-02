@@ -1,0 +1,53 @@
+X:1
+%% Copyright 1929 (Renewed) WB MUSIC CORP.
+T:Liza
+T:(All the clouds'll roll away)
+M:4/4
+L:1/4
+C:Gus Kahn, Ira Gershwin
+C:& George Gershwin
+Q:1/4=200
+%%staves (chords melody)
+K:Eb
+%%text (up)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x2 "Bb7/F"x2 | "F#dim7"x2 "C7/G"x2 | "Abm6"x2 "Adim7"x2 | "Bbm7"x2 "Eb7"x2 |
+"Abmaj7"x2 x2 | "Gm7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 "Bb7"x2 ||
+V:melody
+B2 B2 | c2 c2 | e2 e2 | f4 |
+w:Li-za, Li-za, skies are gray,
+zecA | dBG2 | zc/A/ F/E/D/F/ | E4 ||
+w:but if you'll smile on me all the clouds-'ll roll a-way.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x2 "Bb7/F"x2 | "F#dim7"x2 "C7/G"x2 | "Abm6"x2 "Adim7"x2 | "Bbm7"x2 "Eb7"x2 |
+"Abmaj7"x2 x2 | "Gm7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 "G7"x2 ||
+V:melody
+B2 B2 | c2 c2 | e2 e2 | f4 |
+w:Li-za, Li-za, don't de-lay,
+zecA | dBG2 | zc/A/ F/E/D/F/ | E3z ||
+w:come, keep me com-pa-ny, and the clouds-'ll roll a-way.
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Cm6"x2 x2 | "G7"x2 x2 | "Cm6"x2 x2 | "Eb7"x2 x2 |
+"Abmaj7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Abmaj7"x2 x2 | "Ab7"x2 "Bb7"x2 ||
+V:melody
+e4 | z/f/e/d/ ed | c3G | B4 |
+w:See the hon-ey-moon a-shin-in' down;
+c4 | z/_d/c/B/ cB | A3E | _G3=G |]
+w:We should make a date with Par-son Brown. So,
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x2 "Bb7/F"x2 | "F#dim7"x2 "C7/G"x2 | "Abm6"x2 "Adim7"x2 | "Bbm7"x2 "Eb7"x2 |
+"Abmaj7"x2 x2 | "Gm7"x2 "C7"x2 | "Fm7"x2 "Bb7"x2 | "Eb6"x2 "Bb7"x2 |]
+V:melody
+B2 B2 | c2 c2 | e2 e2 | f4 |
+w:Li-za, Li-za, name the day
+zecA | dBG2 | zc/A/ F/E/D/F/ | E3z |]
+w:when you be-long to me and the clouds-'ll roll a-way.

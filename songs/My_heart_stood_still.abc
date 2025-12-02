@@ -1,0 +1,52 @@
+X:1
+%% Copyright 1927 Warner Bross. Inc (renewed)
+T:My heart stood still
+Z:Bud Powell/The complete Blue Note
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=110
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "F+"x2 | "Bb6""Gm7"x2 "Bbm6""C7"x2 |
+"F6"x2 "(Eb7""F+"x"D7"" "x | "Db7)""Gm7"x2 "C7"x2 | "Am7"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zFED | G2FE | zAGF | B2AG |
+w:I took one look at you, that's all I meant to do;
+zcBA | F2D2 | C4- | C3z ||
+w:and then my heart stood stil!*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "F+"x2 | "Bb6""Gm7"x2 "Bbm6""C7"x2 |
+"F6"x2 "(Eb7""F+"x"D7"" "x | "Db7)""Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zFED | G2FE | zAGF | B2AG |
+w:My feet could step and walk, my lips could move and talk,
+zcBA | F2D2 | F4- | FCFG ||
+w:and yet my heart stood still!* Though not a
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Fm6"x2 x2 | x2 x2 | "Cmaj7"x2 x2 | x2 x2 |
+"Dm7b5"x2 x2 | "G7"x2 x2 | "Db7"x2 x2 | "C7"x2 x2 ||
+V:melody
+_ABcd | dcB_A | _A2GG- | GCEG |
+w:sin-gle word was spo-ken, I could tell you knew,* that un-felt
+_A2GG- | GDEF | _A2GG- | G4 ||
+w:clasp of hands* told me so well you knew.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Abdim7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "F+"x2 | "Bb6""Gm7"x2 "Bbm6""C7"x2 |
+"F6"x2 "(Eb7""F+"x"D7"" "x | "Db7)""Gm7"x2 "C7"x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+zFED | GzFE | zAGF | d2cB |
+w:I nev-er lived at all un-til the thrill of that
+AGFG | C2G2 | F4 | z4 |]
+w:mo-ment when my heart stood still.
